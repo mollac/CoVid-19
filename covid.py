@@ -14,6 +14,7 @@ def load_data(the_file, the_country):
     data = pd.read_csv(the_file)
     data.rename(columns={'Country/Region':'Country', 'Country_Region':'Country'}, inplace=True)
     data = data[data['Country'] == the_country].fillna(0)
+    data = data.groupby(['Country']).sum()
     data = data[['Confirmed', 'Recovered', 'Deaths']]
     return (data.iloc[0,0], data.iloc[0,1], data.iloc[0,2]) if not data.empty else (0,0,0)
 
@@ -26,7 +27,7 @@ def main(the_country):
         the_date = START_DATE.strftime('%m-%d-%Y')
         print(the_date, end=', ', flush=True)
         file_name = f'{the_date}.csv'
-        data = load_data(DATA_URL + file_name, 'Hungary')
+        data = load_data(DATA_URL + file_name, the_country)
         if sum(data) > 0:
             the_data[str(START_DATE)] = data 
         START_DATE += datetime.timedelta(days=1)
@@ -85,4 +86,4 @@ if __name__ == '__main__':
         c = 'Hungary'
     else:
         c = sys.argv[1]
-    main(c)
+main(c)
