@@ -72,12 +72,19 @@ if the_country == 'Hungary':
     c = soup.find_all(class_ = 'number')
     eset = int(c[0].text)
     gyogyult = int(c[1].text)
+
+    hf = pd.read_html('https://koronavirus.gov.hu/elhunytak')                                                                                                                                                                                                                   
+    hf = pd.DataFrame(hf[0])
+    hf.drop(['Sorszám', 'Alapbetegségek'], axis=1, inplace = True)
+    halott = hf.shape[0]
+    avg_man = round(hf[hf['Nem'] == 'Férfi'].Kor.mean(),2)
+    avg_wmn = round(hf[hf['Nem'] == 'Nő'].Kor.mean(),2)
     
-    page = requests.get(url+'/elhunytak')
-    soup = bs(page.content, 'html.parser')
-    c = soup.find(class_ = 'views-row-last')
-    c = c.find(class_ = 'views-field-field-elhunytak-sorszam')
-    halott = int(c.text)
+    gr = hf.groupby(['Nem']).count()                    
+    
+    ages = lambda x: int(str(x)[:-1]+'0')
+    hf['Kor'] = hf['Kor'].apply(ages)
+    hf = hf.groupby(hf['Kor']).count()
     
     dfT[now] = [eset, gyogyult, halott]
 else:
@@ -150,3 +157,10 @@ st.bar_chart(df['Recovered/day'])
 
 st.header('Deads/day')
 st.bar_chart(df['Deads/day'])
+
+if the_country == 'Hungary':
+    gr.rename(columns = {'Kor': 'Eset/Nem'}, inplace = True)
+    hf.rename(columns = {'Nem': 'Eset/Korcsoport'}, inplace = True)
+    st.bar_chart(gr)
+    st.bar_chart(hf)
+    st.markdown(f'**Férfi átlag:** *{avg_man}* év **Női átlag:** *{avg_wmn}* év')
