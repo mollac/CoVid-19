@@ -86,6 +86,9 @@ if the_country == 'Hungary':
     hf['Kor'] = hf['Kor'].apply(ages)
     hf = hf.groupby(hf['Kor']).count()
     
+    gr.rename(columns = {'Kor': 'Eset/Nem'}, inplace = True)
+    hf.rename(columns = {'Nem': 'Eset/Korcsoport'}, inplace = True)
+    
     dfT[now] = [eset, gyogyult, halott]
 else:
     if the_country in country_table:
@@ -159,8 +162,12 @@ st.header('Deads/day')
 st.bar_chart(df['Deads/day'])
 
 if the_country == 'Hungary':
-    gr.rename(columns = {'Kor': 'Eset/Nem'}, inplace = True)
-    hf.rename(columns = {'Nem': 'Eset/Korcsoport'}, inplace = True)
-    st.bar_chart(gr)
-    st.bar_chart(hf)
-    st.markdown(f'**Férfi átlag:** *{avg_man}* év **Női átlag:** *{avg_wmn}* év')
+    st.subheader('Nemek szerinti megoszlás')
+    st.bar_chart(gr, use_container_width = False,  width = 200)
+
+    st.subheader('Átlag életkorok')
+    st.markdown(f'**Férfi:** *{avg_man}* év **Nő:** *{avg_wmn}* év')
+
+    st.subheader('Korosztályos megoszlás')
+    st.bar_chart(hf, use_container_width = False,  width = 400)
+    df.to_csv('hungary.csv')
