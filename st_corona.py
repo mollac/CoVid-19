@@ -18,16 +18,18 @@ DATA_URL = "https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/css
 FILE_C = "time_series_covid19_confirmed_global.csv"
 FILE_D = "time_series_covid19_deaths_global.csv"
 FILE_R = "time_series_covid19_recovered_global.csv"
-
+countries = []
 st.title("Corona virus")
 st.markdown('The source data can be found [here](https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series)!')
 
-the_country = 'Hungary'
 
-@st.cache
-def load_data(the_file, country):
+f_c = pd.read_csv(DATA_URL+FILE_C)
+f_d = pd.read_csv(DATA_URL+FILE_D)
+f_r = pd.read_csv(DATA_URL+FILE_R)
+
+
+def load_data(data, country):
     countries = []
-    data = pd.read_csv(the_file)
     lowercase = lambda x: str(x).lower()
     data.rename(lowercase, axis="columns", inplace=True)
     data.rename(columns={'country/region':'country', 'province/state':'state'}, inplace=True)
@@ -49,14 +51,14 @@ def str2int(s):
     s = s.replace(',','')
     return int(s)
 
-df_c, countries = load_data(DATA_URL + FILE_C, the_country) # Esetek
+_, countries = load_data(f_c, 'Hungary') # Esetek
 countries = sorted(list(set(countries[0])))
 
 the_country = st.selectbox('Select country', countries)
 
-df_d,_ = load_data(DATA_URL + FILE_D, the_country) # Halottak
-df_r,_ = load_data(DATA_URL + FILE_R, the_country) # Gyógyultak
-df_c, countries = load_data(DATA_URL + FILE_C, the_country) # Esetek
+df_d,_ = load_data(f_d, the_country) # Halottak
+df_r,_ = load_data(f_r, the_country) # Gyógyultak
+df_c,_ = load_data(f_c, the_country) # Esetek
 
 df = pd.DataFrame()
 df['Cases'] = df_c['Case']
@@ -118,7 +120,6 @@ df = dfT.T
 
 df.fillna(0, inplace= True)
 df['Active'] = df['Cases']-df['Recovered'] - df['Dead']
-df = df.astype(int)
 
 df = df.reset_index()
 df.rename(columns = {'index': 'Date'}, inplace=True)
