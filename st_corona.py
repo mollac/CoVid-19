@@ -146,9 +146,9 @@ m_active = df['Active'].iloc[-1]
 st.header('The numbers')
 st.markdown(f'Cases: **{m_cases}** Recovered: **{m_recovered}** ({round(m_recovered/m_cases*100,2)}%) Deads: **{m_dead}** ({round(m_dead/m_cases*100,2)}%) Active: **{m_active}**')
 
-
-st.header('The datatable')
-st.dataframe(df)
+if st.checkbox('Show data'):
+    st.header('The datatable')
+    st.dataframe(df)
 
 st.header('Cases, Active, Recovered and Deads')
 st.line_chart(df[['Cases', 'Active', 'Recovered', 'Dead']])
