@@ -75,21 +75,37 @@ if the_country == 'Hungary':
     eset = int(c[0].text)
     gyogyult = int(c[1].text)
 
-    hf = pd.read_html('https://koronavirus.gov.hu/elhunytak')                                                                                                                                                                                                                   
-    hf = pd.DataFrame(hf[0])
+    page = 0
+    hl = []
+
+    while True:
+        try:
+            url = f'https://koronavirus.gov.hu/elhunytak?page={page}'
+            hp = pd.read_html(url)
+            hl.append(hp[0])
+            page += 1
+        except:
+            break
+
+    hf = pd.DataFrame(hl[0])
+    for x in range(1, len(hl)):
+        hf = hf.append(pd.DataFrame(hl[x]))
+
+
     hf.drop(['Sorszám', 'Alapbetegségek'], axis=1, inplace = True)
     halott = hf.shape[0]
     avg_man = round(hf[hf['Nem'] == 'Férfi'].Kor.mean(),2)
     avg_wmn = round(hf[hf['Nem'] == 'Nő'].Kor.mean(),2)
-    
+
     gr = hf.groupby(['Nem']).count()                    
-    
+
     ages = lambda x: int(str(x)[:-1]+'0')
     hf['Kor'] = hf['Kor'].apply(ages)
     hf = hf.groupby(hf['Kor']).count()
-    
+
     gr.rename(columns = {'Kor': 'Eset/Nem'}, inplace = True)
     hf.rename(columns = {'Nem': 'Eset/Korcsoport'}, inplace = True)
+
     
     dfT[now] = [eset, gyogyult, halott]
 else:
@@ -164,6 +180,7 @@ st.bar_chart(df['Deads/day'])
 
 if the_country == 'Hungary':
     st.subheader('Nemek szerinti megoszlás')
+    st.markdown(f"**Férfi:** {round(gr['Eset/Nem'][0]/m_dead*100,2)}% **Nő:** {round(gr['Eset/Nem'][1]/m_dead*100,2)}%")
     st.bar_chart(gr, use_container_width = False,  width = 200)
 
     st.subheader('Átlag életkorok')
@@ -171,4 +188,3 @@ if the_country == 'Hungary':
 
     st.subheader('Korosztályos megoszlás')
     st.bar_chart(hf, use_container_width = False,  width = 400)
-    df.to_csv('hungary.csv')
