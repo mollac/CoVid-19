@@ -67,9 +67,8 @@ def main(the_country):
         page = requests.get(url)
         soup = bs(page.content, 'html.parser')
         c = soup.find_all(class_ = 'number')
-        eset = int(c[0].text)
-        gyogyult = int(c[1].text)
-
+        eset = int(c[0].text.replace(' ',''))
+        gyogyult = int(c[1].text.replace(' ',''))
         page = 0
         hl = []
 

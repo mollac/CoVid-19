@@ -72,8 +72,8 @@ if the_country == 'Hungary':
     page = requests.get(url)
     soup = bs(page.content, 'html.parser')
     c = soup.find_all(class_ = 'number')
-    eset = int(c[0].text)
-    gyogyult = int(c[1].text)
+    eset = int(c[0].text.replace(' ',''))
+    gyogyult = int(c[1].text.replace(' ',''))
 
     page = 0
     hl = []
@@ -106,7 +106,7 @@ if the_country == 'Hungary':
     gr.rename(columns = {'Kor': 'Eset/Nem'}, inplace = True)
     hf.rename(columns = {'Nem': 'Eset/Korcsoport'}, inplace = True)
 
-    
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
     dfT[now] = [eset, gyogyult, halott]
 else:
     if the_country in country_table:
