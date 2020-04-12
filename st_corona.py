@@ -190,16 +190,16 @@ if the_country == 'Hungary':
     st.bar_chart(hf, use_container_width = False,  width = 600)
 
     st.subheader('Megyei megoszlás')
-    url = 'http://pandemia.hu/koronavirus-megyeterkep-magyarorszagi-adatok-megyei-bontasban/'
-    data = pd.read_html(url)
-    df = pd.DataFrame(data[0])
-    df.drop(6, inplace = True)
-    df.drop(0, axis=0, inplace = True)
-    df.drop([6,7], axis = 1, inplace = True)
-    megye = pd.DataFrame()
-    megye['megye'] = df.iloc[:,0]
-    megye['eset'] = df.iloc[:, -1].astype(int)
-    megye.set_index('megye', inplace = True)
-    megye.sort_values(by=['eset'], inplace = True)
-    st.bar_chart(megye, use_container_width = False,  width = 600)
-    st.dataframe(megye)
+    url = 'korona_megyei.csv'
+    df = pd.read_csv(url, sep=';')
+    df = df.set_index('Dátum', drop = True)
+    if st.checkbox('Adatok mutatása'):
+        st.dataframe(df)
+    megyek = list(df.columns)        
+    datumok = list(df.index)
+    select = st.multiselect('Válassz megyéket:', megyek, ('Győr-Moson-Sopron'))
+    st.line_chart(df[select])
+    st.subheader('Aktuális esetszám/megye')
+    datum_filter = st.slider('Nap', 0, len(datumok)-1)
+    st.bar_chart(df.iloc[datum_filter,:])
+
