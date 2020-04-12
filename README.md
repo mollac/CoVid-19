@@ -12,3 +12,4 @@ The simple python scripts accept a parameter: *Country*
 E.g.:
 python3 corona.py Austria
 ```
+
