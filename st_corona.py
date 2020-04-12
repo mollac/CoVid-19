@@ -2,6 +2,7 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
+import matplotlib.pyplot as plt
 import datetime as datetime
 from bs4 import BeautifulSoup as bs
 import requests
@@ -202,4 +203,19 @@ if the_country == 'Hungary':
     st.subheader('Aktuális esetszám/megye')
     datum_filter = st.slider('Nap', 0, len(datumok)-1)
     st.bar_chart(df.iloc[datum_filter,:])
+
+    url = r'https://hu.wikipedia.org/wiki/Magyarorsz%C3%A1g_megy%C3%A9i'
+    dl = pd.read_html(url)
+    mf = pd.DataFrame(dl[0][['Megye','Népesség']])
+    mf.dropna(inplace = True)
+    mf.T.loc['Megye',20] = 'Budapest'
+    mf.columns = ['megye', 'lakos']
+    mf.set_index('megye', drop = True, inplace = True)
+    st_num = lambda x: int(x.replace('\xa0',''))
+    mf['lakos'] = mf['lakos'].apply(st_num)
+    mf['eset'] =  df.T.iloc[:,-1]
+    st.subheader('Esetek száma a megye lakosságához viszonyítva')
+    mf['százalék'] = round(mf.eset / mf.lakos * 100,3)
+    st.bar_chart(mf[['százalék']])
+
 
