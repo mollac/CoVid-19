@@ -44,10 +44,11 @@ def load_data(data, country):
     return data, countries
 
 def str2int(s):
-    if s == ' ':
+    s = s.strip()
+    if s == '' or s == 'N/A':
         return 0
     s = s.replace(',','')
-    return int(s) 
+    return int(s)
 
 def main(the_country):
 

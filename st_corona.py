@@ -47,7 +47,7 @@ def load_data(data, country):
 
 def str2int(s):
     s = s.strip()
-    if s == '':
+    if s == '' or s == 'N/A':
         return 0
     s = s.replace(',','')
     return int(s)
