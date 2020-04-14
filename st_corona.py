@@ -191,17 +191,17 @@ if the_country == 'Hungary':
     st.bar_chart(hf, use_container_width = False,  width = 600)
 
     st.subheader('Megyei megoszlás')
-    url = 'korona_megyei.csv'
+    url = 'https://raw.githubusercontent.com/mollac/CoVid-19/master/korona_megyei.csv'
     df = pd.read_csv(url, sep=';')
     df = df.set_index('Dátum', drop = True)
     if st.checkbox('Adatok mutatása'):
         st.dataframe(df)
     megyek = list(df.columns)        
     datumok = list(df.index)
-    select = st.multiselect('Válassz megyéket:', megyek, ('Győr-Moson-Sopron'))
+    select = st.multiselect('Válassz megyéket:', megyek, ['Győr-Moson-Sopron', 'Vas', 'Veszprém', 'Komárom-Esztergom'])
     st.line_chart(df[select])
     st.subheader('Aktuális esetszám/megye')
-    datum_filter = st.slider('Nap', 0, len(datumok)-1)
+    datum_filter = st.slider('Nap', 0, len(datumok)-1, len(datumok)-1)
     st.bar_chart(df.iloc[datum_filter,:])
 
     url = r'https://hu.wikipedia.org/wiki/Magyarorsz%C3%A1g_megy%C3%A9i'
