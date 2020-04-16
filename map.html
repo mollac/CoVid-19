@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_71d9f22e355a45f59204e6e9e30a55ff {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_71d9f22e355a45f59204e6e9e30a55ff" ></div>
+        
+</body>
+<script>    
+    
+            var map_71d9f22e355a45f59204e6e9e30a55ff = L.map(
+                "map_71d9f22e355a45f59204e6e9e30a55ff",
+                {
+                    center: [46.98, 18.97],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 7,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+            L.control.scale().addTo(map_71d9f22e355a45f59204e6e9e30a55ff);
+
+            
+
+        
+    
+            var tile_layer_02b9ee6538c744e7b5bc62da8b0b9ddb = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_71d9f22e355a45f59204e6e9e30a55ff);
+        
+    
+            var circle_e14ce0beab2040b98757ad4835b9665f = L.circle(
+                [46.56863808600008, 19.382235383000022],
+                {"bubblingMouseEvents": true, "color": "#aa0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 440, "stroke": true, "weight": 3}
+            ).addTo(map_71d9f22e355a45f59204e6e9e30a55ff);
+        
+    
+        var popup_51025e87e4b9460d8b01ce57bdc264a5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_da1005793e7741baba9f8ad63a7f7587 = $(`<div id="html_da1005793e7741baba9f8ad63a7f7587" style="width: 100.0%; height: 100.0%;"><h4>Bács-Kiskun</h4><p>Eset: <b>22</b></p></div>`)[0];
+            popup_51025e87e4b9460d8b01ce57bdc264a5.setContent(html_da1005793e7741baba9f8ad63a7f7587);
+        
+
+        circle_e14ce0beab2040b98757ad4835b9665f.bindPopup(popup_51025e87e4b9460d8b01ce57bdc264a5)
+        ;
+
+        
+    
+    
+            var circle_73f320bb08a6487792a7bd24bf474cd7 = L.circle(
+                [46.03598157500005, 18.208910951000068],
+                {"bubblingMouseEvents": true, "color": "#aa0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 640, "stroke": true, "weight": 3}
+            ).addTo(map_71d9f22e355a45f59204e6e9e30a55ff);
+        
+    
+        var popup_d5f2f71d08a344e5b00e92f9b059f482 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1d0ed7b6222a46b6a1f8de4c33e9d04b = $(`<div id="html_1d0ed7b6222a46b6a1f8de4c33e9d04b" style="width: 100.0%; height: 100.0%;"><h4>Baranya</h4><p>Eset: <b>32</b></p></div>`)[0];
+            popup_d5f2f71d08a344e5b00e92f9b059f482.setContent(html_1d0ed7b6222a46b6a1f8de4c33e9d04b);
+        
+
+        circle_73f320bb08a6487792a7bd24bf474cd7.bindPopup(popup_d5f2f71d08a344e5b00e92f9b059f482)
+        ;
+
+        
+    
+    
+            var circle_e9e8d8002a424a61be5dc07702f78f39 = L.circle(
+                [46.773510000000044, 21.13365000000005],
+                {"bubblingMouseEvents": true, "color": "#aa0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 240, "stroke": true, "weight": 3}
+            ).addTo(map_71d9f22e355a45f59204e6e9e30a55ff);
+        
+    
+        var popup_67159118cb514361aa4e87983000f2df = L.popup({"maxWidth": "100%"});
+
+        
+            var html_10e6997233c24e1c8b211dfbe15cb843 = $(`<div id="html_10e6997233c24e1c8b211dfbe15cb843" style="width: 100.0%; height: 100.0%;"><h4>Békés</h4><p>Eset: <b>12</b></p></div>`)[0];
+            popup_67159118cb514361aa4e87983000f2df.setContent(html_10e6997233c24e1c8b211dfbe15cb843);
+        
+
+        circle_e9e8d8002a424a61be5dc07702f78f39.bindPopup(popup_67159118cb514361aa4e87983000f2df)
+        ;
+
+        
+    
+    
+            var circle_ec7ca111e6b94c9eaf2070e7371c70df = L.circle(
+                [48.19855042000007, 20.971620637000054],
+                {"bubblingMouseEvents": true, "color": "#aa0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000, "stroke": true, "weight": 3}
+            ).addTo(map_71d9f22e355a45f59204e6e9e30a55ff);
+        
+    
+        var popup_cbee20415a06498d80689a82a019e363 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fef4d44f775842978e199ee3a942f554 = $(`<div id="html_fef4d44f775842978e199ee3a942f554" style="width: 100.0%; height: 100.0%;"><h4>Borsod-Abaúj-Zemplén</h4><p>Eset: <b>50</b></p></div>`)[0];
+            popup_cbee20415a06498d80689a82a019e363.setContent(html_fef4d44f775842978e199ee3a942f554);
+        
+
+        circle_ec7ca111e6b94c9eaf2070e7371c70df.bindPopup(popup_cbee20415a06498d80689a82a019e363)
+        ;
+
+        
+    
+    
+            var circle_620333905eec4fa9baa01f5ffbf9fa26 = L.circle(
+                [46.42675066600003, 20.235190921000022],
+                {"bubblingMouseEvents": true, "color": "#aa0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1040, "stroke": true, "weight": 3}
+            ).addTo(map_71d9f22e355a45f59204e6e9e30a55ff);
+        
+    
+        var popup_faa51cc120484673933542f634f32e25 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0a8c8b56943e4d61af8e95c977c7a62d = $(`<div id="html_0a8c8b56943e4d61af8e95c977c7a62d" style="width: 100.0%; height: 100.0%;"><h4>Csongrád</h4><p>Eset: <b>52</b></p></div>`)[0];
+            popup_faa51cc120484673933542f634f32e25.setContent(html_0a8c8b56943e4d61af8e95c977c7a62d);
+        
+
+        circle_620333905eec4fa9baa01f5ffbf9fa26.bindPopup(popup_faa51cc120484673933542f634f32e25)
+        ;
+
+        
+    
+    
+            var circle_6b2e0b6273734fc5bb3ed434aad3219a = L.circle(
+                [47.12925467400004, 18.536118668000032],
+                {"bubblingMouseEvents": true, "color": "#aa0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2440, "stroke": true, "weight": 3}
+            ).addTo(map_71d9f22e355a45f59204e6e9e30a55ff);
+        
+    
+        var popup_3260214739be4008bf5f9ef9c69424fc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7d611f1250b24b08acc383a280711f66 = $(`<div id="html_7d611f1250b24b08acc383a280711f66" style="width: 100.0%; height: 100.0%;"><h4>Fejér</h4><p>Eset: <b>122</b></p></div>`)[0];
+            popup_3260214739be4008bf5f9ef9c69424fc.setContent(html_7d611f1250b24b08acc383a280711f66);
+        
+
+        circle_6b2e0b6273734fc5bb3ed434aad3219a.bindPopup(popup_3260214739be4008bf5f9ef9c69424fc)
+        ;
+
+        
+    
+    
+            var circle_30281a42e0424c98904b826fac5ea31b = L.circle(
+                [47.64134853400004, 17.279517402000067],
+                {"bubblingMouseEvents": true, "color": "#aa0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1240, "stroke": true, "weight": 3}
+            ).addTo(map_71d9f22e355a45f59204e6e9e30a55ff);
+        
+    
+        var popup_f4a32137f945442fb933a1992d4d28f4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_03ef434c62c345dfa371a7c30dfe854e = $(`<div id="html_03ef434c62c345dfa371a7c30dfe854e" style="width: 100.0%; height: 100.0%;"><h4>Győr-Moson-Sopron</h4><p>Eset: <b>62</b></p></div>`)[0];
+            popup_f4a32137f945442fb933a1992d4d28f4.setContent(html_03ef434c62c345dfa371a7c30dfe854e);
+        
+
+        circle_30281a42e0424c98904b826fac5ea31b.bindPopup(popup_f4a32137f945442fb933a1992d4d28f4)
+        ;
+
+        
+    
+    
+            var circle_bc20a1089d474badb0576e4b3f58fd60 = L.circle(
+                [47.470270810000045, 21.457257299000045],
+                {"bubblingMouseEvents": true, "color": "#aa0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 380, "stroke": true, "weight": 3}
+            ).addTo(map_71d9f22e355a45f59204e6e9e30a55ff);
+        
+    
+        var popup_af6a7789bc764cea88e06211e25f39a2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2f11fdad48df46fea92b7dc0a3858549 = $(`<div id="html_2f11fdad48df46fea92b7dc0a3858549" style="width: 100.0%; height: 100.0%;"><h4>Hajdú-Bihar</h4><p>Eset: <b>19</b></p></div>`)[0];
+            popup_af6a7789bc764cea88e06211e25f39a2.setContent(html_2f11fdad48df46fea92b7dc0a3858549);
+        
+
+        circle_bc20a1089d474badb0576e4b3f58fd60.bindPopup(popup_af6a7789bc764cea88e06211e25f39a2)
+        ;
+
+        
+    
+    
+            var circle_0f4ee8774399414194f4f2aa9735c8c3 = L.circle(
+                [47.786117687000065, 20.193716405000032],
+                {"bubblingMouseEvents": true, "color": "#aa0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 260, "stroke": true, "weight": 3}
+            ).addTo(map_71d9f22e355a45f59204e6e9e30a55ff);
+        
+    
+        var popup_03ab791cb2d14c1386a678a4e9943872 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d4e3d785e7d34b1abd3dd1f35be4f352 = $(`<div id="html_d4e3d785e7d34b1abd3dd1f35be4f352" style="width: 100.0%; height: 100.0%;"><h4>Heves</h4><p>Eset: <b>13</b></p></div>`)[0];
+            popup_03ab791cb2d14c1386a678a4e9943872.setContent(html_d4e3d785e7d34b1abd3dd1f35be4f352);
+        
+
+        circle_0f4ee8774399414194f4f2aa9735c8c3.bindPopup(popup_03ab791cb2d14c1386a678a4e9943872)
+        ;
+
+        
+    
+    
+            var circle_c25be36f15dc44a3a17443072a9c22d8 = L.circle(
+                [47.262302376000044, 20.42020379300004],
+                {"bubblingMouseEvents": true, "color": "#aa0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 320, "stroke": true, "weight": 3}
+            ).addTo(map_71d9f22e355a45f59204e6e9e30a55ff);
+        
+    
+        var popup_54ed6a3318f240989891d21186c76430 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_59b3ced68c994a5ea7b8077ae10645b8 = $(`<div id="html_59b3ced68c994a5ea7b8077ae10645b8" style="width: 100.0%; height: 100.0%;"><h4>Jász-Nagykun-Szolnok</h4><p>Eset: <b>16</b></p></div>`)[0];
+            popup_54ed6a3318f240989891d21186c76430.setContent(html_59b3ced68c994a5ea7b8077ae10645b8);
+        
+
+        circle_c25be36f15dc44a3a17443072a9c22d8.bindPopup(popup_54ed6a3318f240989891d21186c76430)
+        ;
+
+        
+    
+    
+            var circle_da600734515443b4bf1af09cdf218b01 = L.circle(
+                [47.606409349000046, 18.31108984400004],
+                {"bubblingMouseEvents": true, "color": "#aa0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 420, "stroke": true, "weight": 3}
+            ).addTo(map_71d9f22e355a45f59204e6e9e30a55ff);
+        
+    
+        var popup_8c095f8f76ce4d79b582b8b61e19c216 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d98d82150c014735a234bb21542fa814 = $(`<div id="html_d98d82150c014735a234bb21542fa814" style="width: 100.0%; height: 100.0%;"><h4>Komárom-Esztergom</h4><p>Eset: <b>21</b></p></div>`)[0];
+            popup_8c095f8f76ce4d79b582b8b61e19c216.setContent(html_d98d82150c014735a234bb21542fa814);
+        
+
+        circle_da600734515443b4bf1af09cdf218b01.bindPopup(popup_8c095f8f76ce4d79b582b8b61e19c216)
+        ;
+
+        
+    
+    
+            var circle_3592e17f3d1e420594cd5beacafdede2 = L.circle(
+                [47.98613284300006, 19.523115945000033],
+                {"bubblingMouseEvents": true, "color": "#aa0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 380, "stroke": true, "weight": 3}
+            ).addTo(map_71d9f22e355a45f59204e6e9e30a55ff);
+        
+    
+        var popup_d05f89474f5e481bac9d61bf44d2335c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3f9f34d7c14844a0a8180f21d2c25804 = $(`<div id="html_3f9f34d7c14844a0a8180f21d2c25804" style="width: 100.0%; height: 100.0%;"><h4>Nógrád</h4><p>Eset: <b>19</b></p></div>`)[0];
+            popup_d05f89474f5e481bac9d61bf44d2335c.setContent(html_3f9f34d7c14844a0a8180f21d2c25804);
+        
+
+        circle_3592e17f3d1e420594cd5beacafdede2.bindPopup(popup_d05f89474f5e481bac9d61bf44d2335c)
+        ;
+
+        
+    
+    
+            var circle_3a6a05977801412ca2a1850b20105733 = L.circle(
+                [47.41103152500007, 19.36052140400005],
+                {"bubblingMouseEvents": true, "color": "#aa0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4980, "stroke": true, "weight": 3}
+            ).addTo(map_71d9f22e355a45f59204e6e9e30a55ff);
+        
+    
+        var popup_6ed858d6f9ae449d8330969c75f00fa9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d97d6306fc5d474b93007c04462cb9cd = $(`<div id="html_d97d6306fc5d474b93007c04462cb9cd" style="width: 100.0%; height: 100.0%;"><h4>Pest</h4><p>Eset: <b>249</b></p></div>`)[0];
+            popup_6ed858d6f9ae449d8330969c75f00fa9.setContent(html_d97d6306fc5d474b93007c04462cb9cd);
+        
+
+        circle_3a6a05977801412ca2a1850b20105733.bindPopup(popup_6ed858d6f9ae449d8330969c75f00fa9)
+        ;
+
+        
+    
+    
+            var circle_5843f85a0047407693378d35ae8833de = L.circle(
+                [46.430388600000065, 17.604666806000072],
+                {"bubblingMouseEvents": true, "color": "#aa0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 420, "stroke": true, "weight": 3}
+            ).addTo(map_71d9f22e355a45f59204e6e9e30a55ff);
+        
+    
+        var popup_8bc66dd2ab714cbfbdc013ad8972fc6d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bc300d7c6db04ec0ab94a822fd027598 = $(`<div id="html_bc300d7c6db04ec0ab94a822fd027598" style="width: 100.0%; height: 100.0%;"><h4>Somogy</h4><p>Eset: <b>21</b></p></div>`)[0];
+            popup_8bc66dd2ab714cbfbdc013ad8972fc6d.setContent(html_bc300d7c6db04ec0ab94a822fd027598);
+        
+
+        circle_5843f85a0047407693378d35ae8833de.bindPopup(popup_8bc66dd2ab714cbfbdc013ad8972fc6d)
+        ;
+
+        
+    
+    
+            var circle_9de14b46924f4f46a8cf6dd9d5ff97d2 = L.circle(
+                [47.99256381800007, 22.080803371000055],
+                {"bubblingMouseEvents": true, "color": "#aa0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 840, "stroke": true, "weight": 3}
+            ).addTo(map_71d9f22e355a45f59204e6e9e30a55ff);
+        
+    
+        var popup_2c13dd6ae03d4811846e44f4342ed41e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fada6e63ecd444c9bd85c9b51dd9860d = $(`<div id="html_fada6e63ecd444c9bd85c9b51dd9860d" style="width: 100.0%; height: 100.0%;"><h4>Szabolcs-Szatmár-Bereg</h4><p>Eset: <b>42</b></p></div>`)[0];
+            popup_2c13dd6ae03d4811846e44f4342ed41e.setContent(html_fada6e63ecd444c9bd85c9b51dd9860d);
+        
+
+        circle_9de14b46924f4f46a8cf6dd9d5ff97d2.bindPopup(popup_2c13dd6ae03d4811846e44f4342ed41e)
+        ;
+
+        
+    
+    
+            var circle_5af1407f29ab4581ade075b5e93c1594 = L.circle(
+                [46.507459690000076, 18.535653049000075],
+                {"bubblingMouseEvents": true, "color": "#aa0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 280, "stroke": true, "weight": 3}
+            ).addTo(map_71d9f22e355a45f59204e6e9e30a55ff);
+        
+    
+        var popup_54fc6202ddb84c789121f0cf08794edc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ab543b0e23f24a138109642c36047c54 = $(`<div id="html_ab543b0e23f24a138109642c36047c54" style="width: 100.0%; height: 100.0%;"><h4>Tolna</h4><p>Eset: <b>14</b></p></div>`)[0];
+            popup_54fc6202ddb84c789121f0cf08794edc.setContent(html_ab543b0e23f24a138109642c36047c54);
+        
+
+        circle_5af1407f29ab4581ade075b5e93c1594.bindPopup(popup_54fc6202ddb84c789121f0cf08794edc)
+        ;
+
+        
+    
+    
+            var circle_bb9b216a6b874475aa8bfcdf47744e90 = L.circle(
+                [47.150062865000045, 16.74975015600006],
+                {"bubblingMouseEvents": true, "color": "#aa0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 280, "stroke": true, "weight": 3}
+            ).addTo(map_71d9f22e355a45f59204e6e9e30a55ff);
+        
+    
+        var popup_9fa87e8a592e4752b56bfc29893ff67e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1172cd7201d04966b726b84d44787e34 = $(`<div id="html_1172cd7201d04966b726b84d44787e34" style="width: 100.0%; height: 100.0%;"><h4>Vas</h4><p>Eset: <b>14</b></p></div>`)[0];
+            popup_9fa87e8a592e4752b56bfc29893ff67e.setContent(html_1172cd7201d04966b726b84d44787e34);
+        
+
+        circle_bb9b216a6b874475aa8bfcdf47744e90.bindPopup(popup_9fa87e8a592e4752b56bfc29893ff67e)
+        ;
+
+        
+    
+    
+            var circle_6b9f0530338b4fed8d2cfc904e086f6b = L.circle(
+                [47.092520000000036, 17.907750000000078],
+                {"bubblingMouseEvents": true, "color": "#aa0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 680, "stroke": true, "weight": 3}
+            ).addTo(map_71d9f22e355a45f59204e6e9e30a55ff);
+        
+    
+        var popup_fb12ccf2930f4431b0a095f2b13af6ed = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a75b1c2204864e4f89ba34bb119fa479 = $(`<div id="html_a75b1c2204864e4f89ba34bb119fa479" style="width: 100.0%; height: 100.0%;"><h4>Veszprém</h4><p>Eset: <b>34</b></p></div>`)[0];
+            popup_fb12ccf2930f4431b0a095f2b13af6ed.setContent(html_a75b1c2204864e4f89ba34bb119fa479);
+        
+
+        circle_6b9f0530338b4fed8d2cfc904e086f6b.bindPopup(popup_fb12ccf2930f4431b0a095f2b13af6ed)
+        ;
+
+        
+    
+    
+            var circle_0e441da33f674e4d99ab3daa71eb9117 = L.circle(
+                [46.695846, 16.84935],
+                {"bubblingMouseEvents": true, "color": "#aa0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 660, "stroke": true, "weight": 3}
+            ).addTo(map_71d9f22e355a45f59204e6e9e30a55ff);
+        
+    
+        var popup_c1ca477dde364fddb7cbceeb1ed06878 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_98a6624e5eee4c89a5326df73a1b9ceb = $(`<div id="html_98a6624e5eee4c89a5326df73a1b9ceb" style="width: 100.0%; height: 100.0%;"><h4>Zala</h4><p>Eset: <b>33</b></p></div>`)[0];
+            popup_c1ca477dde364fddb7cbceeb1ed06878.setContent(html_98a6624e5eee4c89a5326df73a1b9ceb);
+        
+
+        circle_0e441da33f674e4d99ab3daa71eb9117.bindPopup(popup_c1ca477dde364fddb7cbceeb1ed06878)
+        ;
+
+        
+    
+    
+            var circle_8bde1f63a61f4b20b0ba254ff16c3680 = L.circle(
+                [47.499720000000075, 19.055080000000032],
+                {"bubblingMouseEvents": true, "color": "#aa0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16100, "stroke": true, "weight": 3}
+            ).addTo(map_71d9f22e355a45f59204e6e9e30a55ff);
+        
+    
+        var popup_b5431de8ba924ee7b85d0b4dbd2a62f0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6aded441c6fe48babaaa4aef0a25a90a = $(`<div id="html_6aded441c6fe48babaaa4aef0a25a90a" style="width: 100.0%; height: 100.0%;"><h4>Budapest</h4><p>Eset: <b>805</b></p></div>`)[0];
+            popup_b5431de8ba924ee7b85d0b4dbd2a62f0.setContent(html_6aded441c6fe48babaaa4aef0a25a90a);
+        
+
+        circle_8bde1f63a61f4b20b0ba254ff16c3680.bindPopup(popup_b5431de8ba924ee7b85d0b4dbd2a62f0)
+        ;
+
+        
+    
+</script>
