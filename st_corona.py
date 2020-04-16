@@ -7,6 +7,8 @@ import datetime as datetime
 from bs4 import BeautifulSoup as bs
 import requests
 import sys
+import pydeck as pdk
+import folium
 
 now = datetime.datetime.today()
 ido = str(now.hour)+':'+str(now.minute)
@@ -217,5 +219,71 @@ if the_country == 'Hungary':
     st.subheader('Esetek száma a megye lakosságához viszonyítva')
     mf['százalék'] = round(mf.eset / mf.lakos * 100,3)
     st.bar_chart(mf[['százalék']])
+    
+    hungary = [46.98, 18.97]
+    url = 'https://raw.githubusercontent.com/mollac/CoVid-19/master/megye_koord.csv'
+    # url = 'megye_koord.csv'
+    df = pd.read_csv(url, encoding='utf-8')
+    df['eset'] = list(mf['eset'])
 
+    lats = list(df.lat)
+    lons = list(df.lon)
+    cases = list(df.eset)
+    names = list(df.megye)
+    map = folium.Map(location=hungary, zoom_start=7, control_scale=True)
+    for lat, lon, eset, name in zip(lats, lons, cases, names):
+        html = f'<h4>{str(name)}</h4><p>Eset: <b>{eset}</b></p>'
+        map.add_child(folium.Circle(location=[lat, lon], 
+                                    popup=html, 
+                                    radius = eset*20, 
+                                    color='#aa0000', 
+                                    fill_color='#ff0000', 
+                                    fill_opacity=0.3,
+                                    fill=True))
+    map.save('map.html')
 
+    st.write(pdk.Deck(
+        map_style='mapbox://styles/mapbox/dark-v10?optimize=true',
+        initial_view_state={
+            "latitude": 46.98,
+            "longitude": 19.57,
+            "zoom": 6,
+            "pitch": 0,
+        },
+        layers=[
+            pdk.Layer(
+                "ScatterplotLayer",
+                df,
+                get_position=['lon','lat'],
+                radius_scale=25,
+                get_radius="eset",
+                pickable=True,
+                opacity=0.25,
+                stroked=False,
+                get_fill_color=[5,221,5,128],
+                filled=True,
+                wireframe=False
+            ),
+            pdk.Layer(
+                "HeatmapLayer",
+                df,
+                opacity=1,
+                get_position=["lon", "lat"],
+                threshold=0,
+                get_weight="eset"
+            ),
+            # pdk.Layer(
+            #     "TextLayer",
+            #     df,
+            #     pickable=True,
+            #     get_position=["lon", "lat"],
+            #     get_text="megye",
+            #     get_size=14,
+            #     get_color=[255, 255, 100],
+            #     get_angle=0,
+            #     get_text_anchor="'middle'",
+            #     get_alignment_baseline="'center'"
+            # )
+        ]
+    ))
+    df
