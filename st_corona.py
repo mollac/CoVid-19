@@ -235,7 +235,7 @@ if the_country == 'Hungary':
         html = f'<h4>{str(name)}</h4><p>Eset: <b>{eset}</b></p>'
         map.add_child(folium.Circle(location=[lat, lon], 
                                     popup=html, 
-                                    radius = eset*20, 
+                                    radius = eset*25, 
                                     color='#aa0000', 
                                     fill_color='#ff0000', 
                                     fill_opacity=0.3,
@@ -255,7 +255,7 @@ if the_country == 'Hungary':
                 "ScatterplotLayer",
                 df,
                 get_position=['lon','lat'],
-                radius_scale=25,
+                radius_scale=20,
                 get_radius="eset",
                 pickable=True,
                 opacity=0.25,
