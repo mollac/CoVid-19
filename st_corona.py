@@ -52,7 +52,7 @@ def str2int(s):
     s = s.strip()
     if s == '' or s == 'N/A':
         return 0
-    s = s.replace(' ','')
+    s = s.replace(' ','').replace(',','')
     return int(s)
 
 _, countries = load_data(f_c, 'Hungary') # Esetek
