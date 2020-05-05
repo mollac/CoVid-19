@@ -48,10 +48,11 @@ def load_data(data, country):
     return data, countries
 
 def str2int(s):
+    
     s = s.strip()
     if s == '' or s == 'N/A':
         return 0
-    s = s.replace(',','')
+    s = s.replace(' ','')
     return int(s)
 
 _, countries = load_data(f_c, 'Hungary') # Esetek
@@ -74,9 +75,17 @@ if the_country == 'Hungary':
     url='https://koronavirus.gov.hu/'
     page = requests.get(url)
     soup = bs(page.content, 'html.parser')
-    c = soup.find_all(class_ = 'number')
-    eset = int(c[0].text.replace(' ',''))
-    gyogyult = int(c[1].text.replace(' ',''))
+    fert_pest = str2int(soup.find(id = 'api-fertozott-pest').text)
+    fert_videk = str2int(soup.find(id = 'api-fertozott-videk').text)
+    gyogy_pest = str2int(soup.find(id = 'api-gyogyult-pest').text)
+    gyogy_videk = str2int(soup.find(id = 'api-gyogyult-videk').text)
+    halott_pest = str2int(soup.find(id = 'api-elhunyt-pest').text)
+    halott_videk = str2int(soup.find(id = 'api-elhunyt-videk').text)
+    
+    fertozott = fert_pest + fert_videk
+    gyogyult = gyogy_videk + gyogy_pest
+    halott = halott_pest + halott_videk
+    eset = fertozott + gyogyult + halott
 
     page = 0
     hl = []
@@ -96,7 +105,7 @@ if the_country == 'Hungary':
 
 
     hf.drop(['Sorszám', 'Alapbetegségek'], axis=1, inplace = True)
-    halott = hf.shape[0]
+    
     avg_man = round(hf[hf['Nem'] == 'Férfi'].Kor.mean(),2)
     avg_wmn = round(hf[hf['Nem'] == 'Nő'].Kor.mean(),2)
 
@@ -240,7 +249,8 @@ if the_country == 'Hungary':
                                     fill_color='#ff0000', 
                                     fill_opacity=0.3,
                                     fill=True))
-    map.save('map.html')
+    if st.button('Save map.html'):
+        map.save('map.html')
 
     st.write(pdk.Deck(
         map_style='mapbox://styles/mapbox/dark-v10?optimize=true',
