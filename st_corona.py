@@ -219,22 +219,30 @@ if the_country == 'Hungary':
     dl = pd.read_html(url)
     mf = pd.DataFrame(dl[0][['Megye','Népesség']])
     mf.dropna(inplace = True)
-    mf.T.loc['Megye',20] = 'Budapest'
     mf.columns = ['megye', 'lakos']
+    
     mf.set_index('megye', drop = True, inplace = True)
+    # mf.T.loc['megye',20] = 'Budapest'
+    as_list = mf.index.tolist()
+    idx = as_list.index('Budapest (főváros)')
+    as_list[idx] = 'Budapest'
+    mf.index = as_list
+    mf
+    
     st_num = lambda x: int(x.replace('\xa0',''))
+
     mf['lakos'] = mf['lakos'].apply(st_num)
     mf['eset'] =  df.T.iloc[:,-1]
+    
     st.subheader('Esetek száma a megye lakosságához viszonyítva')
     mf['százalék'] = round(mf.eset / mf.lakos * 100,3)
     st.bar_chart(mf[['százalék']])
     
     hungary = [46.98, 18.97]
     url = 'https://raw.githubusercontent.com/mollac/CoVid-19/master/megye_koord.csv'
-    # url = 'megye_koord.csv'
+    
     df = pd.read_csv(url, encoding='utf-8')
     df['eset'] = list(mf['eset'])
-
     lats = list(df.lat)
     lons = list(df.lon)
     cases = list(df.eset)
@@ -251,7 +259,7 @@ if the_country == 'Hungary':
                                     fill=True))
     if st.button('Save map.html'):
         map.save('map.html')
-
+    
     st.write(pdk.Deck(
         map_style='mapbox://styles/mapbox/dark-v10?optimize=true',
         initial_view_state={
@@ -261,19 +269,19 @@ if the_country == 'Hungary':
             "pitch": 0,
         },
         layers=[
-            pdk.Layer(
-                "ScatterplotLayer",
-                df,
-                get_position=['lon','lat'],
-                radius_scale=20,
-                get_radius="eset",
-                pickable=True,
-                opacity=0.25,
-                stroked=False,
-                get_fill_color=[5,221,5,128],
-                filled=True,
-                wireframe=False
-            ),
+            # pdk.Layer(
+            #     "ScatterplotLayer",
+            #     df,
+            #     get_position=['lon','lat'],
+            #     radius_scale=20,
+            #     get_radius="eset",
+            #     pickable=True,
+            #     opacity=0.25,
+            #     stroked=False,
+            #     get_fill_color=[5,221,5,128],
+            #     filled=True,
+            #     wireframe=False
+            # ),
             pdk.Layer(
                 "HeatmapLayer",
                 df,
