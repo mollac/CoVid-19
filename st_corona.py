@@ -227,7 +227,6 @@ if the_country == 'Hungary':
     idx = as_list.index('Budapest (főváros)')
     as_list[idx] = 'Budapest'
     mf.index = as_list
-    mf
     
     st_num = lambda x: int(x.replace('\xa0',''))
 
