@@ -22,8 +22,6 @@ FILE_C = "time_series_covid19_confirmed_global.csv"
 FILE_D = "time_series_covid19_deaths_global.csv"
 FILE_R = "time_series_covid19_recovered_global.csv"
 countries = []
-st.title("Corona virus")
-st.markdown('The source data can be found [here](https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series)!')
 
 
 f_c = pd.read_csv(DATA_URL+FILE_C)
@@ -58,7 +56,11 @@ def str2int(s):
 _, countries = load_data(f_c, 'Hungary') # Esetek
 countries = sorted(list(set(countries[0])))
 
-the_country = st.selectbox('Select country', countries)
+the_country = st.sidebar.selectbox('Select country', countries)
+
+st.title(f"Corona virus - {the_country}")
+st.markdown('The source data can be found [here](https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series)!')
+
 
 df_d,_ = load_data(f_d, the_country) # Halottak
 df_r,_ = load_data(f_r, the_country) # Gyógyultak
@@ -174,7 +176,7 @@ m_active = df['Active'].iloc[-1]
 st.header('The numbers')
 st.markdown(f'Cases: **{m_cases}** Recovered: **{m_recovered}** ({round(m_recovered/m_cases*100,2)}%) Deads: **{m_dead}** ({round(m_dead/m_cases*100,2)}%) Active: **{m_active}**')
 
-if st.checkbox('Show data'):
+if st.sidebar.checkbox('Show generated datatable:'):
     st.header('The datatable')
     st.dataframe(df)
 
@@ -205,11 +207,11 @@ if the_country == 'Hungary':
     url = 'https://raw.githubusercontent.com/mollac/CoVid-19/master/korona_megyei.csv'
     df = pd.read_csv(url, sep=';')
     df = df.set_index('Dátum', drop = True)
-    if st.checkbox('Adatok mutatása'):
+    if st.sidebar.checkbox('Megyei adatok mutatása'):
         st.dataframe(df)
     megyek = list(df.columns)        
     datumok = list(df.index)
-    select = st.multiselect('Válassz megyéket:', megyek, ['Győr-Moson-Sopron', 'Vas', 'Veszprém', 'Komárom-Esztergom'])
+    select = st.sidebar.multiselect('Válassz megyéket:', megyek, ['Győr-Moson-Sopron', 'Vas', 'Veszprém', 'Komárom-Esztergom'])
     st.line_chart(df[select])
     st.subheader('Aktuális esetszám/megye')
     datum_filter = st.slider('Nap', 0, len(datumok)-1, len(datumok)-1)
