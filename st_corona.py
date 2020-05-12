@@ -211,7 +211,7 @@ if the_country == 'Hungary':
         st.dataframe(df)
     megyek = list(df.columns)        
     datumok = list(df.index)
-    select = st.sidebar.multiselect('Válassz megyéket:', megyek, ['Győr-Moson-Sopron', 'Vas', 'Veszprém', 'Komárom-Esztergom'])
+    select = st.multiselect('Válassz megyéket:', megyek, ['Győr-Moson-Sopron', 'Komárom-Esztergom'])
     st.line_chart(df[select])
     st.subheader('Aktuális esetszám/megye')
     datum_filter = st.slider('Nap', 0, len(datumok)-1, len(datumok)-1)
@@ -258,7 +258,7 @@ if the_country == 'Hungary':
                                     fill_color='#ff0000', 
                                     fill_opacity=0.3,
                                     fill=True))
-    if st.button('Save map.html'):
+    if st.sidebar.button('Save map to map.html'):
         map.save('map.html')
     
     st.write(pdk.Deck(
