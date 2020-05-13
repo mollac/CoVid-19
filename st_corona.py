@@ -208,7 +208,7 @@ if the_country == 'Hungary':
     df = pd.read_csv(url, sep=';')
     df = df.set_index('Dátum', drop = True)
     if st.sidebar.checkbox('Megyei adatok mutatása'):
-        st.dataframe(df)
+        st.dataframe(df.style.highlight_max(axis=0))
     megyek = list(df.columns)        
     datumok = list(df.index)
     select = st.multiselect('Válassz megyéket:', megyek, ['Győr-Moson-Sopron', 'Komárom-Esztergom'])
