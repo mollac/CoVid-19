@@ -133,11 +133,14 @@ else:
     tbl = tbl.findAll('tr')
     eset = -1
     for tr in tbl:
+
         if the_country in tr.text:
+            
             tds = tr.findAll('td')
-            eset = str2int(tds[1].text)
-            halott = str2int(tds[3].text)
-            gyogyult = str2int(tds[5].text)
+            
+            eset = str2int(tds[2].text)
+            halott = str2int(tds[4].text)
+            gyogyult = str2int(tds[6].text)
             break
     if eset > -1:
         dfT[now] = [eset, gyogyult, halott]
