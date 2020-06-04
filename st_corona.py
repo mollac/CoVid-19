@@ -247,9 +247,9 @@ if the_country == 'Hungary':
     url = 'https://raw.githubusercontent.com/mollac/CoVid-19/master/megye_koord.csv'
     
     df = pd.read_csv(url, encoding='utf-8')
+    df['eset'] = list(mf['eset'])
 
     if st.sidebar.button('Save map to map.html'):
-        df['eset'] = list(mf['eset'])
         lats = list(df.lat)
         lons = list(df.lon)
         cases = list(df.eset)
