@@ -28,7 +28,7 @@ f_c = pd.read_csv(DATA_URL+FILE_C)
 f_d = pd.read_csv(DATA_URL+FILE_D)
 f_r = pd.read_csv(DATA_URL+FILE_R)
 
-
+@st.cache
 def load_data(data, country):
     countries = []
     lowercase = lambda x: str(x).lower()
@@ -223,21 +223,22 @@ if the_country == 'Hungary':
     url = r'https://hu.wikipedia.org/wiki/Magyarorsz%C3%A1g_megy%C3%A9i'
     dl = pd.read_html(url)
     mf = pd.DataFrame(dl[0][['Megye','Népesség']])
+
     mf.dropna(inplace = True)
     mf.columns = ['megye', 'lakos']
     
     mf.set_index('megye', drop = True, inplace = True)
     # mf.T.loc['megye',20] = 'Budapest'
+
     as_list = mf.index.tolist()
     idx = as_list.index('Budapest (főváros)')
     as_list[idx] = 'Budapest'
     mf.index = as_list
-    
     st_num = lambda x: int(x.replace('\xa0',''))
 
     mf['lakos'] = mf['lakos'].apply(st_num)
     mf['eset'] =  df.T.iloc[:,-1]
-    
+
     st.subheader('Esetek száma a megye lakosságához viszonyítva')
     mf['százalék'] = round(mf.eset / mf.lakos * 100,3)
     st.bar_chart(mf[['százalék']])
@@ -246,22 +247,24 @@ if the_country == 'Hungary':
     url = 'https://raw.githubusercontent.com/mollac/CoVid-19/master/megye_koord.csv'
     
     df = pd.read_csv(url, encoding='utf-8')
-    df['eset'] = list(mf['eset'])
-    lats = list(df.lat)
-    lons = list(df.lon)
-    cases = list(df.eset)
-    names = list(df.megye)
-    map = folium.Map(location=hungary, zoom_start=7, control_scale=True)
-    for lat, lon, eset, name in zip(lats, lons, cases, names):
-        html = f'<h4>{str(name)}</h4><p>Eset: <b>{eset}</b></p>'
-        map.add_child(folium.Circle(location=[lat, lon], 
-                                    popup=html, 
-                                    radius = eset*25, 
-                                    color='#aa0000', 
-                                    fill_color='#ff0000', 
-                                    fill_opacity=0.3,
-                                    fill=True))
+
     if st.sidebar.button('Save map to map.html'):
+        df['eset'] = list(mf['eset'])
+        lats = list(df.lat)
+        lons = list(df.lon)
+        cases = list(df.eset)
+        names = list(df.megye)
+        map = folium.Map(location=hungary, zoom_start=7, control_scale=True)
+        for lat, lon, eset, name in zip(lats, lons, cases, names):
+            html = f'<h4>{str(name)}</h4><p>Eset: <b>{eset}</b></p>'
+            map.add_child(folium.Circle(location=[lat, lon], 
+                                        popup=html, 
+                                        radius = eset*25, 
+                                        color='#aa0000', 
+                                        fill_color='#ff0000', 
+                                        fill_opacity=0.3,
+                                        fill=True))
+
         map.save('map.html')
     
     st.write(pdk.Deck(
@@ -308,4 +311,3 @@ if the_country == 'Hungary':
             # )
         ]
     ))
-    
