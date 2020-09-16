@@ -208,7 +208,8 @@ if the_country == 'Hungary':
 
     st.subheader('Megyei megoszlás')
     url = 'https://raw.githubusercontent.com/mollac/CoVid-19/master/korona_megyei.csv'
-    df = pd.read_csv(url, sep=';')
+    df = pd.read_csv(url, sep=',')
+    
     df = df.set_index('Dátum', drop = True)
     if st.sidebar.checkbox('Megyei adatok mutatása'):
         st.dataframe(df.style.highlight_max(axis=0))
