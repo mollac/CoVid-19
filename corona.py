@@ -47,7 +47,7 @@ def str2int(s):
     s = s.strip()
     if s == '' or s == 'N/A':
         return 0
-    s = s.replace(',','')
+    s = s.replace(' ','').replace(',','')
     return int(s)
 
 def main(the_country):
@@ -67,9 +67,21 @@ def main(the_country):
         url='https://koronavirus.gov.hu/'
         page = requests.get(url)
         soup = bs(page.content, 'html.parser')
-        c = soup.find_all(class_ = 'number')
-        eset = int(c[0].text.replace(' ',''))
-        gyogyult = int(c[1].text.replace(' ',''))
+        fert_pest = str2int(soup.find(id = 'api-fertozott-pest').text)
+        fert_videk = str2int(soup.find(id = 'api-fertozott-videk').text)
+        gyogy_pest = str2int(soup.find(id = 'api-gyogyult-pest').text)
+        gyogy_videk = str2int(soup.find(id = 'api-gyogyult-videk').text)
+        halott_pest = str2int(soup.find(id = 'api-elhunyt-pest').text)
+        halott_videk = str2int(soup.find(id = 'api-elhunyt-videk').text)
+        
+        fertozott = fert_pest + fert_videk
+        gyogyult = gyogy_videk + gyogy_pest
+        halott = halott_pest + halott_videk
+        eset = fertozott + gyogyult + halott
+
+        page = 0
+        hl = []
+
         page = 0
         hl = []
 
@@ -123,7 +135,7 @@ def main(the_country):
         if eset > -1:
             dfT[now] = [eset, gyogyult, halott]
         else:
-            st.markdown(f'{the_country} is not on [page]({url}).')
+            print(f'{the_country} is not on [page]({url}).')
 
 
 

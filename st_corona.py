@@ -96,6 +96,7 @@ if the_country == 'Hungary':
         try:
             url = f'https://koronavirus.gov.hu/elhunytak?page={page}'
             hp = pd.read_html(url)
+            
             hl.append(hp[0])
             page += 1
         except:
@@ -281,7 +282,7 @@ if the_country == 'Hungary':
             #     "ScatterplotLayer",
             #     df,
             #     get_position=['lon','lat'],
-            #     radius_scale=20,
+            #     radius_scale=5,
             #     get_radius="eset",
             #     pickable=True,
             #     opacity=0.25,
@@ -295,7 +296,7 @@ if the_country == 'Hungary':
                 df,
                 opacity=1,
                 get_position=["lon", "lat"],
-                threshold=0,
+                threshold=.05,
                 get_weight="eset"
             ),
             # pdk.Layer(
