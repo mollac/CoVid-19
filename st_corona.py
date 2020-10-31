@@ -46,11 +46,10 @@ def load_data(data, country):
     return data, countries
 
 def str2int(s):
-    
     s = s.strip()
     if s == '' or s == 'N/A':
         return 0
-    s = s.replace(' ','').replace(',','')
+    s = s.replace(' ','').replace(',','').replace('.','')
     return int(s)
 
 _, countries = load_data(f_c, 'Hungary') # Esetek
