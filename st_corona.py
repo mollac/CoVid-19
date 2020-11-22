@@ -107,6 +107,9 @@ if the_country == 'Hungary':
 
 
     hf.drop(['Sorszám', 'Alapbetegségek'], axis=1, inplace = True)
+    hf['Nem'] = hf['Nem'].str.upper()
+
+    hf['Nem'] = hf['Nem'].apply(lambda x: "Férfi" if x[0]=="F" else "Nő")
     
     avg_man = round(hf[hf['Nem'] == 'Férfi'].Kor.mean(),2)
     avg_wmn = round(hf[hf['Nem'] == 'Nő'].Kor.mean(),2)
@@ -114,6 +117,7 @@ if the_country == 'Hungary':
     gr = hf.groupby(['Nem']).count()                    
 
     ages = lambda x: int(str(x)[:-1]+'0')
+
     hf['Kor'] = hf['Kor'].apply(ages)
     hf = hf.groupby(hf['Kor']).count()
 
@@ -207,7 +211,8 @@ if the_country == 'Hungary':
     st.bar_chart(hf, use_container_width = False,  width = 600)
 
     st.subheader('Megyei megoszlás')
-    url = 'https://raw.githubusercontent.com/mollac/CoVid-19/master/korona_megyei.csv'
+    # url = 'https://raw.githubusercontent.com/mollac/CoVid-19/master/korona_megyei.csv'
+    url = './korona_megyei.csv'
     df = pd.read_csv(url, sep=',')
     
     df = df.set_index('Dátum', drop = True)
