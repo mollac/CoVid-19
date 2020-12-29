@@ -52,6 +52,30 @@ def str2int(s):
     s = s.replace(' ','').replace(',','').replace('.','')
     return int(s)
 
+@st.cache(allow_output_mutation=True)
+def get_deads():
+    page = 0
+    hl = []
+
+    while True:
+        try:
+            url = f'https://koronavirus.gov.hu/elhunytak?page={page}'
+            hp = pd.read_html(url)
+            hl.append(hp[0])
+            page += 1
+        except:
+            break
+
+    hf_ = pd.DataFrame(hl[0])
+    for x in range(1, len(hl)):
+        hf_ = hf_.append(pd.DataFrame(hl[x]))
+
+    hf_.drop(['Sorszám', 'Alapbetegségek'], axis=1, inplace = True)
+    hf_['Nem'] = hf_['Nem'].str.upper()
+
+    hf_['Nem'] = hf_['Nem'].apply(lambda x: "Férfi" if x[0]=="F" else "Nő")
+    return(hf_)
+
 _, countries = load_data(f_c, 'Hungary') # Esetek
 countries = sorted(list(set(countries[0])))
 
@@ -88,28 +112,7 @@ if the_country == 'Hungary':
     halott = halott_pest + halott_videk
     eset = fertozott + gyogyult + halott
 
-    page = 0
-    hl = []
-
-    while True:
-        try:
-            url = f'https://koronavirus.gov.hu/elhunytak?page={page}'
-            hp = pd.read_html(url)
-            
-            hl.append(hp[0])
-            page += 1
-        except:
-            break
-
-    hf = pd.DataFrame(hl[0])
-    for x in range(1, len(hl)):
-        hf = hf.append(pd.DataFrame(hl[x]))
-
-
-    hf.drop(['Sorszám', 'Alapbetegségek'], axis=1, inplace = True)
-    hf['Nem'] = hf['Nem'].str.upper()
-
-    hf['Nem'] = hf['Nem'].apply(lambda x: "Férfi" if x[0]=="F" else "Nő")
+    hf = get_deads()
     
     avg_man = round(hf[hf['Nem'] == 'Férfi'].Kor.mean(),2)
     avg_wmn = round(hf[hf['Nem'] == 'Nő'].Kor.mean(),2)
@@ -222,13 +225,13 @@ if the_country == 'Hungary':
     datumok = list(df.index)
     select = st.multiselect('Válassz megyéket:', megyek, ['Győr-Moson-Sopron', 'Komárom-Esztergom'])
     st.line_chart(df[select])
-    st.subheader('Aktuális esetszám/megye')
+    st.subheader('Regisztrált esetszám/megye')
     datum_filter = st.slider('Nap', 0, len(datumok)-1, len(datumok)-1)
     st.bar_chart(df.iloc[datum_filter,:])
 
     url = r'https://hu.wikipedia.org/wiki/Magyarorsz%C3%A1g_megy%C3%A9i'
-    dl = pd.read_html(url)
-    mf = pd.DataFrame(dl[0][['Megye','Népesség']])
+    dl_ = pd.read_html(url)
+    mf = pd.DataFrame(dl_[1][['Megye','Népesség']])
 
     mf.dropna(inplace = True)
     mf.columns = ['megye', 'lakos']
@@ -253,8 +256,8 @@ if the_country == 'Hungary':
     url = 'https://raw.githubusercontent.com/mollac/CoVid-19/master/megye_koord.csv'
     
     df = pd.read_csv(url, encoding='utf-8')
-    df['eset'] = list(mf['eset'])
-
+    df['eset'] = list(mf['százalék'])
+    
     if st.sidebar.button('Save map to map.html'):
         lats = list(df.lat)
         lons = list(df.lon)
@@ -265,7 +268,7 @@ if the_country == 'Hungary':
             html = f'<h4>{str(name)}</h4><p>Eset: <b>{eset}</b></p>'
             map.add_child(folium.Circle(location=[lat, lon], 
                                         popup=html, 
-                                        radius = eset*25, 
+                                        radius = eset*10, 
                                         color='#aa0000', 
                                         fill_color='#ff0000', 
                                         fill_opacity=0.3,
@@ -300,7 +303,7 @@ if the_country == 'Hungary':
                 df,
                 opacity=1,
                 get_position=["lon", "lat"],
-                threshold=.05,
+                threshold=.5,
                 get_weight="eset"
             ),
             # pdk.Layer(
