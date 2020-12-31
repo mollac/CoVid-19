@@ -57,13 +57,14 @@ def str2int(s):
 def get_deads():
     page = 0
     hl = []
+    print('Downloading pages ', end='')
     while True:
         try:
             url = f'https://koronavirus.gov.hu/elhunytak?page={page}'
             hp = pd.read_html(url)
             hl.append(hp[0])
             page += 1
-            print('Page: ', page)
+            print(page, end=', ',flush=True)
         except:
             break
 
@@ -75,6 +76,7 @@ def get_deads():
     hf_['Nem'] = hf_['Nem'].str.upper()
 
     hf_['Nem'] = hf_['Nem'].apply(lambda x: "Férfi" if x[0]=="F" else "Nő")
+    print(' done.')
     return(hf_)
 
 _, countries = load_data(f_c, 'Hungary') # Esetek
@@ -268,13 +270,13 @@ if the_country == 'Hungary':
         names = list(df.megye)
         map = folium.Map(location=hungary, zoom_start=7, control_scale=True)
         for lat, lon, eset, name in zip(lats, lons, cases, names):
-            html = f'<h4>{str(name)}</h4><p>Eset: <b>{eset}</b></p>'
+            html = f'<div width=500><h4>{str(name)}</h4><p>Esetszám lakosság-arányosam: <b>{eset}%</b></p></div>'
             map.add_child(folium.Circle(location=[lat, lon], 
                                         popup=html, 
-                                        radius = eset*10, 
-                                        color='#aa0000', 
+                                        radius = eset*5000, 
+                                        color='#bb0000', 
                                         fill_color='#ff0000', 
-                                        fill_opacity=0.3,
+                                        fill_opacity=0.4,
                                         fill=True))
 
         map.save('map.html')
