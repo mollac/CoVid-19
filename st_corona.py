@@ -9,6 +9,7 @@ import requests
 import sys
 import pydeck as pdk
 import folium
+import time
 
 now = datetime.datetime.today()
 ido = str(now.hour)+':'+str(now.minute)
@@ -56,13 +57,13 @@ def str2int(s):
 def get_deads():
     page = 0
     hl = []
-
     while True:
         try:
             url = f'https://koronavirus.gov.hu/elhunytak?page={page}'
             hp = pd.read_html(url)
             hl.append(hp[0])
             page += 1
+            print('Page: ', page)
         except:
             break
 
@@ -213,14 +214,16 @@ if the_country == 'Hungary':
     st.subheader('Korosztályos megoszlás')
     st.bar_chart(hf, use_container_width = False,  width = 600)
 
-    st.subheader('Megyei megoszlás')
+    st.subheader('Megyei adatok')
     # url = 'https://raw.githubusercontent.com/mollac/CoVid-19/master/korona_megyei.csv'
     url = './korona_megyei.csv'
     df = pd.read_csv(url, sep=',')
     
     df = df.set_index('Dátum', drop = True)
-    if st.sidebar.checkbox('Megyei adatok mutatása'):
-        st.dataframe(df.style.highlight_max(axis=0))
+    if st.sidebar.checkbox('Megyei változások mutatása'):
+        last2 = df.T.iloc[:,-2:]
+        last2['Változás'] = last2.iloc[:,1] - last2.iloc[:,0]
+        last2['Változás']
     megyek = list(df.columns)        
     datumok = list(df.index)
     select = st.multiselect('Válassz megyéket:', megyek, ['Győr-Moson-Sopron', 'Komárom-Esztergom'])
