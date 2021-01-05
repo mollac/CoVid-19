@@ -76,6 +76,7 @@ def get_deads():
     hf_['Nem'] = hf_['Nem'].str.upper()
 
     hf_['Nem'] = hf_['Nem'].apply(lambda x: "Férfi" if x[0]=="F" else "Nő")
+    hf_.to_csv('halottak.csv')
     print(' done.')
     return(hf_)
 
