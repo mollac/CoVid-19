@@ -219,7 +219,7 @@ if the_country == 'Hungary':
     st.bar_chart(gr['Eset/Nem'], use_container_width = False,  width = 200)
     
     st.subheader('Alapbetegségek gyakorisága')
-    alapfreq = hf['Alapbetegségek'].str.split(',.', expand=True).stack().value_counts()
+    alapfreq = hf['Alapbetegségek'].str.split(',', expand=True).stack().value_counts()
     alapfreq
     
 
