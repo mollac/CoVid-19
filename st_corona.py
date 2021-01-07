@@ -55,30 +55,38 @@ def str2int(s):
 
 @st.cache(allow_output_mutation=True)
 def get_deads():
+    df = pd.read_csv('halottak.csv')
+    last = df['Sorszám'].iloc[-1]
     page = 0
     hl = []
     print('Downloading pages ', end='')
+
     while True:
+        print(page, end=', ', flush=True)
         try:
             url = f'https://koronavirus.gov.hu/elhunytak?page={page}'
             hp = pd.read_html(url)
             hl.append(hp[0])
             page += 1
-            print(page, end=', ',flush=True)
+            if last in hp[0]['Sorszám'].to_list():
+                break
         except:
             break
 
     hf_ = pd.DataFrame(hl[0])
+
     for x in range(1, len(hl)):
         hf_ = hf_.append(pd.DataFrame(hl[x]))
 
-    hf_.drop(['Sorszám', 'Alapbetegségek'], axis=1, inplace = True)
-    hf_['Nem'] = hf_['Nem'].str.upper()
+    df = df.append(hf_, ignore_index=True)
+    df = df.drop_duplicates(subset='Sorszám')
+    df['Nem'] = df['Nem'].str.upper()
+    df['Nem'] = df['Nem'].apply(lambda x: "Férfi" if x[0]=="F" else "Nő")
+    df.sort_values(by='Sorszám', axis=0, inplace=True)
+    df.to_csv('halottak.csv', index = False)
+    df.drop(['Sorszám', 'Alapbetegségek'], axis=1, inplace=True)
 
-    hf_['Nem'] = hf_['Nem'].apply(lambda x: "Férfi" if x[0]=="F" else "Nő")
-    hf_.to_csv('halottak.csv')
-    print(' done.')
-    return(hf_)
+    return(df)
 
 _, countries = load_data(f_c, 'Hungary') # Esetek
 countries = sorted(list(set(countries[0])))
