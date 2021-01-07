@@ -59,10 +59,8 @@ def get_deads():
     last = df['Sorszám'].iloc[-1]
     page = 0
     hl = []
-    print('Downloading pages ', end='')
 
     while True:
-        print(page, end=', ', flush=True)
         try:
             url = f'https://koronavirus.gov.hu/elhunytak?page={page}'
             hp = pd.read_html(url)
@@ -80,11 +78,13 @@ def get_deads():
 
     df = df.append(hf_, ignore_index=True)
     df = df.drop_duplicates(subset='Sorszám')
+    df['Alapbetegségek'] = df['Alapbetegségek'].str.lower()
+    
     df['Nem'] = df['Nem'].str.upper()
     df['Nem'] = df['Nem'].apply(lambda x: "Férfi" if x[0]=="F" else "Nő")
     df.sort_values(by='Sorszám', axis=0, inplace=True)
     df.to_csv('halottak.csv', index = False)
-    df.drop(['Sorszám', 'Alapbetegségek'], axis=1, inplace=True)
+    df.drop(['Sorszám'], axis=1, inplace=True)
 
     return(df)
 
@@ -130,14 +130,13 @@ if the_country == 'Hungary':
     avg_wmn = round(hf[hf['Nem'] == 'Nő'].Kor.mean(),2)
 
     gr = hf.groupby(['Nem']).count()                    
-
     ages = lambda x: int(str(x)[:-1]+'0')
 
     hf['Kor'] = hf['Kor'].apply(ages)
-    hf = hf.groupby(hf['Kor']).count()
+    gf = hf.groupby(hf['Kor']).count()
 
     gr.rename(columns = {'Kor': 'Eset/Nem'}, inplace = True)
-    hf.rename(columns = {'Nem': 'Eset/Korcsoport'}, inplace = True)
+    gf.rename(columns = {'Nem': 'Eset/Korcsoport'}, inplace = True)
 
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
     dfT[now] = [eset, gyogyult, halott]
@@ -217,13 +216,18 @@ st.bar_chart(df['Deads/day'])
 if the_country == 'Hungary':
     st.subheader('Nemek szerinti megoszlás')
     st.markdown(f"**Férfi:** {round(gr['Eset/Nem'][0]/m_dead*100,2)}% **Nő:** {round(gr['Eset/Nem'][1]/m_dead*100,2)}%")
-    st.bar_chart(gr, use_container_width = False,  width = 200)
+    st.bar_chart(gr['Eset/Nem'], use_container_width = False,  width = 200)
+    
+    st.subheader('Alapbetegségek gyakorisága')
+    alapfreq = hf['Alapbetegségek'].str.split(',.', expand=True).stack().value_counts()
+    alapfreq
+    
 
     st.subheader('Átlag életkorok')
     st.markdown(f'**Férfi:** *{avg_man}* év **Nő:** *{avg_wmn}* év')
 
     st.subheader('Korosztályos megoszlás')
-    st.bar_chart(hf, use_container_width = False,  width = 600)
+    st.bar_chart(gf, use_container_width = False,  width = 600)
 
     st.subheader('Megyei adatok')
     # url = 'https://raw.githubusercontent.com/mollac/CoVid-19/master/korona_megyei.csv'
@@ -231,10 +235,12 @@ if the_country == 'Hungary':
     df = pd.read_csv(url, sep=',')
     
     df = df.set_index('Dátum', drop = True)
-    if st.sidebar.checkbox('Megyei változások mutatása'):
-        last2 = df.T.iloc[:,-2:]
-        last2['Változás'] = last2.iloc[:,1] - last2.iloc[:,0]
-        last2['Változás']
+    
+    st.subheader('Megyei növekedés')
+    last2 = df.T.iloc[:,-2:]
+    last2['Változás'] = last2.iloc[:,1] - last2.iloc[:,0]
+    last2['Változás']
+
     megyek = list(df.columns)        
     datumok = list(df.index)
     select = st.multiselect('Válassz megyéket:', megyek, ['Győr-Moson-Sopron', 'Komárom-Esztergom'])
