@@ -227,7 +227,7 @@ if the_country == 'Hungary':
     st.markdown(f'**Férfi:** *{avg_man}* év **Nő:** *{avg_wmn}* év')
 
     st.subheader('Korosztályos megoszlás')
-    st.bar_chart(gf, use_container_width = False,  width = 600)
+    st.bar_chart(gf['Alapbetegségek'], use_container_width = False,  width = 600)
 
     st.subheader('Megyei adatok')
     # url = 'https://raw.githubusercontent.com/mollac/CoVid-19/master/korona_megyei.csv'
