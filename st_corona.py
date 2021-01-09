@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 import streamlit as st
+
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -82,6 +83,7 @@ def get_deads():
     df.fillna('F', inplace=True)
     df['Nem'] = df['Nem'].str.upper()
     df['Nem'] = df['Nem'].apply(lambda x: "Férfi" if x[0]=="F" else "Nő")
+
     df.sort_values(by='Sorszám', axis=0, inplace=True)
     df.to_csv('halottak.csv', index=False)
     df.drop(['Sorszám'], axis=1, inplace=True)
@@ -214,32 +216,40 @@ st.header('Deads/day')
 st.bar_chart(df['Deads/day'])
 
 if the_country == 'Hungary':
-    st.subheader('Nemek szerinti megoszlás')
-    st.markdown(f"**Férfi:** {round(gr['Eset/Nem'][0]/m_dead*100,2)}% **Nő:** {round(gr['Eset/Nem'][1]/m_dead*100,2)}%")
-    st.bar_chart(gr['Eset/Nem'], use_container_width = False,  width = 200)
-    
+       
     st.subheader('Alapbetegségek gyakorisága')
-    alapfreq = hf['Alapbetegségek'].str.split(',', expand=True).stack().value_counts()
-    alapfreq
+    alapbetegsegek = hf['Alapbetegségek'].str.split(',', expand=True).stack()
+    alapbetegsegek = alapbetegsegek.str.strip()
+    alapbetegsegek = alapbetegsegek.apply(lambda x: "magas vérnyomás" if "vérnyomás" in x else x)
+    alapbetegsegek = alapbetegsegek.apply(lambda x: "cukorbetegség" if "cukor" in x else x)
+    alapbetegsegek = alapbetegsegek.apply(lambda x: "adat feltöltés alatt" if "adat" in x  or 'nem' in x else x)
+    alapbetegsegek = alapbetegsegek.apply(lambda x: "hasnyálmirigy-gyulladás" if "hasnyál" in x else x)
     
-
+    alapfreq = alapbetegsegek.value_counts()
+    st.write(alapfreq)
     st.subheader('Átlag életkorok')
     st.markdown(f'**Férfi:** *{avg_man}* év **Nő:** *{avg_wmn}* év')
 
-    st.subheader('Korosztályos megoszlás')
-    st.bar_chart(gf['Alapbetegségek'], use_container_width = False,  width = 600)
 
-    st.subheader('Megyei adatok')
+    col1, col2 = st.beta_columns(2)
+    
+    col1.subheader('Nemek szerinti megoszlás')
+    col1.bar_chart(gr['Eset/Nem'], use_container_width = False,  width = 200)
+    col1.markdown(f"**Férfi: ** {round(gr['Eset/Nem'][0]/m_dead*100,2)}% **Nő:** {round(gr['Eset/Nem'][1]/m_dead*100,2)}%")
+    col2.subheader('Korosztályos megoszlás')
+    col2.bar_chart(gf['Eset/Korcsoport'], use_container_width = False,  width = 600)
+
+    st.header('Megyei adatok')
     # url = 'https://raw.githubusercontent.com/mollac/CoVid-19/master/korona_megyei.csv'
     url = './korona_megyei.csv'
     df = pd.read_csv(url, sep=',')
     
     df = df.set_index('Dátum', drop = True)
     
-    st.subheader('Megyei növekedés')
+    st.subheader('Új esetek megyénként')
     last2 = df.T.iloc[:,-2:]
     last2['Változás'] = last2.iloc[:,1] - last2.iloc[:,0]
-    last2['Változás']
+    st.bar_chart(last2['Változás'])
 
     megyek = list(df.columns)        
     datumok = list(df.index)
@@ -305,19 +315,19 @@ if the_country == 'Hungary':
             "pitch": 0,
         },
         layers=[
-            # pdk.Layer(
-            #     "ScatterplotLayer",
-            #     df,
-            #     get_position=['lon','lat'],
-            #     radius_scale=5,
-            #     get_radius="eset",
-            #     pickable=True,
-            #     opacity=0.25,
-            #     stroked=False,
-            #     get_fill_color=[5,221,5,128],
-            #     filled=True,
-            #     wireframe=False
-            # ),
+            pdk.Layer(
+                "ScatterplotLayer",
+                df,
+                get_position=['lon','lat'],
+                radius_scale=1000,
+                get_radius="eset",
+                pickable=True,
+                opacity=0.25,
+                stroked=False,
+                get_fill_color=[5,221,5,128],
+                filled=True,
+                wireframe=False
+            ),
             pdk.Layer(
                 "HeatmapLayer",
                 df,
