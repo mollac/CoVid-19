@@ -1,0 +1,8 @@
+matplotlib==3.1.2
+numpy==1.17.4
+requests==2.23.0
+streamlit==0.68.0
+pydeck==0.2.1
+folium==0.10.1
+pandas==0.25.3
+beautifulsoup4==4.9.3

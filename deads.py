@@ -24,9 +24,8 @@ def get_deads():
         hf_ = hf_.append(pd.DataFrame(hl[x]))
     hf_['Nem'] = hf_['Nem'].str.upper()
     hf_['Nem'] = hf_['Nem'].apply(lambda x: "Férfi" if x[0]=="F" else "Nő")
-    hf_.to_csv('halottak.csv')
+    hf_.to_csv('halottak.csv', index=False)
     print(' done.')
     return(hf_)
-
 
 x = get_deads()

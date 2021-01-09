@@ -79,11 +79,11 @@ def get_deads():
     df = df.append(hf_, ignore_index=True)
     df = df.drop_duplicates(subset='Sorszám')
     df['Alapbetegségek'] = df['Alapbetegségek'].str.lower()
-    
+    df.fillna('F', inplace=True)
     df['Nem'] = df['Nem'].str.upper()
     df['Nem'] = df['Nem'].apply(lambda x: "Férfi" if x[0]=="F" else "Nő")
     df.sort_values(by='Sorszám', axis=0, inplace=True)
-    df.to_csv('halottak.csv', index = False)
+    df.to_csv('halottak.csv', index=False)
     df.drop(['Sorszám'], axis=1, inplace=True)
 
     return(df)
