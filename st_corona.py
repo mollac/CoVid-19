@@ -74,7 +74,7 @@ def get_deads():
     try:
         hf_ = pd.DataFrame(hl[0])
     except:
-        pass
+        hf = pd.DataFrame()
     for x in range(1, len(hl)):
         hf_ = hf_.append(pd.DataFrame(hl[x]))
 
