@@ -54,9 +54,9 @@ def str2int(s):
     s = s.replace(' ','').replace(',','').replace('.','')
     return int(s)
 
-#  @st.cache(allow_output_mutation=True)
+@st.cache(allow_output_mutation=True)
 def get_deads():
-    df = pd.read_csv('./halottak.csv')
+    df = pd.read_csv('https://raw.githubusercontent.com/mollac/CoVid-19/master/halottak.csv')
     last = df['Sorszám'].iloc[0]
     page = 0
     hl = []
@@ -71,9 +71,10 @@ def get_deads():
                 break
         except:
             break
-
-    hf_ = pd.DataFrame(hl[0])
-
+    try:
+        hf_ = pd.DataFrame(hl[0])
+    except:
+        pass
     for x in range(1, len(hl)):
         hf_ = hf_.append(pd.DataFrame(hl[x]))
 
@@ -243,8 +244,8 @@ if the_country == 'Hungary':
     col2.bar_chart(gf['Eset/Korcsoport'], use_container_width = False,  width = 600)
 
     st.header('Megyei adatok')
-    # url = 'https://raw.githubusercontent.com/mollac/CoVid-19/master/korona_megyei.csv'
-    url = './korona_megyei.csv'
+    url = 'https://raw.githubusercontent.com/mollac/CoVid-19/master/korona_megyei.csv'
+    # url = './korona_megyei.csv'
     df = pd.read_csv(url, sep=',')
     
     df = df.set_index('Dátum', drop = True)
