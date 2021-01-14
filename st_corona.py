@@ -54,7 +54,7 @@ def str2int(s):
     s = s.replace(' ','').replace(',','').replace('.','')
     return int(s)
 
-@st.cache(allow_output_mutation=True)
+#  @st.cache(allow_output_mutation=True)
 def get_deads():
     df = pd.read_csv('./halottak.csv')
     last = df['Sorszám'].iloc[0]
