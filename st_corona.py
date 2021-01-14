@@ -56,8 +56,8 @@ def str2int(s):
 
 @st.cache(allow_output_mutation=True)
 def get_deads():
-    df = pd.read_csv('halottak.csv')
-    last = df['Sorszám'].iloc[-1]
+    df = pd.read_csv('./halottak.csv')
+    last = df['Sorszám'].iloc[0]
     page = 0
     hl = []
 
@@ -79,13 +79,16 @@ def get_deads():
 
     df = df.append(hf_, ignore_index=True)
     df = df.drop_duplicates(subset='Sorszám')
+    df.sort_values(by = ['Sorszám'], ascending = False, inplace = True)
+    df.to_csv('./halottak.csv', index=False)
+
     df['Alapbetegségek'] = df['Alapbetegségek'].str.lower()
     df.fillna('F', inplace=True)
     df['Nem'] = df['Nem'].str.upper()
     df['Nem'] = df['Nem'].apply(lambda x: "Férfi" if x[0]=="F" else "Nő")
 
     df.sort_values(by='Sorszám', axis=0, inplace=True)
-    df.to_csv('halottak.csv', index=False)
+    
     df.drop(['Sorszám'], axis=1, inplace=True)
 
     return(df)
@@ -315,25 +318,25 @@ if the_country == 'Hungary':
             "pitch": 0,
         },
         layers=[
-            pdk.Layer(
-                "ScatterplotLayer",
-                df,
-                get_position=['lon','lat'],
-                radius_scale=1000,
-                get_radius="eset",
-                pickable=True,
-                opacity=0.25,
-                stroked=False,
-                get_fill_color=[5,221,5,128],
-                filled=True,
-                wireframe=False
-            ),
+            # pdk.Layer(
+            #     "ScatterplotLayer",
+            #     df,
+            #     get_position=['lon','lat'],
+            #     radius_scale=1000,
+            #     get_radius="eset",
+            #     pickable=True,
+            #     opacity=0.25,
+            #     stroked=False,
+            #     get_fill_color=[5,221,5,128],
+            #     filled=True,
+            #     wireframe=False
+            # ),
             pdk.Layer(
                 "HeatmapLayer",
                 df,
                 opacity=1,
                 get_position=["lon", "lat"],
-                threshold=.5,
+                threshold=.3,
                 get_weight="eset"
             ),
             # pdk.Layer(
