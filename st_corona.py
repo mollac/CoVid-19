@@ -86,7 +86,7 @@ def get_deads():
 
     df['Alapbetegségek'] = df['Alapbetegségek'].str.lower()
     df.fillna('F', inplace=True)
-    df['Nem'] = df['Nem'].str.upper()
+    df['Nem'] = df['Nem'].str.upper().strip()
     df['Nem'] = df['Nem'].apply(lambda x: "Férfi" if x[0]=="F" else "Nő")
 
     df.sort_values(by='Sorszám', axis=0, inplace=True)
