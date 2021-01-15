@@ -82,7 +82,10 @@ def get_deads():
     df = df.append(hf_, ignore_index=True)
     df = df.drop_duplicates(subset='Sorszám')
     df.sort_values(by = ['Sorszám'], ascending = False, inplace = True)
-    df.to_csv('./halottak.csv', index=False)
+    try:
+        df.to_csv('./halottak.csv', index=False)
+    except:
+        pass
 
     df['Alapbetegségek'] = df['Alapbetegségek'].str.lower()
     df.fillna('F', inplace=True)
