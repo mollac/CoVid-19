@@ -135,7 +135,6 @@ if the_country == 'Hungary':
     eset = fertozott + gyogyult + halott
 
     hf = get_deads()
-    
     avg_man = round(hf[hf['Nem'] == 'Férfi'].Kor.mean(),2)
     avg_wmn = round(hf[hf['Nem'] == 'Nő'].Kor.mean(),2)
 
