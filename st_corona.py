@@ -101,7 +101,7 @@ def get_deads():
 _, countries = load_data(f_c, 'Hungary') # Esetek
 countries = sorted(list(set(countries[0])))
 
-the_country = st.sidebar.selectbox('Select country', countries)
+the_country = st.sidebar.selectbox('Select country', countries, 77)
 
 st.title(f"Corona virus - {the_country}")
 st.markdown('The source data can be found [here](https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series)!')
@@ -237,14 +237,12 @@ if the_country == 'Hungary':
     st.subheader('Átlag életkorok')
     st.markdown(f'**Férfi:** *{avg_man}* év **Nő:** *{avg_wmn}* év')
 
-
-    col1, col2 = st.beta_columns(2)
+    st.subheader('Nemek szerinti megoszlás')
+    st.bar_chart(gr['Eset/Nem'], use_container_width = False,  width = 200)
+    st.markdown(f"**Férfi: ** {round(gr['Eset/Nem'][0]/m_dead*100,2)}% **Nő:** {round(gr['Eset/Nem'][1]/m_dead*100,2)}%")
     
-    col1.subheader('Nemek szerinti megoszlás')
-    col1.bar_chart(gr['Eset/Nem'], use_container_width = False,  width = 200)
-    col1.markdown(f"**Férfi: ** {round(gr['Eset/Nem'][0]/m_dead*100,2)}% **Nő:** {round(gr['Eset/Nem'][1]/m_dead*100,2)}%")
-    col2.subheader('Korosztályos megoszlás')
-    col2.bar_chart(gf['Eset/Korcsoport'], use_container_width = False,  width = 600)
+    st.subheader('Korosztályos megoszlás')
+    st.bar_chart(gf['Eset/Korcsoport'], use_container_width = True)
 
     st.header('Megyei adatok')
     url = 'https://raw.githubusercontent.com/mollac/CoVid-19/master/korona_megyei.csv'
@@ -264,7 +262,7 @@ if the_country == 'Hungary':
     st.line_chart(df[select])
     st.subheader('Regisztrált esetszám/megye')
     datum_filter = st.slider('Nap', 0, len(datumok)-1, len(datumok)-1)
-    st.bar_chart(df.iloc[datum_filter,:])
+    st.bar_chart(df.iloc[datum_filter,:], use_container_width=True)
 
     url = r'https://hu.wikipedia.org/wiki/Magyarorsz%C3%A1g_megy%C3%A9i'
     dl_ = pd.read_html(url)
@@ -319,7 +317,7 @@ if the_country == 'Hungary':
             "latitude": 46.98,
             "longitude": 19.57,
             "zoom": 6,
-            "pitch": 0,
+            "pitch": 0
         },
         layers=[
             # pdk.Layer(
@@ -338,9 +336,9 @@ if the_country == 'Hungary':
             pdk.Layer(
                 "HeatmapLayer",
                 df,
-                opacity=1,
+                opacity=.9,
                 get_position=["lon", "lat"],
-                threshold=.3,
+                threshold=.9,
                 get_weight="eset"
             ),
             # pdk.Layer(
