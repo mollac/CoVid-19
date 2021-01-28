@@ -260,9 +260,15 @@ if the_country == 'Hungary':
     datumok = list(df.index)
     select = st.multiselect('Válassz megyéket:', megyek, ['Győr-Moson-Sopron', 'Komárom-Esztergom'])
     st.line_chart(df[select])
+    with st.beta_expander('Kiválasztott megyék esetei'):
+        st.dataframe(df[select])
+
     st.subheader('Regisztrált esetszám/megye')
     datum_filter = st.slider('Nap', 0, len(datumok)-1, len(datumok)-1)
     st.bar_chart(df.iloc[datum_filter,:], use_container_width=True)
+    
+    with st.beta_expander(f'Regisztrált esetszámok a {datum_filter}. nap alapján.'):
+        st.write(df.iloc[datum_filter,:].sort_values(ascending = False))
 
     url = r'https://hu.wikipedia.org/wiki/Magyarorsz%C3%A1g_megy%C3%A9i'
     dl_ = pd.read_html(url)
@@ -283,7 +289,7 @@ if the_country == 'Hungary':
     mf['lakos'] = mf['lakos'].apply(st_num)
     mf['eset'] =  df.T.iloc[:,-1]
 
-    st.subheader('Esetek száma a megye lakosságához viszonyítva')
+    st.header('Esetek száma a megye lakosságához viszonyítva')
     mf['százalék'] = round(mf.eset / mf.lakos * 100,3)
     st.bar_chart(mf[['százalék']])
     
