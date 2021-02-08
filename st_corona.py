@@ -56,7 +56,11 @@ def str2int(s):
 
 # @st.cache(allow_output_mutation=True)
 def get_deads():
-    df = pd.read_csv('https://raw.githubusercontent.com/mollac/CoVid-19/master/halottak.csv')
+    try:
+        df = pd.read_csv('./halottak.csv')
+    except:
+        df = pd.read_csv('https://raw.githubusercontent.com/mollac/CoVid-19/master/halottak.csv')
+    
     last = df['Sorszám'].iloc[0]
     page = 0
     hl = []
