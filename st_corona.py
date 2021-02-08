@@ -30,7 +30,7 @@ f_c = pd.read_csv(DATA_URL+FILE_C)
 f_d = pd.read_csv(DATA_URL+FILE_D)
 f_r = pd.read_csv(DATA_URL+FILE_R)
 
-# @st.cache
+@st.cache
 def load_data(data, country):
     countries = []
     lowercase = lambda x: str(x).lower()
@@ -54,7 +54,7 @@ def str2int(s):
     s = s.replace(' ','').replace(',','').replace('.','')
     return int(s)
 
-# @st.cache(allow_output_mutation=True)
+@st.cache(allow_output_mutation=True)
 def get_deads():
     try:
         df = pd.read_csv('./halottak.csv')
