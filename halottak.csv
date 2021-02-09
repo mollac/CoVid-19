@@ -1,4 +1,98 @@
 Sorszám,Nem,Kor,Alapbetegségek
+13249,nõ,83,iszkémiás szívbetegség
+13248,férfi,60,"cukorbetegség, magasvérnyomás-betegség"
+13247,nõ,77,"magasvérnyomás-betegség, iszkémiás szívbetegség"
+13246,férfi,64,"cukorbetegség, magasvérnyomás-betegség, tüdõgyulladás"
+13245,férfi,85,"cukorbetegség, magasvérnyomás-betegség"
+13244,férfi,79,"cukorbetegség, magasvérnyomás-betegség, szívelégtelenég"
+13243,nõ,90,"magasvérnyomás-betegség, iszkémiás szívbetegség"
+13242,nõ,82,"krónikus veseelégtelenség, cukorbetegség"
+13241,nõ,94,"magasvérnyomás-betegség, iszkémiás szívbetegség"
+13240,nõ,84,"magasvérnyomás-betegség, cukorbetegség, iszkémiás szívbetegség"
+13239,férfi,83,"magasvérnyomás-betegség, cukorbetegség"
+13238,férfi,75,"tüdõgyulladás, magasvérnyomás-betegség"
+13237,nõ,88,"iszkémiás szívbetegség, magasvérnyomás-betegség, veseelégtelenség"
+13236,férfi,64,"cukorbetegség, heveny veseelégtelenség, májbetegség"
+13235,nõ,76,daganatos megbetegedés
+13234,nõ,89,magasvérnyomás-betegség
+13233,férfi,86,szívelégtelenség
+13232,férfi,72,daganatos megbetegedés
+13231,nõ,88,"magasvérnyomás-betegség, szívelégtelenség"
+13230,nõ,83,"iszkémiás szívbetegség, magasvérnyomás-betegség"
+13229,férfi,68,"daganatos megbetegedés, szívbetegség, magasvérnyomás-betegség"
+13228,nõ,85,"magasvérnyomás-betegség, tüdõgyulladás"
+13227,nõ,77,magasvérnyomás-betegség
+13226,nõ,69,"magasvérnyomás-betegség, cukorbetegség, veseelégtelenség"
+13225,nõ,79,"magasvérnyomás-betegség, cukorbetegség"
+13224,férfi,85,szívbetegség
+13223,nõ,60,magasvérnyomás-betegség
+13222,férfi,69,"magasvérnyomás-betegség, reflux"
+13221,férfi,63,"cukorbetegség, magasvérnyomás-betegség, veseelégtelenség"
+13220,férfi,91,szívbetegség
+13219,férfi,82,"iszkémiás szívbetegség, pangásos szívelégtelenség"
+13218,nõ,58,magasvérnyomás-betegség
+13217,férfi,73,"magasvérnyomás-betegség, iszkémiás szívbetegség, cukorbetegség"
+13216,nõ,54,"magasvérnyomás-betegség, krónikus veseelégtelenség"
+13215,nõ,80,"magasvérnyomás-betegség, daganatos megbetegedés"
+13214,férfi,64,szívelégtelenség
+13213,nõ,82,"daganatos megbetegedés, cukorbetegség. magasvérnyomás-betegség"
+13212,férfi,65,"magasvérnyomás-betegség, pajzsmirigybetegség"
+13211,férfi,73,magasvérnyomás-betegség
+13210,nõ,63,cukorbetegség
+13209,nõ,68,"magasvérnyomás-betegség, szívbetegség"
+13208,nõ,85,"magasvérnyomás-betegség, cukorbetegség"
+13207,nõ,76,"magasvérnyomás-betegség, tüdõgyulladás"
+13206,férfi,74,iszkémiás szívbetegség
+13205,nõ,76,"magasvérnyomás-betegség, cukorbetegség"
+13204,nõ,81,szívbetegség
+13203,férfi,91,"magasvérnyomás-betegség, veseelégtelenség, cukorbetegség"
+13202,nõ,79,"cukorbetgség, magasvérnyomás-betegség"
+13201,nõ,91,"magasvérnyomás-betegség, veseelégtelenség, demencia"
+13200,férfi,65,magasvérnyomás-betegség
+13199,nõ,62,"veseelégtelenség, tüdõbetegség"
+13198,nõ,82,magasvérnyomás-betegség
+13197,férfi,81,"veseelégtelenség, pangásos szívelégtelenség, tüdõgyulladás, magasvérnyomás-betegség, tüdõbetegség"
+13196,nõ,92,"magasvérnyomás-betegség, iszkémiás szívbetegség"
+13195,férfi,64,"cukorbetegség, magasvérnyomás-betegség, iszkémiás szívbetegség"
+13194,nõ,90,"Alzheimer-kór, magasvérnyomás-betegség"
+13193,nõ,87,szívelégtelenség
+13192,férfi,79,"magasvérnyomás-betegség, cukorbetegség, iszkémiás szívbetegség"
+13191,férfi,81,"magasvérnyomás-betegség, szívelégtelenség"
+13190,nõ,83,magasvérnyomás-betegség
+13189,férfi,73,"magasvérnyomás-betegség, veseelégtelenség"
+13188,férfi,81,"magasvérnyomás-betegség, szívbetegség"
+13187,férfi,74,"krónikus veseelégtelenség, tüdõgyulladás, krónikus veseelégtelenség, tüdõgyulladás"
+13186,nõ,84,szívelégtelenség
+13185,nõ,91,vesebetegség
+13184,férfi,62,"májelégtelenség, pangásos szívelégtelenség, tüdõgyulladás"
+13183,férfi,67,szívelégtelenség
+13182,nõ,94,veseelégtelenség
+13181,nõ,89,szívelégtelenség
+13180,férfi,74,"magasvérnyomás-betegség, szivbetegség"
+13179,nõ,70,magasvérnyomás-betegség
+13178,férfi,79,"magasvérnyomás-betegség, demencia"
+13177,férfi,74,"tüdõgyulladás, daganatos megbetegedés"
+13176,férfi,66,"magasvérnyomás-betegség, veseelégtelenség"
+13175,nõ,76,magasvérnyomás-betegség
+13174,nõ,82,"szívelégtelenség, veseelégtelenség, cukorbetegség, tüdõbetegség"
+13173,nõ,88,"magasvérnyomás-betegség, iszkémiás szívbetegség"
+13172,férfi,63,magasvérnyomás-betegség
+13171,férfi,81,"magasvérnyomás-betegség, cukorbetegség"
+13170,nõ,86,"demencia, iszkémiás szívbetegség"
+13169,férfi,81,veseelégtelenség
+13168,nõ,85,"daganatos megbetegedés, krónikus veseelégtelenség"
+13167,férfi,89,"veseelégtelenség, magasvérnyomás-betegség, tüdõbetegség, pangásos szívelégtelenség"
+13166,férfi,87,"magasvérnyomás-betegség, iszkémiás szívbetegség, krónikus veseelégtelenség"
+13165,férfi,80,magasvérnyomás-betegség
+13164,férfi,81,"érbetegség, májkárosodás, iszkémiás szívbetegség, magasvérnyomás-betegség"
+13163,nõ,76,szívelégtelenség
+13162,nõ,79,"cukorbetegség, magasvérnyomás-betegség"
+13161,nõ,85,"magasvérnyomás-betegség, cukorbetegség, pangásos szívelégtelenség"
+13160,nõ,83,"cukorbetegség, magasvérnyomás-betegség, agyi érelmeszesedés, iszkémiás szívbetegség"
+13159,nõ,74,"cukorbetegség, magasvérnyomás-betegség"
+13158,férfi,83,"reflux, magasvérnyomás-betegség,"
+13157,férfi,68,"veseelégtelenség, magasvérnyomás-betegség, iszkémiás szívbetegség"
+13156,nõ,93,"magasvérnyomás-betegség, iszkémiás szívbetegség"
 13155,férfi,87,"stroke, szí- és érrendszeri megbetegedés"
 13154,férfi,85,"cukorbetegség, magasvérnyomás-betegség"
 13153,férfi,79,"magasvérnyomás-betegség, cukorbetegség, szívbetegség"
