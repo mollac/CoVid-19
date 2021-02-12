@@ -1,4 +1,103 @@
 Sorszám,Nem,Kor,Alapbetegségek
+13543,nõ,78,"cukorbetegség, magasvérnyomás-betegség, szívkoszorúér-betegség, csontvelõgyulladás"
+13542,nõ,88,"lábszárfekély, vérszegénység"
+13541,férfi,70,"szívelégtelenség, gégedaganat"
+13540,férfi,92,"agyi infarktus, demencia, magasvérnyomás-betegség, pajzsmirigy alulmûködés, krónikus veseelégtelenség, refluxbetegség"
+13539,férfi,69,magasvérnyomás-betegség
+13538,férfi,88,refluxbetegség
+13537,nõ,77,"magasvérnyomás-betegség, cukorbetegség, tüdõembólia - heveny pulmonális szívbetegség"
+13536,nõ,82,"magasvérnyomás-betegség, érelmeszesedés, agyi infarktus, demencia, cukorbetegség, heveny veseelégtelenség, volumenhiány"
+13535,nõ,67,"szívbetegség, vérszegénység"
+13534,férfi,99,érelmeszesedés
+13533,férfi,86,"veseelégtelenség, májdaganat, cukorbetegség, magasvérnyomás-betegség, vesedaganat"
+13532,nõ,43,"végbéldaganata, májdaganat"
+13531,nõ,89,"magasvérnyomás-betegség, szívbetegség, tüdõ rosszindulatú daganata"
+13530,férfi,71,"szívbetegség, cukorbetegség, érelmeszesedés, vérszegénység, demencia, magasvérnyomás-betegség, ütõérszûkület"
+13529,férfi,82,"magasvérnyomás-betegség, szívritmuszvar"
+13528,férfi,74,"magasvérnyomás-betegség, leukémia, kóros soványság"
+13527,nõ,62,"bélelzáródás, krónikus alkoholizmus"
+13526,férfi,80,"magasvérnyomás-betegség, asztma, vérszegénység, érelmeszesedés, szívritmuszavar"
+13525,nõ,78,reflux betegség
+13524,nõ,79,szívbetegség
+13523,nõ,86,"demencia, magasvérnyomás-betegség,cukorbetegség, stroke, szívritmuszvar"
+13522,nõ,84,"magasvérnyomás-betegség, idült veseelégtelenség"
+13521,nõ,68,vérszegénység
+13520,nõ,28,"Down-szindróma, pajzsmirigy alulmûködés"
+13519,férfi,78,"szívbetegség, tüdõbetegség, szívritmuszvar"
+13518,férfi,20,limfóma
+13517,nõ,77,magasvérnyomás-betegség
+13516,férfi,76,"magasvérnyomás-betegség, szívritmuszvar, cukorbetegség"
+13515,nõ,81,"magasvérnyomás-betegség, szívbetegség"
+13514,nõ,90,"magasvérnyomás-betegség, cukorbetegség, májdaganat, demencia"
+13513,nõ,85,"szívbetegség, cukorbetegség, szívbetegség"
+13512,férfi,70,magasvérnyomás-betegség
+13511,nõ,48,"vérzészavar, méhdaganat, vérszegénység"
+13510,nõ,72,"demencia, agyérelmeszesedés, asztma"
+13509,férfi,74,"tüdõbetegség, szívbetegség, cukorbetegség, szívritmuszvar, érelmeszesedés, magasvérnyomás-betegség, kóros elhízás"
+13508,nõ,69,"magasvérnyomás-betegség, érszûkület"
+13507,nõ,84,"magasvérnyomás-betegség, szívbetegség, gyomorfekély"
+13506,férfi,87,"magasvérnyomás-betegség, cukorbetegség"
+13505,férfi,61,"magasvérnyomás-betegség, cukorbetegség, koszorúér-meszesedés"
+13504,nõ,72,"magasvérnyomás-betegség, asztma"
+13503,férfi,55,szívelégtelenség
+13502,nõ,86,nem ismert alapbetegség
+13501,férfi,79,"cukorbetegség, volumenhiány, magasvérnyomás-betegség"
+13500,nõ,86,"cukorbetegség, szívbetegség, májbetegség, szívbetegség, általános érelmeszesedés"
+13499,nõ,75,"cukorbetegség, magasvérnyomás-betegség, epebetegség"
+13498,férfi,62,"magasvérnyomás-betegség, cukorbetegség"
+13497,férfi,39,kapilláris szivárgás szindróma
+13496,férfi,69,"rosszindulatú daganat, veseelégtelenség, magasvérnyomás-betegség"
+13495,nõ,83,"szívbetegség, magasvérnyomás-betegség, reuma"
+13494,nõ,87,"magasvérnyomás-betegség, szívizombetegség, érelmeszesedés, epebetegség, csontritkulás, csigolya-elmeszesedés, ízületi betegség"
+13493,férfi,70,májelégtelenség
+13492,férfi,82,"cukorbetegség, magasvérnyomás-betegség, szívbetegség"
+13491,nõ,53,"vérszegénység, tüdõdaganat, vesebetegség"
+13490,férfi,75,"tüdõdaganat, magas vérnyomás, vesebetegség"
+13489,nõ,85,"cukorbetegség, húgyhólyagdaganat"
+13488,nõ,82,pangásos szívelégtelenség
+13487,férfi,69,"magasvérnyomás-betegség, cukorbetegség, magas vérzsírszint"
+13486,férfi,79,"magasvérnyomás-betegség, cukorbetegség, szívizombetegség"
+13485,nõ,68,májbetegség
+13484,férfi,88,"szívritmuszavar, magasvérnyomás-betegség, szívbetegség"
+13483,férfi,84,"szívbetegség, szívritmuszavar"
+13482,nõ,54,magasvérnyomás-betegség
+13481,férfi,66,"magasvérnyomás-betegség, tüdõtuberkulózis"
+13480,nõ,85,"magasvérnyomás-betegség, cukorbetegség"
+13479,nõ,67,"magasvérnyomás-betegség, cukorbetegség, szívritmuszavar, pajzsmirigy alulmûködés, veseciszta"
+13478,férfi,74,"magasvérnyomás-betegség, szívbetegség, májkárosodás"
+13477,férfi,99,"magasvérnyomás-betegség, demencia"
+13476,férfi,84,"magasvérnyomás-betegség, szívbetegség, tüdõbetegség"
+13475,nõ,90,végbéldaganat
+13474,férfi,82,"szívbetegség, magasvérnyomás-betegség, magas vérzsírszint"
+13473,férfi,87,"agyi infarktus, demencia"
+13472,nõ,69,"szívbetegség, mellhártya-daganat"
+13471,férfi,72,"vékony- és vastagbélgyulladás, pangásos szívelégtelenség, demencia, magasvérnyomás-betegség"
+13470,nõ,80,"magasvérnyomás-betegség, szívbetegség, stroke, agyi sorvadás"
+13469,férfi,52,"magasvérnyomás-betegség, cukorbetegség, zsírmáj"
+13468,férfi,94,"szívritmuszavar, magasvérnyomás-betegség, szívbetegség, érszûkület"
+13467,férfi,69,"koszorúérgörcs, szívbetegség, magasvérnyomás-betegség"
+13466,nõ,82,"szívritmuszavar, krónikus veseelégtelenség, magasvérnyomás-betegség"
+13465,férfi,70,"magasvérnyomás-betegség, lábszárfekély, tüdõtágulat"
+13464,nõ,65,"alacsony vérlemezkeszám, vérszegénység"
+13463,nõ,83,Parkinson-kór
+13462,férfi,80,"magasvérnyomás-betegség, tüdõbetegség"
+13461,férfi,37,adat felöltés alatt
+13460,nõ,82,"magasvérnyomás-betegség, vérszegénység, Parkinson-kór"
+13459,nõ,69,"magasvérnyomás-betegség, demencia"
+13458,nõ,81,"szívbetegség, tüdõbetegség, csontritkulás, magasvérnyomás-betegség, krónikus veseelégtelenség, szívritmuszavar"
+13457,férfi,51,"magasvérnyomás-betegség, cukorbetegség, kóros elhízás"
+13456,nõ,58,"paranoid szkizofrénia, cukorbetegség"
+13455,férfi,81,"magasvérnyomás-betegség, agyi keringési zavar"
+13454,nõ,57,"magasvérnyomás-betegség, gyomordaganat"
+13453,nõ,57,"szívbetegség, féloldali bénulás, végelgyengülés"
+13452,férfi,66,magasvérnyomás-betegség
+13451,nõ,83,"magasvérnyomás-betegség, cukorbetegség, vérszegénység"
+13450,férfi,55,"magasvérnyomás-betegség, cukorbetegség, krónikus veseelégtelenség, emésztõszerv-daganat, agyi infarktus"
+13449,nõ,71,"vesedaganat, tüdõdaganat, magasvérnyomás-betegség, cukorbetegség"
+13448,nõ,81,"magasvérnyomás-betegség, cukorbetegség"
+13447,nõ,73,"cukorbetegség, magasvérnyomás-betegség, pajzsmirigy alulmûködés, reflux betegség"
+13446,nõ,64,"Parkinson-kór, tüdõbetegség, bipoláris affektív zavar, magasvérnyomás-betegség"
+13445,férfi,81,"magasvérnyomás-betegség, cukorbetegség, tüdõbetegség"
 13444,férfi,70,"magasvérnyomás-betegség, artéria elzáródás, érelmeszesedés, cukorbetegség"
 13443,nõ,85,"magasvérnyomás-betegség, iszkémiás szívbetegség"
 13442,férfi,69,krónikus obstruktív tüdõbetegség
