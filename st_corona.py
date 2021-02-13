@@ -54,7 +54,7 @@ def str2int(s):
     s = s.replace(' ','').replace(',','').replace('.','')
     return int(s)
 
-@st.cache(allow_output_mutation=True)
+# @st.cache(allow_output_mutation=True)
 def get_deads():
     try:
         df = pd.read_csv('./halottak.csv')
@@ -209,7 +209,8 @@ m_active = df['Active'].iloc[-1]
 
 st.header('The numbers')
 st.markdown(f'Cases: **{m_cases}** Recovered: **{m_recovered}** ({round(m_recovered/m_cases*100,2)}%) Deads: **{m_dead}** ({round(m_dead/m_cases*100,2)}%) Active: **{m_active}**')
-
+st.subheader('Today:')
+st.markdown(f'**{m_cases - df["Cases"].iloc[-2]}** new cases, **{m_dead - df["Dead"].iloc[-2]}** deads and **{m_recovered - df["Recovered"].iloc[-2]}** pepole recovered.')
 if st.sidebar.checkbox('Show generated datatable:'):
     st.header('The datatable')
     st.dataframe(df)
@@ -258,7 +259,12 @@ if the_country == 'Hungary':
     st.subheader('Új esetek megyénként')
     last2 = df.T.iloc[:,-2:]
     last2['Változás'] = last2.iloc[:,1] - last2.iloc[:,0]
-    st.bar_chart(last2['Változás'])
+    last2 = last2['Változás'].sort_values()
+
+    c1, c2 = st.beta_columns(2)
+    c1.bar_chart(last2)
+    c2.dataframe(last2)
+    
 
     megyek = list(df.columns)        
     datumok = list(df.index)
@@ -271,8 +277,8 @@ if the_country == 'Hungary':
     datum_filter = st.slider('Nap', 0, len(datumok)-1, len(datumok)-1)
     st.bar_chart(df.iloc[datum_filter,:], use_container_width=True)
     
-    with st.beta_expander(f'Regisztrált esetszámok a {datum_filter}. nap alapján.'):
-        st.write(df.iloc[datum_filter,:].sort_values(ascending = False))
+    # with st.beta_expander(f'Regisztrált esetszámok a {datum_filter}. nap alapján.'):
+    #     st.write(df.iloc[datum_filter,:].sort_values(ascending = False))
 
     url = r'https://hu.wikipedia.org/wiki/Magyarorsz%C3%A1g_megy%C3%A9i'
     dl_ = pd.read_html(url)
@@ -326,7 +332,7 @@ if the_country == 'Hungary':
         initial_view_state={
             "latitude": 46.98,
             "longitude": 19.57,
-            "zoom": 6,
+            "zoom": 5,
             "pitch": 0
         },
         layers=[
@@ -348,7 +354,7 @@ if the_country == 'Hungary':
                 df,
                 opacity=.9,
                 get_position=["lon", "lat"],
-                threshold=.9,
+                threshold=.5,
                 get_weight="eset"
             ),
             # pdk.Layer(
