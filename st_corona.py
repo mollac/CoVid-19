@@ -12,6 +12,8 @@ import pydeck as pdk
 import folium
 import time
 
+st.set_page_config(initial_sidebar_state="collapsed", layout="wide")
+
 now = datetime.datetime.today()
 ido = str(now.hour)+':'+str(now.minute)
 now = str(now.month)+'/'+str(now.day)+'/'+str(now.year)[2:]
@@ -268,10 +270,20 @@ if the_country == 'Hungary':
 
     megyek = list(df.columns)        
     datumok = list(df.index)
-    select = st.multiselect('Válassz megyéket:', megyek, ['Győr-Moson-Sopron', 'Komárom-Esztergom'])
-    st.line_chart(df[select])
-    with st.beta_expander('Kiválasztott megyék esetei'):
-        st.dataframe(df[select])
+    with st.beta_expander('Kiválasztott megyék egy ábrán:'):
+        select = st.multiselect('Válassz megyéket:', megyek, ['Győr-Moson-Sopron', 'Komárom-Esztergom'])
+        st.line_chart(df[select], height=600)
+
+    with st.beta_expander('Összes megye egy ábrán:'):
+        st.line_chart(df, height=600)
+
+    with st.beta_expander('Megyénként külön ábra:'):   
+        c1, c2 = st.beta_columns(2)
+        for i, select in enumerate(megyek):
+            if i % 2 == 0:
+                c1.line_chart(df[select])
+            else:
+                c2.line_chart(df[select])
 
     st.subheader('Regisztrált esetszám/megye')
     datum_filter = st.slider('Nap', 0, len(datumok)-1, len(datumok)-1)
@@ -332,7 +344,7 @@ if the_country == 'Hungary':
         initial_view_state={
             "latitude": 46.98,
             "longitude": 19.57,
-            "zoom": 5,
+            "zoom": 5.5,
             "pitch": 0
         },
         layers=[

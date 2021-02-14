@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_04c24e4174774cb4885114346780af7b {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_04c24e4174774cb4885114346780af7b" ></div>
+        
+</body>
+<script>    
+    
+            var map_04c24e4174774cb4885114346780af7b = L.map(
+                "map_04c24e4174774cb4885114346780af7b",
+                {
+                    center: [46.98, 18.97],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 7,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+            L.control.scale().addTo(map_04c24e4174774cb4885114346780af7b);
+
+            
+
+        
+    
+            var tile_layer_0b6374d580af4d4896ed1a15737c9b75 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_04c24e4174774cb4885114346780af7b);
+        
+    
+            var circle_755ff21ad9f840b2baf6d778e6231ea2 = L.circle(
+                [46.56863808600008, 19.382235383000022],
+                {"bubblingMouseEvents": true, "color": "#bb0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 17870.0, "stroke": true, "weight": 3}
+            ).addTo(map_04c24e4174774cb4885114346780af7b);
+        
+    
+        var popup_7d8fb6fc7f1943b3abb32c61616b9f2a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_261f329bc70d4c4c8d61ed32765d26d3 = $(`<div id="html_261f329bc70d4c4c8d61ed32765d26d3" style="width: 100.0%; height: 100.0%;"><div width=500><h4>Bács-Kiskun</h4><p>Esetszám lakosság-arányosam: <b>3.574%</b></p></div></div>`)[0];
+            popup_7d8fb6fc7f1943b3abb32c61616b9f2a.setContent(html_261f329bc70d4c4c8d61ed32765d26d3);
+        
+
+        circle_755ff21ad9f840b2baf6d778e6231ea2.bindPopup(popup_7d8fb6fc7f1943b3abb32c61616b9f2a)
+        ;
+
+        
+    
+    
+            var circle_8c68b7f8ebe542faa069bbe06366ef13 = L.circle(
+                [46.03598157500005, 18.208910951000064],
+                {"bubblingMouseEvents": true, "color": "#bb0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 18935.0, "stroke": true, "weight": 3}
+            ).addTo(map_04c24e4174774cb4885114346780af7b);
+        
+    
+        var popup_8f084822f58a4ccf96e2dcd3c2eefdf7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9475f1a76c534e5ea82a92f5696e4bbb = $(`<div id="html_9475f1a76c534e5ea82a92f5696e4bbb" style="width: 100.0%; height: 100.0%;"><div width=500><h4>Baranya</h4><p>Esetszám lakosság-arányosam: <b>3.787%</b></p></div></div>`)[0];
+            popup_8f084822f58a4ccf96e2dcd3c2eefdf7.setContent(html_9475f1a76c534e5ea82a92f5696e4bbb);
+        
+
+        circle_8c68b7f8ebe542faa069bbe06366ef13.bindPopup(popup_8f084822f58a4ccf96e2dcd3c2eefdf7)
+        ;
+
+        
+    
+    
+            var circle_a468515aa90440d9bbd974e083a86755 = L.circle(
+                [46.77351000000005, 21.13365000000005],
+                {"bubblingMouseEvents": true, "color": "#bb0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 18945.0, "stroke": true, "weight": 3}
+            ).addTo(map_04c24e4174774cb4885114346780af7b);
+        
+    
+        var popup_4d571998d5ce45e89317f2407d2d8a56 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_914f4e0680804cdcba050c8289563058 = $(`<div id="html_914f4e0680804cdcba050c8289563058" style="width: 100.0%; height: 100.0%;"><div width=500><h4>Békés</h4><p>Esetszám lakosság-arányosam: <b>3.789%</b></p></div></div>`)[0];
+            popup_4d571998d5ce45e89317f2407d2d8a56.setContent(html_914f4e0680804cdcba050c8289563058);
+        
+
+        circle_a468515aa90440d9bbd974e083a86755.bindPopup(popup_4d571998d5ce45e89317f2407d2d8a56)
+        ;
+
+        
+    
+    
+            var circle_be0eb8400bf845eda85242ca1771071a = L.circle(
+                [48.19855042000006, 20.971620637000058],
+                {"bubblingMouseEvents": true, "color": "#bb0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16880.0, "stroke": true, "weight": 3}
+            ).addTo(map_04c24e4174774cb4885114346780af7b);
+        
+    
+        var popup_e1394fcbd2a74f6aaf2f54bcd1904c4b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e48aa314643f47edb061575bc41814a8 = $(`<div id="html_e48aa314643f47edb061575bc41814a8" style="width: 100.0%; height: 100.0%;"><div width=500><h4>Borsod-Abaúj-Zemplén</h4><p>Esetszám lakosság-arányosam: <b>3.376%</b></p></div></div>`)[0];
+            popup_e1394fcbd2a74f6aaf2f54bcd1904c4b.setContent(html_e48aa314643f47edb061575bc41814a8);
+        
+
+        circle_be0eb8400bf845eda85242ca1771071a.bindPopup(popup_e1394fcbd2a74f6aaf2f54bcd1904c4b)
+        ;
+
+        
+    
+    
+            var circle_8e38fb4cf41340ed9e29ca3bc9758564 = L.circle(
+                [46.42675066600003, 20.235190921000022],
+                {"bubblingMouseEvents": true, "color": "#bb0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 21845.0, "stroke": true, "weight": 3}
+            ).addTo(map_04c24e4174774cb4885114346780af7b);
+        
+    
+        var popup_e96bf025133644c8aae4f99ef6b85fcf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_54794bb4e6ae4d4ab69b8c6e884dcbd8 = $(`<div id="html_54794bb4e6ae4d4ab69b8c6e884dcbd8" style="width: 100.0%; height: 100.0%;"><div width=500><h4>Csongrád</h4><p>Esetszám lakosság-arányosam: <b>4.369%</b></p></div></div>`)[0];
+            popup_e96bf025133644c8aae4f99ef6b85fcf.setContent(html_54794bb4e6ae4d4ab69b8c6e884dcbd8);
+        
+
+        circle_8e38fb4cf41340ed9e29ca3bc9758564.bindPopup(popup_e96bf025133644c8aae4f99ef6b85fcf)
+        ;
+
+        
+    
+    
+            var circle_600b80b903484feca67f7be8b66c6963 = L.circle(
+                [47.12925467400004, 18.53611866800003],
+                {"bubblingMouseEvents": true, "color": "#bb0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 17730.0, "stroke": true, "weight": 3}
+            ).addTo(map_04c24e4174774cb4885114346780af7b);
+        
+    
+        var popup_706a5038fd9d4e6a9b4212fcc4bbd484 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b97f895c42a54d74ac7254e2d782b5ee = $(`<div id="html_b97f895c42a54d74ac7254e2d782b5ee" style="width: 100.0%; height: 100.0%;"><div width=500><h4>Fejér</h4><p>Esetszám lakosság-arányosam: <b>3.546%</b></p></div></div>`)[0];
+            popup_706a5038fd9d4e6a9b4212fcc4bbd484.setContent(html_b97f895c42a54d74ac7254e2d782b5ee);
+        
+
+        circle_600b80b903484feca67f7be8b66c6963.bindPopup(popup_706a5038fd9d4e6a9b4212fcc4bbd484)
+        ;
+
+        
+    
+    
+            var circle_c2b29f4fde054063a788cf230d755b06 = L.circle(
+                [47.64134853400003, 17.279517402000067],
+                {"bubblingMouseEvents": true, "color": "#bb0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 22940.0, "stroke": true, "weight": 3}
+            ).addTo(map_04c24e4174774cb4885114346780af7b);
+        
+    
+        var popup_d9822e993db44b8cb30d77613eb5b94b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_63c963fbcacd4666a55e4b88e2ef9e9d = $(`<div id="html_63c963fbcacd4666a55e4b88e2ef9e9d" style="width: 100.0%; height: 100.0%;"><div width=500><h4>Győr-Moson-Sopron</h4><p>Esetszám lakosság-arányosam: <b>4.588%</b></p></div></div>`)[0];
+            popup_d9822e993db44b8cb30d77613eb5b94b.setContent(html_63c963fbcacd4666a55e4b88e2ef9e9d);
+        
+
+        circle_c2b29f4fde054063a788cf230d755b06.bindPopup(popup_d9822e993db44b8cb30d77613eb5b94b)
+        ;
+
+        
+    
+    
+            var circle_58391234dbdc45898cf3d615d5e87136 = L.circle(
+                [47.470270810000045, 21.457257299000048],
+                {"bubblingMouseEvents": true, "color": "#bb0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20535.0, "stroke": true, "weight": 3}
+            ).addTo(map_04c24e4174774cb4885114346780af7b);
+        
+    
+        var popup_3bdbcc24cdf84fefa74c5ed99ae783c4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7f38f8cc8b0a478384fe0ca259d7dc6f = $(`<div id="html_7f38f8cc8b0a478384fe0ca259d7dc6f" style="width: 100.0%; height: 100.0%;"><div width=500><h4>Hajdú-Bihar</h4><p>Esetszám lakosság-arányosam: <b>4.107%</b></p></div></div>`)[0];
+            popup_3bdbcc24cdf84fefa74c5ed99ae783c4.setContent(html_7f38f8cc8b0a478384fe0ca259d7dc6f);
+        
+
+        circle_58391234dbdc45898cf3d615d5e87136.bindPopup(popup_3bdbcc24cdf84fefa74c5ed99ae783c4)
+        ;
+
+        
+    
+    
+            var circle_b4580157552e468b8f1e31c9d332dd21 = L.circle(
+                [47.78611768700006, 20.193716405000032],
+                {"bubblingMouseEvents": true, "color": "#bb0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 18175.0, "stroke": true, "weight": 3}
+            ).addTo(map_04c24e4174774cb4885114346780af7b);
+        
+    
+        var popup_c3164eafa6a94a3f8a9780499633acc0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_156346f4593a4c75be97a4f086214878 = $(`<div id="html_156346f4593a4c75be97a4f086214878" style="width: 100.0%; height: 100.0%;"><div width=500><h4>Heves</h4><p>Esetszám lakosság-arányosam: <b>3.635%</b></p></div></div>`)[0];
+            popup_c3164eafa6a94a3f8a9780499633acc0.setContent(html_156346f4593a4c75be97a4f086214878);
+        
+
+        circle_b4580157552e468b8f1e31c9d332dd21.bindPopup(popup_c3164eafa6a94a3f8a9780499633acc0)
+        ;
+
+        
+    
+    
+            var circle_2805b7f3ca4b4cad80affd50be005a29 = L.circle(
+                [47.26230237600004, 20.42020379300004],
+                {"bubblingMouseEvents": true, "color": "#bb0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 19565.0, "stroke": true, "weight": 3}
+            ).addTo(map_04c24e4174774cb4885114346780af7b);
+        
+    
+        var popup_f6cf6e05ea834ad093cdb461dc125dbe = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0895937dc80446bf9fbb46112c26b8b0 = $(`<div id="html_0895937dc80446bf9fbb46112c26b8b0" style="width: 100.0%; height: 100.0%;"><div width=500><h4>Jász-Nagykun-Szolnok</h4><p>Esetszám lakosság-arányosam: <b>3.913%</b></p></div></div>`)[0];
+            popup_f6cf6e05ea834ad093cdb461dc125dbe.setContent(html_0895937dc80446bf9fbb46112c26b8b0);
+        
+
+        circle_2805b7f3ca4b4cad80affd50be005a29.bindPopup(popup_f6cf6e05ea834ad093cdb461dc125dbe)
+        ;
+
+        
+    
+    
+            var circle_622b312828d74f01a5e0f1111979c6df = L.circle(
+                [47.606409349000046, 18.31108984400004],
+                {"bubblingMouseEvents": true, "color": "#bb0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20560.0, "stroke": true, "weight": 3}
+            ).addTo(map_04c24e4174774cb4885114346780af7b);
+        
+    
+        var popup_7e7c7f7a4d9c48e4b99db7b9a25229fd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_62a47a908fee49a08f992969c44b5695 = $(`<div id="html_62a47a908fee49a08f992969c44b5695" style="width: 100.0%; height: 100.0%;"><div width=500><h4>Komárom-Esztergom</h4><p>Esetszám lakosság-arányosam: <b>4.112%</b></p></div></div>`)[0];
+            popup_7e7c7f7a4d9c48e4b99db7b9a25229fd.setContent(html_62a47a908fee49a08f992969c44b5695);
+        
+
+        circle_622b312828d74f01a5e0f1111979c6df.bindPopup(popup_7e7c7f7a4d9c48e4b99db7b9a25229fd)
+        ;
+
+        
+    
+    
+            var circle_344a3caa31694e4bb80f802f0e3e48cf = L.circle(
+                [47.986132843000064, 19.52311594500003],
+                {"bubblingMouseEvents": true, "color": "#bb0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 24970.0, "stroke": true, "weight": 3}
+            ).addTo(map_04c24e4174774cb4885114346780af7b);
+        
+    
+        var popup_20e49a5104074f0d837190c4b4aa8267 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5e67486699664f33b190a9541880d60c = $(`<div id="html_5e67486699664f33b190a9541880d60c" style="width: 100.0%; height: 100.0%;"><div width=500><h4>Nógrád</h4><p>Esetszám lakosság-arányosam: <b>4.994%</b></p></div></div>`)[0];
+            popup_20e49a5104074f0d837190c4b4aa8267.setContent(html_5e67486699664f33b190a9541880d60c);
+        
+
+        circle_344a3caa31694e4bb80f802f0e3e48cf.bindPopup(popup_20e49a5104074f0d837190c4b4aa8267)
+        ;
+
+        
+    
+    
+            var circle_d7bdc6d68a4a4e4788c652d0fe1fbb1a = L.circle(
+                [47.411031525000055, 19.360521404000053],
+                {"bubblingMouseEvents": true, "color": "#bb0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 18865.0, "stroke": true, "weight": 3}
+            ).addTo(map_04c24e4174774cb4885114346780af7b);
+        
+    
+        var popup_026e9cff06a64753b38cc31635e31d84 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_83d7b934f0104572aa1170f184ecdf97 = $(`<div id="html_83d7b934f0104572aa1170f184ecdf97" style="width: 100.0%; height: 100.0%;"><div width=500><h4>Pest</h4><p>Esetszám lakosság-arányosam: <b>3.773%</b></p></div></div>`)[0];
+            popup_026e9cff06a64753b38cc31635e31d84.setContent(html_83d7b934f0104572aa1170f184ecdf97);
+        
+
+        circle_d7bdc6d68a4a4e4788c652d0fe1fbb1a.bindPopup(popup_026e9cff06a64753b38cc31635e31d84)
+        ;
+
+        
+    
+    
+            var circle_b215f17274de42e0a2fd16d460d97cec = L.circle(
+                [46.43038860000007, 17.60466680600007],
+                {"bubblingMouseEvents": true, "color": "#bb0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 18695.0, "stroke": true, "weight": 3}
+            ).addTo(map_04c24e4174774cb4885114346780af7b);
+        
+    
+        var popup_dfa446b869694a469e137de4faafcf76 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_73d03508b0b14c91b38635095760fd63 = $(`<div id="html_73d03508b0b14c91b38635095760fd63" style="width: 100.0%; height: 100.0%;"><div width=500><h4>Somogy</h4><p>Esetszám lakosság-arányosam: <b>3.739%</b></p></div></div>`)[0];
+            popup_dfa446b869694a469e137de4faafcf76.setContent(html_73d03508b0b14c91b38635095760fd63);
+        
+
+        circle_b215f17274de42e0a2fd16d460d97cec.bindPopup(popup_dfa446b869694a469e137de4faafcf76)
+        ;
+
+        
+    
+    
+            var circle_543dc40b7f3a4deb96b7b9c04d4a680a = L.circle(
+                [47.99256381800007, 22.08080337100006],
+                {"bubblingMouseEvents": true, "color": "#bb0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 17180.0, "stroke": true, "weight": 3}
+            ).addTo(map_04c24e4174774cb4885114346780af7b);
+        
+    
+        var popup_1b1c2ee1cae6412e81b45d8655571693 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1a967534ff5b42d88ebb6f1fc6855b7b = $(`<div id="html_1a967534ff5b42d88ebb6f1fc6855b7b" style="width: 100.0%; height: 100.0%;"><div width=500><h4>Szabolcs-Szatmár-Bereg</h4><p>Esetszám lakosság-arányosam: <b>3.436%</b></p></div></div>`)[0];
+            popup_1b1c2ee1cae6412e81b45d8655571693.setContent(html_1a967534ff5b42d88ebb6f1fc6855b7b);
+        
+
+        circle_543dc40b7f3a4deb96b7b9c04d4a680a.bindPopup(popup_1b1c2ee1cae6412e81b45d8655571693)
+        ;
+
+        
+    
+    
+            var circle_d2013453a789479386b5217a2e104bd5 = L.circle(
+                [46.50745969000008, 18.535653049000075],
+                {"bubblingMouseEvents": true, "color": "#bb0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 19695.0, "stroke": true, "weight": 3}
+            ).addTo(map_04c24e4174774cb4885114346780af7b);
+        
+    
+        var popup_f26d2efa510341eea0647b3fe6ae9b9e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7a4955b3c7b348c39be32bc6b38426ad = $(`<div id="html_7a4955b3c7b348c39be32bc6b38426ad" style="width: 100.0%; height: 100.0%;"><div width=500><h4>Tolna</h4><p>Esetszám lakosság-arányosam: <b>3.939%</b></p></div></div>`)[0];
+            popup_f26d2efa510341eea0647b3fe6ae9b9e.setContent(html_7a4955b3c7b348c39be32bc6b38426ad);
+        
+
+        circle_d2013453a789479386b5217a2e104bd5.bindPopup(popup_f26d2efa510341eea0647b3fe6ae9b9e)
+        ;
+
+        
+    
+    
+            var circle_b503800d0283430987fb8a36048df241 = L.circle(
+                [47.15006286500005, 16.74975015600006],
+                {"bubblingMouseEvents": true, "color": "#bb0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 23735.0, "stroke": true, "weight": 3}
+            ).addTo(map_04c24e4174774cb4885114346780af7b);
+        
+    
+        var popup_32c2387ac11d4c7fbdb0b379c8bd31aa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ed66249da86d4b4e8f92d19c4c0d4a4f = $(`<div id="html_ed66249da86d4b4e8f92d19c4c0d4a4f" style="width: 100.0%; height: 100.0%;"><div width=500><h4>Vas</h4><p>Esetszám lakosság-arányosam: <b>4.747%</b></p></div></div>`)[0];
+            popup_32c2387ac11d4c7fbdb0b379c8bd31aa.setContent(html_ed66249da86d4b4e8f92d19c4c0d4a4f);
+        
+
+        circle_b503800d0283430987fb8a36048df241.bindPopup(popup_32c2387ac11d4c7fbdb0b379c8bd31aa)
+        ;
+
+        
+    
+    
+            var circle_43ca0520df684f788b69753b0ff770a5 = L.circle(
+                [47.09252000000004, 17.907750000000078],
+                {"bubblingMouseEvents": true, "color": "#bb0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 22820.0, "stroke": true, "weight": 3}
+            ).addTo(map_04c24e4174774cb4885114346780af7b);
+        
+    
+        var popup_d07aa022374f42c3870f9e86cf17db87 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c335e07aa9e0401e8064b55d4c8886b1 = $(`<div id="html_c335e07aa9e0401e8064b55d4c8886b1" style="width: 100.0%; height: 100.0%;"><div width=500><h4>Veszprém</h4><p>Esetszám lakosság-arányosam: <b>4.564%</b></p></div></div>`)[0];
+            popup_d07aa022374f42c3870f9e86cf17db87.setContent(html_c335e07aa9e0401e8064b55d4c8886b1);
+        
+
+        circle_43ca0520df684f788b69753b0ff770a5.bindPopup(popup_d07aa022374f42c3870f9e86cf17db87)
+        ;
+
+        
+    
+    
+            var circle_4f54cf3efeac4fcc9be75614b3ed1afe = L.circle(
+                [46.695846, 16.84935],
+                {"bubblingMouseEvents": true, "color": "#bb0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20485.000000000004, "stroke": true, "weight": 3}
+            ).addTo(map_04c24e4174774cb4885114346780af7b);
+        
+    
+        var popup_ce117b5d54fa43259234de0ccb56e16b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0ebebc0b565c4bf684921ceb87d5a09b = $(`<div id="html_0ebebc0b565c4bf684921ceb87d5a09b" style="width: 100.0%; height: 100.0%;"><div width=500><h4>Zala</h4><p>Esetszám lakosság-arányosam: <b>4.097%</b></p></div></div>`)[0];
+            popup_ce117b5d54fa43259234de0ccb56e16b.setContent(html_0ebebc0b565c4bf684921ceb87d5a09b);
+        
+
+        circle_4f54cf3efeac4fcc9be75614b3ed1afe.bindPopup(popup_ce117b5d54fa43259234de0ccb56e16b)
+        ;
+
+        
+    
+    
+            var circle_81f442ecfa0445f3a330d73ae22930b4 = L.circle(
+                [47.49972000000008, 19.055080000000032],
+                {"bubblingMouseEvents": true, "color": "#bb0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20465.0, "stroke": true, "weight": 3}
+            ).addTo(map_04c24e4174774cb4885114346780af7b);
+        
+    
+        var popup_2861b22946e948169f573ce4990a42d7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_480ff81e2d004bce8d68b0fc329150f6 = $(`<div id="html_480ff81e2d004bce8d68b0fc329150f6" style="width: 100.0%; height: 100.0%;"><div width=500><h4>Budapest</h4><p>Esetszám lakosság-arányosam: <b>4.093%</b></p></div></div>`)[0];
+            popup_2861b22946e948169f573ce4990a42d7.setContent(html_480ff81e2d004bce8d68b0fc329150f6);
+        
+
+        circle_81f442ecfa0445f3a330d73ae22930b4.bindPopup(popup_2861b22946e948169f573ce4990a42d7)
+        ;
+
+        
+    
+</script>
