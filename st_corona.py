@@ -218,16 +218,59 @@ if st.sidebar.checkbox('Show generated datatable:'):
     st.dataframe(df)
 
 st.header('Cases, Active, Recovered and Deads')
-st.line_chart(df[['Cases', 'Active', 'Recovered', 'Dead']])
+# st.line_chart(df[['Cases', 'Active', 'Recovered', 'Dead']])
+
+fig = plt.figure(figsize=(16, 8))
+
+x = range(0, df.shape[0])
+y = df.index.strftime("%Y/%m/%d")
+
+plt.plot(x, df['Cases'], label=f'Cases', color = 'blue')
+plt.plot(x, df['Active'], label='Active', color = 'red')
+plt.plot(x, df['Recovered'], label='Recovered', color = 'green')
+plt.plot(x, df['Dead'], label='Dead', color = 'black')
+plt.xticks(x, y, rotation='vertical')
+plt.xticks(fontsize=10)
+plt.grid(alpha=.5, linestyle='-')
+plt.legend()
+fig.autofmt_xdate()
+plt.locator_params(axis="y", nbins=30)
+plt.locator_params(axis="x", nbins=30)
+st.pyplot(fig)
 
 st.header('Cases/day')
-st.bar_chart(df['Cases/day'])
+# st.bar_chart(df['Cases/day'])
+fig = plt.figure(figsize=(16,8))
+plt.bar(x, df['Cases/day'])
+plt.xticks(x, y, rotation='vertical')
+plt.grid(alpha=.5, linestyle='-')
+plt.locator_params(axis="y", nbins=30)
+plt.locator_params(axis="x", nbins=30)
+fig.autofmt_xdate()
+st.pyplot(fig)
 
 st.header('Recovered/day')
-st.bar_chart(df['Recovered/day'])
+# st.bar_chart(df['Recovered/day'])
+fig = plt.figure(figsize=(16,8))
+plt.bar(x, df['Recovered/day'], color='green')
+plt.xticks(x, y, rotation='vertical')
+plt.grid(alpha=.5, linestyle='-')
+plt.locator_params(axis="y", nbins=30)
+plt.locator_params(axis="x", nbins=30)
+fig.autofmt_xdate()
+st.pyplot(fig)
 
 st.header('Deads/day')
-st.bar_chart(df['Deads/day'])
+# st.bar_chart(df['Deads/day'])
+fig = plt.figure(figsize=(16,8))
+plt.bar(x, df['Deads/day'], color='black')
+plt.xticks(x, y, rotation='vertical')
+plt.grid(alpha=.5, linestyle='-')
+plt.locator_params(axis="y", nbins=30)
+plt.locator_params(axis="x", nbins=30)
+fig.autofmt_xdate()
+st.pyplot(fig)
+
 
 if the_country == 'Hungary':
        
