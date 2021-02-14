@@ -56,7 +56,7 @@ def str2int(s):
     s = s.replace(' ','').replace(',','').replace('.','')
     return int(s)
 
-# @st.cache(allow_output_mutation=True)
+@st.cache(allow_output_mutation=True)
 def get_deads():
     try:
         df = pd.read_csv('./halottak.csv')
@@ -344,7 +344,7 @@ if the_country == 'Hungary':
         initial_view_state={
             "latitude": 46.98,
             "longitude": 19.57,
-            "zoom": 5.5,
+            "zoom": 6,
             "pitch": 0
         },
         layers=[
