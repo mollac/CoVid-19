@@ -223,7 +223,7 @@ st.header('Cases, Active, Recovered and Deads')
 fig = plt.figure(figsize=(16, 8))
 
 x = range(0, df.shape[0])
-y = df.index.strftime("%Y/%m/%d")
+y = df.index.strftime("%Y-%m-%d")
 
 plt.plot(x, df['Cases'], label=f'Cases', color = 'blue')
 plt.plot(x, df['Active'], label='Active', color = 'red')
@@ -323,17 +323,21 @@ if the_country == 'Hungary':
         st.line_chart(df, height=600)
 
     with st.beta_expander('Megyénként külön ábra:'): 
-        st.warning('Az (y) tengely megyénként eltér!')  
+        st.warning('Az (y) tengely megyénként eltér!') 
+
         c1, c2 = st.beta_columns(2)
+        
         for i, megye in enumerate(megyek):
+            x = range(0, df[megye].shape[0])
+            y = df.index
             fig = plt.figure(figsize=(10,6))
             plt.plot(df[megye], color='red')
             plt.title(megye)
             plt.xticks(x, y, rotation='vertical')
             plt.grid(alpha=.5, linestyle='-')
-            plt.locator_params(axis="y", nbins=20)
-            plt.locator_params(axis="x", nbins=10)
-            # fig.autofmt_xdate()
+            plt.locator_params(axis="y", nbins=30)
+            plt.locator_params(axis="x", nbins=20)
+            fig.autofmt_xdate()
             if i % 2 == 0:
                 # c1.line_chart(df[megye])
                 c1.pyplot(fig)
