@@ -322,13 +322,24 @@ if the_country == 'Hungary':
     with st.beta_expander('Összes megye egy ábrán:'):
         st.line_chart(df, height=600)
 
-    with st.beta_expander('Megyénként külön ábra:'):   
+    with st.beta_expander('Megyénként külön ábra:'): 
+        st.warning('Az (y) tengely megyénként eltér!')  
         c1, c2 = st.beta_columns(2)
-        for i, select in enumerate(megyek):
+        for i, megye in enumerate(megyek):
+            fig = plt.figure(figsize=(10,6))
+            plt.plot(df[megye], color='red')
+            plt.title(megye)
+            plt.xticks(x, y, rotation='vertical')
+            plt.grid(alpha=.5, linestyle='-')
+            plt.locator_params(axis="y", nbins=20)
+            plt.locator_params(axis="x", nbins=10)
+            # fig.autofmt_xdate()
             if i % 2 == 0:
-                c1.line_chart(df[select])
+                # c1.line_chart(df[megye])
+                c1.pyplot(fig)
             else:
-                c2.line_chart(df[select])
+                # c2.line_chart(df[megye])
+                c2.pyplot(fig)
 
     st.subheader('Regisztrált esetszám/megye')
     datum_filter = st.slider('Nap', 0, len(datumok)-1, len(datumok)-1)
