@@ -283,13 +283,15 @@ if the_country == 'Hungary':
     alapbetegsegek = alapbetegsegek.apply(lambda x: "hasnyálmirigy-gyulladás" if "hasnyál" in x else x)
     
     alapfreq = alapbetegsegek.value_counts()
-    st.write(alapfreq)
-    st.subheader('Átlag életkorok')
-    st.markdown(f'**Férfi:** *{avg_man}* év **Nő:** *{avg_wmn}* év')
+    st.dataframe(alapfreq)
 
-    st.subheader('Nemek szerinti megoszlás')
-    st.bar_chart(gr['Eset/Nem'], use_container_width = False,  width = 200)
-    st.markdown(f"**Férfi: ** {round(gr['Eset/Nem'][0]/m_dead*100,2)}% **Nő:** {round(gr['Eset/Nem'][1]/m_dead*100,2)}%")
+    c1, c2 = st.beta_columns(2)
+    c1.subheader('Átlag életkorok')
+    c1.markdown(f'**Férfi:** *{avg_man}* év **Nő:** *{avg_wmn}* év')
+
+    c2.subheader('Nemek szerinti megoszlás')
+    
+    c2.markdown(f"**Férfi: ** {round(gr['Eset/Nem'][0]/m_dead*100,2)}% **Nő:** {round(gr['Eset/Nem'][1]/m_dead*100,2)}%")
     
     st.subheader('Korosztályos megoszlás')
     st.bar_chart(gf['Eset/Korcsoport'], use_container_width = True)
@@ -309,7 +311,7 @@ if the_country == 'Hungary':
     c1, c2 = st.beta_columns(2)
     c1.bar_chart(last2)
     c2.dataframe(last2)
-    
+      
 
     megyek = list(df.columns)        
     datumok = list(df.index)
