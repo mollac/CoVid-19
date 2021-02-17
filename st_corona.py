@@ -300,21 +300,19 @@ if the_country == 'Hungary':
     url = 'https://raw.githubusercontent.com/mollac/CoVid-19/master/korona_megyei.csv'
     # url = './korona_megyei.csv'
     df = pd.read_csv(url, sep=',')
-    
+    datumok = df['Dátum']
     df = df.set_index('Dátum', drop = True)
     
     st.subheader('Új esetek megyénként')
     last2 = df.T.iloc[:,-2:]
     last2['Változás'] = last2.iloc[:,1] - last2.iloc[:,0]
     last2 = last2['Változás'].sort_values()
-
     c1, c2 = st.beta_columns(2)
     c1.bar_chart(last2)
     c2.dataframe(last2)
       
-
     megyek = list(df.columns)        
-    datumok = list(df.index)
+    
     with st.beta_expander('Kiválasztott megyék egy ábrán:'):
         select = st.multiselect('Válassz megyéket:', megyek, ['Győr-Moson-Sopron', 'Komárom-Esztergom'])
         st.line_chart(df[select], height=600)
@@ -329,11 +327,10 @@ if the_country == 'Hungary':
         
         for i, megye in enumerate(megyek):
             x = range(0, df[megye].shape[0])
-            y = df.index
             fig = plt.figure(figsize=(10,6))
             plt.plot(df[megye], color='red')
             plt.title(megye)
-            plt.xticks(x, y, rotation='vertical')
+            plt.xticks(x, datumok, rotation='vertical')
             plt.grid(alpha=.5, linestyle='-')
             plt.locator_params(axis="y", nbins=30)
             plt.locator_params(axis="x", nbins=20)
