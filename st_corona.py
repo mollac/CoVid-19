@@ -297,9 +297,12 @@ if the_country == 'Hungary':
     st.bar_chart(gf['Eset/Korcsoport'], use_container_width = True)
 
     st.header('Megyei adatok')
-    url = 'https://raw.githubusercontent.com/mollac/CoVid-19/master/korona_megyei.csv'
-    # url = './korona_megyei.csv'
-    df = pd.read_csv(url, sep=',')
+
+    try:
+        df = pd.read_csv('./korona_megyei.csv', sep=',')
+    except:
+        df = pd.read_csv('https://raw.githubusercontent.com/mollac/CoVid-19/master/korona_megyei.csv', sep=',')
+
     datumok = df['Dátum']
     df = df.set_index('Dátum', drop = True)
     
