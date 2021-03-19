@@ -1,4 +1,211 @@
 Sorszám,Nem,Kor,Alapbetegségek
+17628,Nõ,66,magasvérnyomás betegség
+17627,Nõ,83,magasvérnyomás betegség
+17626,Nõ,87,szívelégtelenség
+17625,Férfi,70,"magasvérnyomás betegség, fejfájás, kóros elhízás, szívritmuszavar"
+17624,Nõ,71,"szívbetegség, magasvérnyomás betegség"
+17623,Nõ,89,"szívritmuszavar, csontritkulás"
+17622,Nõ,46,"magasvérnyomás betegség, csökkent pajzsmirigymûködés, cukorbetegség"
+17621,Férfi,75,"magasvérnyomás betegség, köszvény"
+17620,Férfi,84,"krónikus veseelégtelenség, szívritmuszavar"
+17619,Férfi,57,"tüdõtumor, agy és agyburkok másodlagos rosszindulatú daganata, fej, nyak, arc nyirokcsomóinak rosszindulatú daganata"
+17618,Férfi,83,"demencia, agyérszûkület, érszûkület, agyi sorvadás"
+17617,Nõ,49,"végbéldaganat, vérhiány, sárgaság"
+17616,Férfi,82,magasvérnyomás betegség
+17615,Férfi,75,prosztata tumor
+17614,Nõ,82,magasvérnyomás betegség
+17613,Férfi,81,traumás tágulásos vérzés
+17612,Férfi,71,"epilepszia, magasvérnyomás betegség"
+17611,Férfi,80,"prosztata mûtét, magasvérnyomás betegség"
+17610,Nõ,50,"kóros elhízás, magasvérnyomás betegség"
+17609,Nõ,77,magasvérnyomás
+17608,Nõ,75,"magas vérnyomás, csontritkulás, csigolyaösszeroppanás, magas koleszterin, szívelégtelenség,"
+17607,Nõ,83,"magasvérnyomás betegség, szívbetegség"
+17606,Nõ,75,"cukorbetegség, magasvérnyomás betegség, Parkinson-szindróma, csökkent pajzsmirigymûködés"
+17605,Nõ,78,"magasvérnyomás betegség, cukorbetegség"
+17604,Nõ,65,magasvérnyomás betegség
+17603,Nõ,70,"magasvérnyomás betegség, vázizom gyulladásos megbetegedése"
+17602,Nõ,77,"magasvérnyomás betegség, cukorbetegség, szívritmuszavar"
+17601,Nõ,79,magasvérnyomás betegség
+17600,Nõ,87,"körzeti idegek degenerációja, szívelégtelenség"
+17599,Nõ,61,hasnyálmirigy rosszindulatú daganata
+17598,Nõ,63,"magasvérnyomás betegség, tüdõbetegség"
+17597,Férfi,64,"magasvérnyomás betegség, epilepszia, trombózis, prosztata mûtét"
+17596,Férfi,49,adat feltöltés alatt
+17595,Férfi,81,adat feltöltés alatt
+17594,Nõ,85,"vázizom gyulladásos megbetegedése, szívbetegség, magasvérnyomás betegség"
+17593,Férfi,50,"vázizom gyulladásos megbetegedése, magasvérnyomás betegség"
+17592,Nõ,55,"magasvérnyomás betegség, tüdõbetegség, vázizom gyulladásos megbetegedése"
+17591,Férfi,58,"magasvérnyomás, tüdõdaganat"
+17590,Nõ,87,"magasvérnyomás betegség, szívbetegség"
+17589,Férfi,41,magasvérnyomás betegség
+17588,Nõ,80,"magasvérnyomás, cukorbetegség, pangásos szívelégtelenség, heveny veseelégtelenség, szívbetegség"
+17587,Nõ,70,magasvérnyomás betegség
+17586,Nõ,91,"magasvérnyomás betegség, szívbetegség, asztma, szívritmuszavar"
+17585,Nõ,81,magasvérnyomás betegség
+17584,Férfi,93,"tüdõgyulladás, magasvérnyomás betegség, sztrók"
+17583,Nõ,58,"magasvérnyomás, általános érelmeszesedés"
+17582,Nõ,79,magasvérnyomás betegség
+17581,Nõ,70,"magasvérnyomás betegség, csökkent pajzsmirigymûködés, szívritmuszavar, reflux betegség"
+17580,Férfi,68,"magasvérnyomás betegség, cukorbetegség"
+17579,Férfi,91,"magasvérnyomás betegség, pszichiátriai kezelés, sztrók"
+17578,Nõ,100,csontritkulás
+17577,Nõ,78,"Parkinson-kór, magasvérnyomás betegség"
+17576,Nõ,80,"agyi érkeringési zavar, tüdõtumor, szívritmuszavar"
+17575,Férfi,61,"magasvérnyomás betegség, cukorbetegség"
+17574,Nõ,77,"magasvérnyomás betegség. cukorbetegség, szívritmuszavar, tüdõembólia, vastagbél betegség"
+17573,Férfi,72,magasvérnyomás betegség
+17572,Férfi,82,"cukorbetegség, magasvérnyomás betegség, jobb mellékvese daganat, demencia"
+17571,Nõ,80,"krrónkus veseelégtelenség, cukorbetegség"
+17570,Nõ,83,"magasvérnyomás betegség, tüdõembólia"
+17569,nõ,85,"magasvérnyomás betegség, cukorbetegség, szívinfarktus"
+17568,nõ,84,"magasvérnyomás betegség, sztrók"
+17567,férfi,66,"gége mûtéti eltávolítása, nyaki daganat, akut légzési elégtelenség"
+17566,férfi,82,"magasvérnyomás-betegség, szívbetegség, szívritmuszavar"
+17565,férfi,71,"magasvérnyomás betegség, Parkinson-kór"
+17564,férfi,60,"magasvérnyomás-betegéség, szívbetegség"
+17563,férfi,81,"cukorbetegség, szövõvázizom gyulladásos megbetegedése, magasvérnyomás-betegség, nyaki artéria szûkülete, agyi érkeringési zavar betegségek, vastagbél betegség, szívelégtelenség"
+17562,nõ,73,"cukorbetegség, szövõvázizom gyulladásos megbetegedése, magasvérnyomás betegség, csökkent pajzsmirigymûködés, szívbetegség, tüdõbetegség"
+17561,férfi,38,adat feltöltés alatt
+17560,nõ,71,"magasvérnyomás betegség, tüdõbetegség"
+17559,nõ,80,"magasvérnyomás betegség, vázizom gyulladásos megbetegedése,szívbetegség, csökkent pajzsmirigymûködés"
+17558,nõ,76,"szívbetegség, magasvérnyomás betegség, vázizom gyulladásos megbetegedése"
+17557,nõ,64,"magasvérnyomás betegség, cukorbetegség, tüdõtumor"
+17556,férfi,68,"magasvérnyomás betegség, generalizált érbetegség, cukorbetegség"
+17555,férfi,61,magasvérnyomás betegség
+17554,férfi,64,"magasvérnyomás betegség, tüdõbetegség, rosszindulatú daganat"
+17553,nõ,85,magasvérnyomás betegség
+17552,nõ,80,magasvérnyomás betegség
+17551,nõ,79,magasvérnyomás betegség
+17550,férfi,66,"tüdõ rosszindulatú daganata, magasvérnyomás-betegség, nyirokcsomók rosszindulatú daganata, agy és agyburkok másodlagos rosszindulatú daganata"
+17549,férfi,71,"cukorbetegség, szívritmuszavar, csípõprotézis, porckorongsérv"
+17548,férfi,65,"magasvérnyomás betegség, vázizom gyulladásos megbetegedése, kóros elhízás"
+17547,nõ,86,"vázizom gyulladásos megbetegedése, demencia, magasvérnyomás betegség, szívbetegség, szívritmuszavar"
+17546,férfi,76,"magasvérnyomás, cukorbetegség"
+17545,férfi,76,szívtágulás
+17544,férfi,71,"magasvérnyomás betegség, leukémia"
+17543,nõ,94,"tüdõgyulladás, magasvérnyomás betegség"
+17542,nõ,78,"magasvérnyomás betegség, kóros elhízás"
+17541,férfi,33,"cukorbetegség, kóros elhízás"
+17540,férfi,74,"szívritmuszavar, krónikus veseelégtelenség"
+17539,férfi,67,"szívritmuszavar, tüdõbetegség, vázizom gyulladásos megbetegedése, veseelégtelenség, szívizomelhalás"
+17538,férfi,63,"magasvérnyomás betegség, szívbeteg, cukorbetegség, kóros elhízás"
+17537,férfi,74,"tüdõgyulladás, magasvérnyomás betegség, szívbetegség"
+17536,férfi,87,"szívinfarktus, szívritmuszavar"
+17535,férfi,72,"magasvérnyomás betegség, tüdõbetegség, veseelégtelenség, szívritmuszavar"
+17534,nõ,66,"légzési elégtelenség,vírusos tüdõgyulladás, krónikus veseelégtelenség, magasvérnyomás-betegség, pajzsmirigy betegség"
+17533,nõ,55,"veseelégtelenség, magasvérnyomás betegség, allergiás asztma, szívbetegség, kóros elhízás"
+17532,férfi,61,"magasvérnyomás betegség, vázizom gyulladásos megbetegedése"
+17531,nõ,81,"magasvérnyomás betegség, krónikus veseelégtelenség"
+17530,nõ,68,magasvérnyomás betegség
+17529,férfi,81,"magasvérnyomás betegség, csökkent pajzsmirigymûködés, körzeti idegek degenerációja"
+17528,nõ,90,"krónikus szív- és veseelégetelenség, demencia, depresszió"
+17527,férfi,72,"magasvérnyomás betegség,szívtágulás, szívbetegség"
+17526,nõ,90,magasvérnyomás betegség
+17525,nõ,85,"koszorúér meszesedés, parkinson szindróma, szívbetegség, csontritkulás, vázizom gyulladásos megbetegedése"
+17524,nõ,68,magasvérnyomás betegség
+17523,férfi,90,veseelégtelenség
+17522,férfi,81,"cukorbetegség, magasvérnyomás betegség"
+17521,férfi,58,"magasvérnyomás betegség, szívbetegség, cukorbetegség"
+17520,nõ,87,"csökkent pajzsmirigymûködés, magasvérnyomás betegség"
+17519,férfi,65,"mentális és viselkedészavar, alkoholizmus"
+17518,férfi,86,"magasvérnyomás betegség, szívbetegség, vastagbél betegség, demencia"
+17517,férfi,65,"magasvérnyomás betegség, spontán légmell"
+17516,férfi,75,"tüdõbetegség, krónikus veseelégtelenség, szívritmuszavar"
+17515,férfi,76,"magasvérnyomás betegség, cukorbetegség"
+17514,nõ,57,"magasvérnyomás betegség, cukorbetegség, szívbetegség, krónikus veseelégtelenség"
+17513,nõ,88,"vaszkuláris demencia, depresszió, szívbetegség, érbetegség, rosszindulatú daganat"
+17512,nõ,80,jelenleg nem ismert
+17511,férfi,63,kóros elhízás
+17510,nõ,85,"magasvérnyomás betegség, vázizom gyulladásos megbetegedése"
+17509,nõ,76,"asztma, tüdõbetegség, áttétes tumor, koszorúérelmeszesedés"
+17508,nõ,81,magasvérnyomás betegség
+17507,nõ,59,magasvérnyomás betegség
+17506,férfi,60,"magas koleszterin, magasvérnyomás betegség"
+17505,férfi,63,"magasvérnyomás-betegség, cukorbetegség, szívritmuszavar, kóros elhízás, szívbetegség"
+17504,férfi,74,"magasvérnyomás-betegség, kóros elhízás"
+17503,nõ,65,"szívbetegség, TBC, asztma, magas koleszterin"
+17502,férfi,87,"magasvérnyomás betegség, vázizom gyulladásos megbetegedése"
+17501,férfi,73,vérmérgezés
+17500,férfi,63,"magasvérnyomás betegség, cukorbetegség"
+17499,nõ,71,tüdõgyulladás
+17498,nõ,75,"tüdõgyulladás, szívritmuszavar, elektrolit- és folyadék-egyensúly zavarok"
+17497,nõ,80,"cukorbetegség, magas vérnyomás, kóros elhízás"
+17496,férfi,75,sztrók
+17495,férfi,77,"cukorbetegség, tüdõbetegség, magasvérnyomás-betegség, agyi infarktus"
+17494,nõ,78,"pangásos szívelégtelenség, magasvérnyomás betegség, régi szívizomelhalás"
+17493,nõ,81,"magasvérnyomás betegség, szívbetegség"
+17492,nõ,75,"magasvérnyomásbetegség, szívritmuszavar, asztma, csökkent pajzsmirigymûködés."
+17491,férfi,64,"magasvérnyomás betegség, tüdõ rosszindulatú daganata"
+17490,férfi,85,"magasvérnyomás betegség, Alzheimer-demencia, parkinson szindróma"
+17489,nõ,95,"magasvérnyomás betegség, általános érelmeszesedés, agyi infarktus, nyaki verõér-szûkület"
+17488,férfi,75,reflux
+17487,férfi,65,"ízületi gyulladás, magasvérnyomás betegség"
+17486,férfi,76,"szívbetegség, aorta elégtelenség, szívritmuszavar, agyi infarktus, reflux"
+17485,férfi,60,cukorbetegség
+17484,férfi,76,"hólyagdaganat, tüdõbetegség"
+17483,férfi,68,"vastagbél gyulladás, pajzsmirigy betegség, porckorong betegség"
+17482,férfi,62,"vázizom gyulladásos megbetegedése, magasvérnyomás betegség"
+17481,férfi,75,magasvérnyomás betegség
+17480,férfi,82,vázizom gyulladásos megbetegedése
+17479,nõ,64,"magasvérnyomás betegség, vázizom gyulladásos megbetegedése"
+17478,férfi,41,"magasvérnyomás betegség, cukorbetegség, kóros elhízás"
+17477,férfi,66,"magasvérnyomás betegség, asztma"
+17476,nõ,44,"hasnyálmirigy tumor, májszteatózis"
+17475,nõ,74,"magasvérnyomás, veseelégtelenség, cukorbetegség, érszûkület"
+17474,férfi,95,jelenleg nem ismert
+17473,nõ,60,"magasvérnyomás betegség, magas koleszterin"
+17472,nõ,76,"magasvérnyomás betegség, cukorbetegség"
+17471,nõ,75,"féregnyúlvány mûtéti eltávolítsa, TBC, cukorbetegség, csökkent pajzsmirigymûködés, magasvérnyomás betegség, sztrók"
+17470,nõ,48,"emlõdaganat, jóindulatú agydaganat, cukorbetegség"
+17469,férfi,51,magasvérnyomás betegség
+17468,nõ,90,vázizom gyulladásos megbetegedése
+17467,nõ,93,"magasvérnyomás betegség, idõskori demencia"
+17466,férfi,46,"szívbetegség, magasvérnyomás betegség"
+17465,férfi,53,"magasvérnyomás betegség, cukorbetegség"
+17464,nõ,81,"magasvérnyomás-betegség, szívritmuszavar"
+17463,nõ,74,magasvérnyomás betegség
+17462,férfi,60,szívritmuszavar
+17461,férfi,60,"asztma, csökkent pajzsmirigymûködés, magasvérnyomás betegség"
+17460,nõ,71,"magasvérnyomás betegség, vázizom gyulladásos megbetegedése"
+17459,férfi,86,"magasvérnyomás betegség, szívritmuszavar, agyi artéria elzáródása és szûkülete, tüdõgyulladás"
+17458,férfi,77,tüdõgyulladás
+17457,férfi,55,vázizom gyulladásos megbetegedése
+17456,férfi,88,"magasvérnyomás betegség, asztma"
+17455,férfi,63,"szívtágulás, szívelégtelenség, magasvérnyomás betegség, kóros elhízás, csökkent pajzsmirigymûködés"
+17454,férfi,79,"magasvérnyomás betegség, szívbetegség"
+17453,nõ,65,"magasvérnyomás betegség, szívelégtelenség"
+17452,nõ,79,"magasvérnyomás betegség, cukorbetegség"
+17451,nõ,73,"magasvérnyomás-betegség, cukorbetegség többszörös szövõvázizom gyulladásos megbetegedéseénnyel, légzési zavarok"
+17450,nõ,74,"magasvérnyomás-betegség , cukorbetegség"
+17449,nõ,74,"cukorbetegség, kóros elhízás, magasvérnyomás betegség, ízületi gyulladás"
+17448,férfi,42,"magasvérnyomás, veseátültetés utáni állapot"
+17447,férfi,84,"magasvérnyomás betegség, krónikus veseelégtelenség, pszichotikus zavar, demencia"
+17446,nõ,51,felsõ végtagi vérgyülem
+17445,nõ,74,veseelégtelenség
+17444,férfi,58,"magasvérnyomás betegség, körzeti idegek degenerációja"
+17443,férfi,82,"magasvérnyomás betegség, agyi sorvadás, keringési zavar"
+17442,férfi,51,"magasvérnyomás-betegség, asztma, kóros elhízás"
+17441,nõ,58,jelenleg nem ismert
+17440,nõ,87,"csökkent pajzsmirigymûködés, vesekõ, magasvérnyomás-betegség, szívbetegség, májbetegség"
+17439,férfi,84,adat feltöltés alatt
+17438,nõ,81,"magasvérnyomás betegség, cukorbetegség, szívbetegség, krónikus veseelégtelenség"
+17437,férfi,72,tüdõgyulladás
+17436,nõ,65,magasvérnyomás betegség
+17435,nõ,48,"kóros elhízás, csökkent pajzsmirigymûködés"
+17434,nõ,70,"magasvérnyomás betegség, cukorbetegség, körzeti idegek degenerációja, szívritmuszavar"
+17433,nõ,67,vastagbél betegség
+17432,nõ,46,magasvérnyomás betegség
+17431,nõ,73,"ízületi gyulladás, csontritkulás, magasvérnyomás betegség, szívbetegség"
+17430,férfi,70,"magasvérnyomás betegség, cukorbetegség"
+17429,férfi,64,magasvérnyomás betegség
+17428,nõ,70,"tumoros betegség, magasvérnyomás betegség"
+17427,nõ,83,"asztma, gerincbetegség"
+17426,nõ,83,"magasvérnyomás betegség, féloldali bénulás, személyiségzavar"
+17425,férfi,69,verõér mûbillentyû beültetés
+17424,férfi,53,szívelégtelenség
+17423,férfi,80,"szívbetegség, szívritmuszavar, krónikus veseelégtelenség, agyi érkeringési zavar betegség"
+17422,férfi,59,végbél rosszindulatú daganata
 17421,nõ,69,"daganatos megbetegdés, cukorbetegség, magasvérnyomás-betegség"
 17420,férfi,74,"magasvérnyomás-betegség, iszkémiás szívbetegség"
 17419,nõ,78,"magasvérnyomás-betegség, szívbetegség, cukorbetegség"
