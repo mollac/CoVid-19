@@ -1,4 +1,193 @@
 Sorszám,Nem,Kor,Alapbetegségek
+20161,Férfi,72,"szívizom vérellátásának zavara, szívritmuszavar"
+20160,Férfi,77,magas vérnyomás
+20159,Nõ,67,"magas vérnyomás, cukorbetegség"
+20158,Férfi,88,"szívizom vérellátásának zavara, szívelégtelenség"
+20157,Nõ,85,"magas vérnyomás, cukorbetegség, szívbetegség"
+20156,Férfi,75,"magas vérnyomás, cukorbetegség, krónikus obstruktív tüdõbetegség, szívelégtelenség, lépinfarktus"
+20155,Nő,85,"magas vérnyomás, obstruktív tüdõbetegség, asztma krónikus veseelégtelenség"
+20154,Férfi,63,"magas vérnyomás, asztma, krónikus obstruktív tüdõbetegség, szívizom vérellátásának zavara, stroke"
+20153,Férfi,43,"daganatos megbetegedés, magas vérnyomás"
+20152,Férfi,53,"magas vérnyomás, szívizom vérellátásának zavara, cukorbetegség, agyi keringési zavar"
+20151,Nõ,87,"pajzsmirigy-alulmûködés, magasvérnyomás betegség, szívizom vérellátásának zavara,"
+20150,Férfi,70,"agyi infarktus, magas vérnyomás"
+20149,Férfi,73,"magas vérnyomás, krónikus obstruktív tüdõbetegség, szívizom vérellátásának zavara, stroke, elhízás"
+20148,Férfi,85,"magas vérnyomás, pajzsmirigy-túlmûködés, szívizom vérellátásának zavara"
+20147,Nõ,73,"magas vérnyomás, szívizom vérellátásának zavara, cukorbetegség, elhízás"
+20146,Férfi,61,"magas vérnyomás, cukorbetegség, veseelégtelenség, szívelégtelenség"
+20145,Nõ,63,"magas vérnyomás, szívizom vérellátásának zavara, cukorbetegség, veseelégtelenség, daganatos megbetegedés"
+20144,Nõ,78,"szívelégtelenség, magasvérnyomás, veseelégtelenség"
+20143,Nõ,81,"magas vérnyomás, krónikus obstruktív tüdõbetegség"
+20142,Nõ,77,"magas vérnyomás, méheltávolítás, csípõprotézis, emlõdaganat, adjuáns kemoterápia, stroke, tüdõembolia, DCM"
+20141,Férfi,83,"krónikus obstruktív tüdõbetegség, cukorbetegség, magas vérnyomás,"
+20140,Férfi,43,nem ismert alapbetegség
+20139,Férfi,74,"magas vérnyomás, cukorbetegség"
+20138,Férfi,75,"magas vérnyomás, szívelégtelenség"
+20137,Nõ,68,"cukorbetegség, magas vérnyomás"
+20136,Férfi,64,"cukorbetegség, elhízás"
+20135,Nõ,44,nem ismert alapbetegség
+20134,Férfi,76,"magas vérnyomás, szívizom vérellátásának zavara, trombózis"
+20133,Nõ,75,"magas vérnyomás, demencia"
+20132,Nõ,77,"szívizom vérellátásának zavara, cukorbetegség, magas vérnyomás"
+20131,Férfi,64,"cukorbetegség, magas vérnyomás, szívizom vérellátásának zavara, veseelégtelenség, érbetegség"
+20130,Férfi,80,"magas vérnyomás, cukorbetegség, szívizom vérellátásának zavara,"
+20129,Férfi,76,"magas vérnyomás, stroke"
+20128,Férfi,80,"magas vérnyomás, infarktus"
+20127,Nõ,66,magas vérnyomás
+20126,Nõ,82,"veseelégtelenség, szívizom vérellátásának zavara, magasvérnyomás, cukorbetegség, szívbetegség"
+20125,Férfi,68,"magas vérnyomás, szívizom vérellátásának zavara, cukorbetegség, elhízás"
+20124,Férfi,82,"magas vérnyomás, cukorbetegség, érbetegség"
+20123,Férfi,82,"magas vérnyomás, cukorbetegség"
+20122,Nõ,84,"magasvérnyomás, szívizom vérellátásának zavara"
+20121,Férfi,79,szívizom vérellátásának zavara
+20120,Férfi,60,"magas vérnyomás, cukorbetegség, elhízás, krónikus obstruktív tüdõbetegség, asthma"
+20119,Nõ,66,"extrém elhízás, krónikus obstruktív tüdõbetegség"
+20118,Férfi,76,"vesebetegség, magas vérnyomás, cukorbetegség, keringési betegség, ütõérszûkület"
+20117,Férfi,65,magas vérnyomás
+20116,Férfi,68,"magas vérnyomás, érelmeszesedés, szívritmuszavar, elhízás"
+20115,Nõ,61,"magas vérnyomás, szívbetegség"
+20114,Férfi,72,"magas vérnyomás, érbetegség"
+20113,Nõ,63,"magas vérnyomás, szívizom vérellátásának zavara"
+20112,Nõ,76,"magas vérnyomás, cukorbetegség, pajzsmirigy-alulmûködés, daganatos megbetegedés"
+20111,Férfi,60,magas vérnyomás
+20110,Férfi,82,magas vérnyomás
+20109,Férfi,76,"magas vérnyomás, szívizom vérellátásának zavara, cukorbetegség"
+20108,Férfi,66,"cukorbetegség, magas vérnyomás"
+20107,Férfi,82,"magas vérnyomás, Alzheimer-kór, demencia"
+20106,Férfi,76,magas vérnyomás
+20105,Férfi,71,"magas vérnyomás, cukorbetegség, demencia"
+20104,Nõ,85,"magas vérnyomás, krónikus veseelégtelenség, cukorbetegség"
+20103,Nõ,57,"magas vérnyomás, cukorbetegség, asztma, kevert szorongásos és depressziós zavar"
+20102,Nõ,89,"cukorbetegség, szívizom vérellátásának zavara, stroke, krónikus veseelégtelenség"
+20101,Férfi,86,"cukorbetegség, magas vérnyomás, érelmeszesedés"
+20100,Nõ,65,májbetegség
+20099,Férfi,75,"szívizom vérellátásának zavara, magas vérnyomás, elhízás"
+20098,Nõ,69,"érbetegség, magas vérnyomás, cukorbetegség"
+20097,Nõ,83,"szívizom vérellátásának zavara, magas vérnyomás, krónikus obstruktív tüdõbetegség"
+20096,Férfi,77,"magas vérnyomás, cukorbetegség, stroke, demencia"
+20095,Férfi,72,"krónikus obstruktív tüdõbetegség, magas vérnyomás"
+20094,Nõ,90,"magas vérnyomás, veseelégtelenség, szívizom vérellátásának zavara"
+20093,Nõ,71,"kóros elhízás, cukorbetegség, magas vérnyomás"
+20092,Nõ,83,"daganatos megbetegedés, cukorbetegség, elhízás, magas vérnyomás, szívbetegség"
+20091,Nõ,72,"magas vérnyomás, cukorbetegség"
+20090,Nõ,84,"cukorbetegség, magas vérnyomás, magas húgysavszint"
+20089,Férfi,79,magas vérnyomás
+20088,Férfi,66,"cukorbetegség, szív- és érrendszer betegség, krónikus veseelégtelenség"
+20087,Nõ,76,"magas vérnyomás, trombózis"
+20086,Férfi,71,"szívizom vérellátásának zavara, cukorbetegség, magas vérnyomás"
+20085,Férfi,65,"szívbetegség, szív koronária ereinek szûkülete, magas vérnyomás, krónikus obstruktív tüdõbetegség, asthma, daganatos megbetegedés, cukorbetegség"
+20084,Férfi,78,"magas vérnyomás, cukorbetegség, Parkinson-kór"
+20083,Férfi,67,"szívizom vérellátásának zavara, magas vérnyomás, magas vérzsírszint"
+20082,Férfi,59,"magas vérnyomás, cukorbetegség, magas vérzsírszint"
+20081,Nõ,70,"magas vérnyomás, trombózis"
+20080,Férfi,86,"magas vérnyomás, demencia"
+20079,Férfi,61,daganatos megbetegedés
+20078,Nõ,68,"magas vérnyomás, cukorbetegség, magas vérzsírszint, érelmeszesedés"
+20077,Férfi,70,"magas vérnyomás, daganatos megbetegedés"
+20076,Nõ,65,"magas vérnyomás, elhízás"
+20075,Férfi,41,"magas vérnyomás, magas húgysavszint, magas vérzsírszint, elhízás"
+20074,Férfi,60,"elhízás, trombózis"
+20073,Nõ,33,"magas vérnyomás, magas húgysavszint, magas vérzsírszint, elhízás"
+20072,Férfi,69,súlyos bal féltekei stroke
+20071,Férfi,80,"magas vérnyomás, cukorbetegség"
+20070,Nõ,72,"magas vérnyomás, cukorbetegség"
+20069,Férfi,60,pangásos szívelégtelenség
+20068,Nõ,72,magas vérnyomás
+20067,Nõ,48,daganatos megbetegedés
+20066,Nõ,81,"tüdõembolia, magas vérnyomás, stroke"
+20065,Férfi,79,"magas vérnyomás, cukorbetegség"
+20064,Férfi,71,magas vérnyomás
+20063,Férfi,65,"krónikus obstruktív tüdõbetegség, magas vérnyomás"
+20062,Férfi,77,nem ismert alapbetegség
+20061,Férfi,56,nem ismert alapbetegség
+20060,Férfi,61,"magas vérnyomás, cukorbetegség"
+20059,Férfi,64,"cukorbetegség, krónikus hepatitis, magas vérnyomás, mûvese kezelt beteg"
+20058,Férfi,65,cukorbetegség
+20057,Nõ,85,"magas vérnyomás, cukorbetegség, elhízás, pajzsmirigy túlmûködés"
+20056,Férfi,65,"veseelégtelenség, magasvérnyomás-betegség, szívbetegség, agyi infarktus"
+20055,Férfi,70,"szívizom vérellátásának zavara, magas vérnyomás"
+20054,Férfi,61,"szívizom vérellátásának zavara, asztma, magas vérnyomás"
+20053,Férfi,72,"magas vérnyomás, szívizom vérellátásának zavara, daganatos megbetegedés"
+20052,Férfi,78,"agyi infarktus, demencia, magasvérnyomás-betegség, szívizom vérellátásának zavara, cukorbetegség"
+20051,Férfi,91,"magas vérnyomás, cukorbetegség"
+20050,Férfi,76,magas vérnyomás
+20049,Férfi,85,"magas vérnyomás, agyi infarktus"
+20048,Férfi,88,"magas vérnyomás, májbetegség"
+20047,Nõ,41,magas vérnyomás
+20046,Férfi,35,nem ismert alapbetegség
+20045,Férfi,76,"Parkinson-kór, magasvérnyomás-betegség"
+20044,Nõ,77,"magas vérnyomás, cukorbetegség, reflux betegség, szorongás, depresszió"
+20043,Nõ,64,"magas vérnyomás, cukorbetegség, aorta mûbillentyû"
+20042,Nõ,74,"magas vérnyomás, epehólyageltávolítás"
+20041,Férfi,85,"veseelégtelenség, magas vérnyomás"
+20040,Férfi,62,"cukorbetegség, érbetegség"
+20039,Férfi,72,"magas vérnyomás, szívbetegség, mélyvénás trombózis"
+20038,Férfi,59,leukémia
+20037,Nõ,72,"cukorbetegség, magas vérnyomás"
+20036,Nõ,92,"szívizom vérellátásának zavara, mélyvénás trombózis"
+20035,Nõ,83,"szívizom vérellátásának zavara, magas vérnyomás, érszûkület, demencia"
+20034,Férfi,58,tüdõ tumor
+20033,Nõ,82,"magas vérnyomás, asztma, cukorbetegség"
+20032,Nõ,59,"cukorbetegség, magas vérnyomás, asthma, veseelégtelenség"
+20031,Férfi,55,nem ismert alapbetegség
+20030,Férfi,58,hasnyálmirigy-gyulladás
+20029,Nõ,74,"veseelégtelenség, cukorbetegség, magas vérnyomás"
+20028,Férfi,76,"magasvérnyomás, daganatos megbetegedés"
+20027,Férfi,66,nem ismert alapbetegség
+20026,Férfi,71,szklerózis multiplex
+20025,Nõ,55,"magasvérnyomás, elhízás"
+20024,Nõ,72,"magas vérnyomás, cukorbetegség, májbetegség"
+20023,Férfi,52,magas vérnyomás
+20022,Nõ,64,"magasvérnyomás betegség (elsõdleges), vestibularis neuronitis"
+20021,Nõ,82,"krónikus obstruktív tüdõbetegség, mélyvénás trombózis, daganatos megbetegedés"
+20020,Nõ,37,nem ismert alapbetegség
+20019,Férfi,74,"cukorbetegség, magas vérnyomás."
+20018,Nõ,65,magas vérnyomás
+20017,Nõ,78,"cukorbetegség, magasvérnyomás-betegség, szívizom vérellátásának zavara, pangásos szívelégtelenség"
+20016,Férfi,71,tüdõbetegség
+20015,Férfi,68,"magas vérnyomás, dementia, cukorbetegség, szívizom vérellátásának zavara, Alzheimer-kór"
+20014,férfi,74,"magas vérnyomás, szívizom vérellátásának zavara"
+20013,férfi,50,"magasvérnyomás, cukorbetegség, szívritmuszavar"
+20012,nõ,65,"szívizom vérellátásának zavara, elhízás, magas koleszterin"
+20011,férfi,51,magas vérnyomás
+20010,nõ,65,"magas vérnyomás, koszorúér-betegség"
+20009,férfi,84,"magas vérnyomás, krónikus obstruktív tüdõbetegség"
+20008,nõ,71,hörgi asztma
+20007,férfi,74,"magas vérnyomás, vesebetegség"
+20006,férfi,69,"magas vérnyomás, veseelégtelenség, szívizom vérellátásának zavara"
+20005,férfi,51,magas vérnyomás
+20004,nõ,60,"magasvérnyomásbetegség, csontritkulás"
+20003,nõ,62,magasvérnyomás betegség
+20002,férfi,59,"májbetegség, magasvérnyomás-betegség"
+20001,férfi,59,"elhízás, cukorbetegség, magas vérnyomás, krónikus obstruktív tüdõbetegség"
+20000,férfi,71,nem ismert alapbetegség
+19999,férfi,72,"porckorongsérv, bõrgyulladás"
+19998,férfi,68,magas vérnyomás
+19997,nõ,78,magas vérnyomás
+19996,nõ,65,cukorbetegség
+19995,férfi,54,magasvérnyomás betegség
+19994,nõ,91,combnyaktörés
+19993,férfi,49,magas vérnyomás
+19992,férfi,65,magas vérnyomás
+19991,nõ,50,"magas vérnyomás, asztma, kisagyi stroke"
+19990,férfi,54,"kóros elhízás, pajzsmirigy-alulmûködés, pajzsmirigygyulladás"
+19989,nõ,67,"magas vérnyomás, pajzsmirigygyulladás"
+19988,nõ,73,"magas vérnyomás, epilepszia"
+19987,férfi,60,veseelégtelenség
+19986,nõ,48,"magas vérnyomás, kóros elhízás"
+19985,férfi,69,magas vérnyomás
+19984,férfi,76,"magas vérnyomás, cukorbetegség, trombózis"
+19983,nõ,75,"szívbetegség, magasvérnyomás-betegség, szívizom vérellátásának zavara"
+19982,nõ,60,"méhelváltozás, magas vérzsírzint, magas vérnyomás,"
+19981,férfi,72,"kóros elhízás, magas vérnyomás"
+19980,nõ,61,"magas vérnyomás, cukorbetegség"
+19979,férfi,71,májbetegség
+19978,férfi,85,"magas vérnyomás, cukorbetegség"
+19977,férfi,78,"veseelégtelenség, szívbetegség, magas vérnyomás, krónikus obstruktív tüdõbetegség"
+19976,férfi,54,nem ismert alapbetegség
+19975,férfi,52,nem ismert alapbetegség
+19974,nõ,63,magas vérzsírszint
+19973,férfi,72,"magas vérnyomás, szívbetegség, cukorbetegség, szívizom vérellátásának zavara, krónikus veseelégtelenség"
 19972,Nõ,93,"magas vérnyomás, krónikus hasnyálmirigy-gyulladás, krónikus gyomorhurut, kétoldali vesemedence tágulat, idült hólyaggyulladás, teljes méheltávolítás, általános érelmeszesedés"
 19971,Férfi,64,"magas vérnyomás, 2-es típusú cukorbetegség, magas vérzsírszint, alsó végtagi verõérbetegség"
 19970,Férfi,87,visszér betegség
