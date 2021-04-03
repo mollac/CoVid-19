@@ -1,4 +1,246 @@
 Sorszám,Nem,Kor,Alapbetegségek
+21504,Férfi,82,"hörghurut, tüdõbetegség, májbetegség, cukorbetegség"
+21503,Férfi,69,"májelégtelenség, pitvarfibrilláció, cukorbetegség, krónikus veseelégtelenség, tüdõbetegség"
+21502,Férfi,54,magasvérnyomás-betegség
+21501,Nõ,86,"magasvérnyomás-betegség, pitvarfibrilláció, Parkinson-kór, elhízás, pajzsmirigybetegség"
+21500,Nõ,72,"magasvérnyomás-betegség, szívbetegség"
+21499,Nõ,86,"demencia, magasvérnyomás-betegség, szívbetegség"
+21498,Nõ,79,"magasvérnyomás-betegség, cukorbetegség, érelmeszesedés"
+21497,Férfi,80,"daganatos betegség, reflux"
+21496,Férfi,83,"veseelégtelenség, cukorbetegség"
+21495,Nõ,71,magasvérnyomás-betegség
+21494,Nõ,56,"extrém elhízás, cukorbetegség, magasvérnyomás-betegség, májbetegség"
+21493,Nõ,68,"szívbetegség, magasvérnyomás-betegség, pitvarfibrilláció, mitrális mûbillentyû"
+21492,Nõ,78,"szívbetegség, daganatos betegség"
+21491,Nõ,92,"cukorbetegség, magasvérnyomás-betegség, szívbetegség, pangásos szívelégtelenség"
+21490,Nõ,86,"magasvérnyomás-betegség, pajzsmirigybetegség"
+21489,Nõ,82,"tüdõbetegség, daganatos megbetegedés"
+21488,Nõ,83,nem ismert alapbetegség
+21487,Nõ,72,"magasvérnyomás-betegség, elhízás"
+21486,Nõ,80,"Parkinson-kór, szívbetegség, magasvérnyomás-betegség"
+21485,Férfi,76,daganatos megbetegedés
+21484,Nõ,83,"szívbetegség, magasvérnyomás-betegség, cukorbetegség"
+21483,Férfi,78,"epilepszia, cukorbetegség"
+21482,Férfi,97,"szívbetegség, cukorbetegség, veseelégtelenség, magasvérnyomás-betegség"
+21481,Nõ,88,"szívbetegség, veseelégtelenség, magas vérzsírszint, érelmeszesedés"
+21480,Férfi,77,"magasvérnyomás-betegség, cukorbetegség, szív- és érrendszeri betegség, Parkinson-kór"
+21479,Férfi,63,"cukorbetegség, veseelégtelenség"
+21478,Férfi,66,tüdõbetegség
+21477,Nõ,78,"tüdõbetegség, elhízás, magasvérnyomás-betegség"
+21476,Férfi,93,"magasvérnyomás-betegség, tüdõbetegség, Parkinson-kór"
+21475,Férfi,88,magasvérnyomás-betegség
+21474,Nõ,63,"szívelégtelenség, hörghurut, cukorbetegség, magasvérnyomás-betegség"
+21473,Férfi,66,"gyomorgyulladás, heveny hörghurut, magasvérnyomás-betegség, demencia"
+21472,Férfi,78,"magasvérnyomás-betegség, tüdõbetegség, keringési zavar, infarktus, szívbetegség, daganatos megbetegedés"
+21471,Nõ,90,"magasvérnyomás-betegség, magas vérzsírszint, érszûkület, iszkémiás szívbetegség, pitvarfibrilláció"
+21470,Nõ,87,"magasvérnyomás-betegség, daganatos megbetegedés"
+21469,Férfi,81,"cukorbetegség, stroke, magas vérzsírszint"
+21468,Férfi,73,"daganatos betegség, általános érszûkület, gyomorfekély"
+21467,Nõ,78,"magasvérnyomás-betegség, cukorbetegség, veseelégtelenség, májbetegség"
+21466,Nõ,89,"magasvérnyomás-betegség, cukorbetegség, tüdõbetegség, pitvarfibrilláció"
+21465,Nõ,71,"cukorbetegség, pajzsmirigybetegség, daganatos megbetegedés"
+21464,Nõ,67,"magasvérnyomás-betegség, pitvarfibrilláció, szívelégtelenség, veseelégtelenség"
+21463,Nõ,95,magasvérnyomás-betegség
+21462,Férfi,80,nem ismert alapbetegség
+21461,Nõ,83,daganatos megbetegedés
+21460,Nõ,60,magasvérnyomás-betegség
+21459,Férfi,69,"cukorbetegség, magasvérnyomás-betegség"
+21458,Férfi,85,pitvarfibrilláció
+21457,Férfi,70,"cukorbetegség, magasvérnyomás-betegség, szívelégtelenség, elhízás, vérszegénység"
+21456,Nõ,72,"magas vérnyomás, cukorbetegség, elhízás"
+21455,Nõ,60,"magasvérnyomás-betegség, cukorbetegség, gerincmeszesedés, veseelégtelenség"
+21454,Férfi,69,nem ismert alapbetegség
+21453,Nõ,84,"cukorbetegség, agyi infarktus, pajzsmirigybetegség"
+21452,Férfi,83,"cukorbetegség, magasvérnyomás-betegség, daganatos megbetegedés"
+21451,Férfi,70,"érelmeszesedés, hörghurut"
+21450,Férfi,66,"magasvérnyomás-betegség, cukorbetegség"
+21449,Férfi,63,"magas vérnyomás, idült iszkémiás szívbetegség"
+21448,Nõ,72,"tüdõbetegség, elhízás, szív és érrendszeri betegség, magasvérnyomás-betegség"
+21447,Nõ,84,"asztma, szívbetegség, veseelégtelenség"
+21446,Nõ,82,"cukorbetegség, magas vérnyomás, verõérszûkület"
+21445,Férfi,66,"demencia, májbetegség"
+21444,Nõ,76,cukorbetegség
+21443,Nõ,78,"magasvérnyomás-betegség, fekélyes vastagbélgyulladás, krónikus veseelégtelenség"
+21442,Férfi,73,"magasvérnyomás-betegség, cukorbetegség"
+21441,Férfi,79,"szív és érrendszeri betegség, pitvarfibrilláció, pajzsmirigy betegség, depresszió"
+21440,Nõ,74,"rekeszsérv, reflux"
+21439,Nõ,88,"magasvérnyomás-betegség, demencia"
+21438,Nõ,78,magasvérnyomás-betegség
+21437,Nõ,87,magasvérnyomás-betegség
+21436,Nõ,74,"magasvérnyomás-betegség, szívbetegség"
+21435,Férfi,71,"szív- és érrendszeri betegség, cukorbetegség, magas vérzsírszit, vesebetegség, magasvérnyomás-betegség, érszûkület"
+21434,Férfi,53,magasvérnyomás-betegség
+21433,Nõ,65,"magasvérnyomás-betegség, cukorbetegség"
+21432,Nõ,43,nem ismert alapbetegség
+21431,Nõ,87,"magasvérnyomás-betegség, cukorbetegség krónikus veseelégtelenség, szívbetegség, érszûkület"
+21430,Nõ,82,"magasvérnyomás-betegség, szív- és érrendszeri betegség, visszér"
+21429,Nõ,80,"szív- és érrendszeri betegség, érszûkület"
+21428,Nõ,72,"magasvérnyomás-betegség, ütõérszûkület"
+21427,Férfi,75,"magasvérnyomás-betegség, szív és érrendszeri betegség, infarktus, Parkinson-kór"
+21426,Férfi,74,"magasvérnyomás-betegség, prosztata megnagyobbodás"
+21425,Nõ,71,daganatos megbetegedés
+21424,Férfi,81,"magasvérnyomás-betegség, prosztata megnagyobbodás, szívbetegség, demencia, pajzsmirigy betegség, Alzheimer-kór, nyaki verõér szûkület"
+21423,Férfi,65,"magasvérnyomás-betegség, vesebetegség, májbetegség, érszûkület"
+21422,Nõ,74,"májbetegség, magasvérnyomás-betegség"
+21421,Nõ,81,"szív- és érrendszeri betegség, tüdõbetegség, agyi keringési zavar"
+21420,Férfi,67,"tüdõbetegség, ízületi betegség, cukorbetegség, magasvérnyomás-betegség, daganatos betegség"
+21419,Férfi,80,"mozgásszervi betegség, szívbetegség, agyi érelmeszesedés, hasnyálmirigy-gyulladás"
+21418,Nõ,79,"magasvérnyomás-betegség, szívbetegség, pitvarfibrilláció, pajzsmirigybetegség, daganatos betegség, elhízás"
+21417,Férfi,80,"magasvérnyomás-betegség, tüdõbetegségek, szívbetegség"
+21416,Férfi,62,"magasvérnyomás-betegség, szívbetegség, cukorbetegség"
+21415,Férfi,72,ízületi betegségek
+21414,Nõ,83,"magasvérnyomás-betegség, cukorbetegség"
+21413,Férfi,87,"magasvérnyomás-betegség, cukorbetegség, daganatos betegség, nyelõcsõ visszér, májbetegség"
+21412,Nõ,60,"magasvérnyomás-betegség, cukorbetegség, veseelégtelenség"
+21411,Férfi,82,cukorbetegség
+21410,Nõ,77,"agyi infarktus, féloldali bénulás, magasvérnyomás-betegség, érszûkület, epilepszia"
+21409,Nõ,88,"magasvérnyomás-betegség, pitvarfibrilláció, szív- és érrendszeri betegség, tüdõbetegség"
+21408,Férfi,58,nem ismert alapbetegség
+21407,Nõ,66,"magasvérnyomás-betegség, daganatos megbetegedés"
+21406,Nõ,62,"cukorbetegég, daganatos megbetegedés"
+21405,Nõ,65,magasvérnyomás-betegség
+21404,Nõ,61,"magasvérnyomás-betegség, cukorbetegség, csontritkulás, veseelégtelenség"
+21403,Férfi,81,"magasvérnyomás-betegség, depresszió, agyi érelmeszesedés"
+21402,Nõ,73,magasvérnyomás-betegség
+21401,Nõ,85,"pitvarfibrilláció, magasvérnyomás-betegség, agyi infarktus, depresszió"
+21400,Férfi,84,"agyi keringési zavar, gyomorfekély"
+21399,Férfi,70,"magasvérnyomás-betegség, szívbetegség, vérképzés zavara"
+21398,Férfi,78,magasvérnyomás-betegség
+21397,Nõ,75,"elhízás, magasvérnyomás-betegség, agyi keringési zavar"
+21396,Nõ,76,"érszûkület, agyi keringési zavar, daganatos betegség, csontritkulás"
+21395,Nõ,50,"magasvérnyomás-betegség, cukorbetegség, kóros elhízás"
+21394,Nõ,92,"magasvérnyomás-betegség, gerincmeszesedés, tüdõembólia"
+21393,Férfi,69,"magasvérnyomás-betegség, szívbetegség, cukorbetegség, daganatos betegség"
+21392,Férfi,65,"magas vérzsírszint, szívbetegség"
+21391,Nõ,85,magasvérnyomás-betegség
+21390,Férfi,79,"cukorbetegség, pitvarfibrilláció"
+21389,Nõ,54,nem ismert alapbetegség
+21388,Nõ,86,"pajzsmirigybetegség, szív és érrendszeri betegség"
+21387,Nõ,92,szív- és érrendszeri betegség
+21386,Férfi,65,"pangásos szívelégtelenség, pitvarfibrilláció, veseelégtelenség, cukorbetegség, agyi keringési zavar, epilepszia"
+21385,Férfi,58,"magasvérnyomás-betegség, emésztõrendszeri betegség"
+21384,Férfi,83,"magasvérnyomás-betegség, szívbetegség, mélyvénák gyulladása"
+21383,Férfi,65,"magasvérnyomás-betegség, cukorbetegség"
+21382,Nõ,86,"mentális zavar, érszûkület, tüdõbetegség"
+21381,Férfi,64,nem ismert alapbetegség
+21380,Férfi,68,"magasvérnyomás-betegség, cukorbetegség, asztma"
+21379,Nõ,92,"magasvérnyomás-betegség, agyi infarktus"
+21378,Férfi,88,"demencia, pitvarfibrilláció, alsó végtagi amputáció, vérszegénység"
+21377,Nõ,88,"agyi keringési zavar, pszichés zavar, szívbetegség, cukorbetegség"
+21376,Férfi,62,"magasvérnyomás-betegség, agyi infarktus, cukorbetegség"
+21375,Nõ,64,"daganatos megbetegedés, magasvérnyomás-betegség, cukorbetegség"
+21374,Férfi,49,kóros elhízás
+21373,Nõ,80,"magasvérnyomás-betegség, Parkinson-kór, pajzsmirigybetegség, agyi károsodás"
+21372,Férfi,56,"vesebetegség, magasvérnyomás-betegség, cukorbetegség, elhízás"
+21371,Nõ,87,"szív- és érrendszeri betegség, tüdõgyulladás, pitvarfibrilláció"
+21370,Férfi,63,"magasvérnyomás-betegség, cukorbetegség"
+21369,Férfi,74,Alzheimer-kór
+21368,Férfi,65,magasvérnyomás-betegség
+21367,Férfi,47,nem ismert alapbetegség
+21366,Nõ,80,"szívbetegség, magasvérnyomás-betegség, érelmeszesedés"
+21365,Férfi,71,"általános érelmeszesedés, szívbetegség"
+21364,Férfi,62,daganatos megbetegedés
+21363,Nõ,71,"magasvérnyomás-betegség, pajzsmirigybetegség, cukorbetegség, elhízás"
+21362,Férfi,83,magasvérnyomás-betegség
+21361,Férfi,75,"pikkelysömör, tüdõbetegség"
+21360,Nõ,79,"magasvérnyomás-betegség, krónikus vesebetegség, alsó végtagi trombózis, pajzsmirigybetegség"
+21359,Nõ,81,"vérszegénység, reflux"
+21358,Nõ,74,"daganatos betegség, magasvérnyomás-betegség, cukorbetegség, érszûkület"
+21357,Férfi,58,"pajzsmirigybetegség, Meniére-betegség"
+21356,Férfi,73,"magasvérnyomás-betegség, cukorbetegség"
+21355,Férfi,60,"magasvérnyomás-betegség, köszvény, érelmeszesedés"
+21354,Nõ,80,pajzsmirigybetegség
+21353,Nõ,65,"magasvérnyomás-betegség, elhízás"
+21352,Férfi,87,"érszûkület, tüdõbetegség, daganatos betegség"
+21351,Férfi,78,"magasvérnyomás-betegség, cukorbetegség, magasvérnyomás-betegség"
+21350,Férfi,69,"magasvérnyomás-betegség, pitvarfibrilláció, gyomormûtét"
+21349,Nõ,63,daganatos betegség
+21348,Férfi,75,prosztata megnagyobbodás
+21347,Férfi,90,"magasvérnyomás-betegség, szívbetegség, prosztata megnagyobbodás, demencia, szívelégtelenség"
+21346,Férfi,53,nem ismert alapbetegség
+21345,Nõ,70,"magasvérnyomás-betegség, agyi keringészavar, cukorbetegség, pajzsmirigy betegség"
+21344,Nõ,89,"magasvérnyomás-betegség, elhízás, csontritkulás, pajzsmirigybetegség, daganatos betegség"
+21343,Férfi,79,cukorbetegség
+21342,Nõ,85,"magasvérnyomás-betegség, demencia, magas vérzsírszint"
+21341,Férfi,67,magasvérnyomás-betegség
+21340,Férfi,65,"magasvérnyomás-betegség, szívbetegség, balkamra elégtelenség, Crohn-betegség"
+21339,Férfi,68,"stroke, pitvarfibrilláció"
+21338,Férfi,48,magasvérnyomás-betegség
+21337,Férfi,78,"magasvérnyomás-betegség, Parkinson-kór, szívbetegség"
+21336,Nõ,74,magasvérnyomás-betegség
+21335,Férfi,82,tüdõbetegség
+21334,Férfi,80,"magasvérnyomás-betegség, cukorbetegség"
+21333,Férfi,87,cukorbetegség
+21332,Férfi,50,magasvérnyomás-betegség
+21331,Férfi,88,tüdõrák többszerû áttétel
+21330,Nõ,73,magasvérnyomás-betegség
+21329,Férfi,65,"cukorbetegség, fekélyes vastagbélgyulladás"
+21328,Férfi,78,"májgyulladás, vesegyulladás, porckopás, pitvarfibrilláció"
+21327,Nõ,55,"cukorbetegség, skizofrénia és depresszió miatti pszichiátriai gondozás"
+21326,Férfi,78,"magas vérnyomás, cukorbetegség"
+21325,Férfi,67,"magasvérnyomás-betegség, teljes gégeeltávolítás"
+21324,Nõ,56,"magasvérnyomás-betegség, pitvarfibrilláció, elhízás, pangásos szívelégtelenség"
+21323,Férfi,72,"magasvérnyomás-betegség, cukorbetegség"
+21322,Nõ,76,"daganatos betegség, pitvarfibrillácó, szívbetegség, magasvérnyomás-betegség, veseelégtelenség"
+21321,Férfi,66,"cukorbetegség, magasvérnyomás-betegség, szívbetegség, érszûkület, tüdõtágulat, idült obstruktív tüdõbetegség"
+21320,Férfi,63,"magasvérnyomás-betegség, veseelégtelenség, ízületi betegség"
+21319,Férfi,89,"magasvérnyomás-betegség, szívinfarktus, szívelégtelenség"
+21318,Férfi,58,"cukorbetegség, magasvérnyomás-betegség"
+21317,Nõ,53,"asztma, tüdõbetegség"
+21316,Férfi,44,"cukorbetegség, fekélyes vastagbélgyulladás"
+21315,Nõ,80,"magasvérnyomás-betegség, agyi keringészavar"
+21314,Férfi,55,"magasvérnyomás-betegség, cukorbetegség"
+21313,Férfi,77,"magasvérnyomás-betegség, pitvarfibrilláció, vérszegénység"
+21312,Férfi,74,"daganatos betegség, infarktus, agyi sorvadás, érelmeszesedés, magasvérnyomás-betegség"
+21311,Férfi,68,"magasvérnyomás-betegség, szív és érrendszeri betegség, cukorbetegség"
+21310,Nõ,85,"magasvérnyomás-betegség, hörghurut, ízületi gyulladás"
+21309,Férfi,73,daganatos megbetegedés
+21308,Férfi,62,magasvérnyomás-betegség
+21307,Férfi,67,"magasvérnyomás-betegség, ízületi megbetegedés, elhízás"
+21306,Nõ,54,"magasvérnyomás-betegség, elhízás"
+21305,Nõ,50,"pajzsmirigybetegség, extrém elhízás"
+21304,Férfi,57,"daganatos betegség, magasvérnyomás-betegség"
+21303,Nõ,76,"magasvérnyomás-betegség, pangásos szívelégtelenség, krónikus obstruktív tüdõbetegség"
+21302,Férfi,75,"magasvérnyomás-betegség, cukorbetegség"
+21301,Férfi,59,"magasvérnyomás-betegség, cukorbetegség, pitvarfibrilláció"
+21300,Nõ,69,"magasvérnyomás-betegség, cukorbetegség"
+21299,Nõ,76,"cukorbetegség, elhízás, magasvérnyomás-betegség, általános érelmeszesedés"
+21298,Férfi,68,magasvérnyomás-betegség
+21297,Nõ,75,"cukorbetegség, daganatos betegség"
+21296,Nõ,83,"magasvérnyomás-betegség, vérképzés zavara"
+21295,Férfi,83,"szívelégtelenség, magasvérnyomás-betegség, cukorbetegség , szív- és érrendszeri betegség, veseelégtelenség"
+21294,Férfi,75,"szívbetegség, cukorbetegség, magasvérnyomás-betegség"
+21293,Férfi,59,"szívbetegség, magasvérnyomás-betegség, pitvarfibrilláció, cukorbetegség, hörghurut, elhízás"
+21292,Férfi,65,"gyomorfekély, gyomorhurut, szív- és érrendszeri betegség"
+21291,Férfi,81,"magasvérnyomás-betegség, cukorbetegség, infarktus, pangásos szívelégtelenség, pitvarfibrilláció, tüdõbetegség"
+21290,Nõ,71,nem ismert alapbetegség
+21289,Férfi,86,daganatos megbetegedés
+21288,Férfi,47,magasvérnyomás-betegség
+21287,Férfi,73,"magasvérnyomás-betegség, cukorbetegség, szívbetegség, Alzheimer-kór"
+21286,Férfi,30,nem ismert alapbetegség
+21285,Férfi,85,"magasvérnyomás-betegség, szívbetegség, reflux, hasnyálmirigy-gyulladás"
+21284,Nõ,82,"pajzsmirigybetegség, szívbetegség, agyi érelmeszesedés"
+21283,Férfi,73,"veseelégtelenség, magasvérnyomás-betegség, pitvarfibrilláció, szívbetegség"
+21282,Nõ,72,nem ismert alapbetegség
+21281,Nõ,58,"magasvérnyomás-betegség, cukorbetegség, pajzsmirigybetegség"
+21280,Férfi,46,"magasvérnyomás-betegség, szívbetegség, cukorbetegség, ízületi betegség, elhízás, szorongásos zavar"
+21279,Nõ,48,elhízás
+21278,Nõ,68,"magasvérnyomás-betegség, pitvarfibriláció, extrém elhízás"
+21277,Férfi,60,nem ismert alapbetegség
+21276,Nõ,82,"magasvérnyomás-betegség, pitvaribrilláció"
+21275,Nõ,76,"daganatos megbetegedés, magasvérnyomás-betegség"
+21274,Férfi,51,máj- és vesebetegség
+21273,Férfi,65,magasvérnyomás-betegség
+21272,Nõ,88,"magasvérnyomás-betegség, pajzsmirigybetegség"
+21271,Nõ,81,"magasvérnyomás-betegség, szívbetegség, cukorbetegség, depresszió, gerincmeszesedés, reflux"
+21270,Férfi,59,"magasvérnyomás-betegség, pajzsmirigybetegség, depresszió"
+21269,Férfi,65,tüdõbetegség
+21268,Férfi,62,"magasvérnyomás-betegség, pitvarfibrilláció, cukorbetegség"
+21267,Férfi,69,"magasvérnyomás-betegség, szív- és érrendszeri betegség"
+21266,Férfi,84,"magasvérnyomás-betegség, demencia"
+21265,Nõ,81,"magasvérnyomás-betegség, szívbetegség"
+21264,Férfi,77,"magasvérnyomás-betegség, cukorbetegség, tüdõbetegség"
+21263,Nõ,76,"magasvérnyomás-betegség, cukorbetegség, pitvarfibrillació, vérszegénység, daganatos betegség, krónikus veseelégtelenség"
 21262,Nõ,91,"szívritmuszavar, daganatos megbetegedés"
 21261,Nõ,83,magasvérnyomás-betegség
 21260,Nõ,82,"gyomorbetegség, cukorbetegség, magasvérnyomás-betegség"
