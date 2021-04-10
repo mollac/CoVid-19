@@ -11,6 +11,7 @@ import sys
 import pydeck as pdk
 import folium
 import time
+import seaborn as sns
 
 st.set_page_config(initial_sidebar_state="collapsed", layout="wide")
 
@@ -224,7 +225,6 @@ fig = plt.figure(figsize=(16, 8))
 
 x = range(0, df.shape[0])
 y = df.index.strftime("%Y-%m-%d")
-
 plt.plot(x, df['Cases'], label=f'Cases', color = 'blue')
 plt.plot(x, df['Active'], label='Active', color = 'red')
 plt.plot(x, df['Recovered'], label='Recovered', color = 'green')
@@ -303,9 +303,10 @@ if the_country == 'Hungary':
     except:
         df = pd.read_csv('https://raw.githubusercontent.com/mollac/CoVid-19/master/korona_megyei.csv', sep=',')
 
+    
     datumok = df['Dátum']
     df = df.set_index('Dátum', drop = True)
-    
+
     st.subheader('Új esetek megyénként')
     last2 = df.T.iloc[:,-2:]
     last2['Változás'] = last2.iloc[:,1] - last2.iloc[:,0]
@@ -330,7 +331,7 @@ if the_country == 'Hungary':
         
         for i, megye in enumerate(megyek):
             x = range(0, df[megye].shape[0])
-            fig = plt.figure(figsize=(10,6))
+            fig = plt.figure(figsize=(8,6))
             plt.plot(df[megye], color='red')
             plt.title(megye)
             plt.xticks(x, datumok, rotation='vertical')
