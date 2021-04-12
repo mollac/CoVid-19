@@ -11,7 +11,8 @@ import sys
 import pydeck as pdk
 import folium
 import time
-import seaborn as sns
+import altair as alt
+
 
 st.set_page_config(initial_sidebar_state="collapsed", layout="wide")
 
@@ -225,6 +226,7 @@ fig = plt.figure(figsize=(16, 8))
 
 x = range(0, df.shape[0])
 y = df.index.strftime("%Y-%m-%d")
+
 plt.plot(x, df['Cases'], label=f'Cases', color = 'blue')
 plt.plot(x, df['Active'], label='Active', color = 'red')
 plt.plot(x, df['Recovered'], label='Recovered', color = 'green')
