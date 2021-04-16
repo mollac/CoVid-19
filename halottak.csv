@@ -1,4 +1,260 @@
 Sorszám,Nem,Kor,Alapbetegségek
+24521,férfi,63,"agyi infarktus, általános érelmeszesedés"
+24520,férfi,62,"magasvérnyomás-betegség, idült hörghurut, tágulásos szívizombetegség"
+24519,férfi,61,"epilepszia, daganatos megbetegedés"
+24518,nõ,41,"cukorbetegség, vesebetegség"
+24517,férfi,64,"magasvérnyomás-betegség, cukorbetegség, krónikus veseelégtelenség"
+24516,nõ,82,"magasvérnyomás-betegség, krónikus obstruktív tüdõbetegség"
+24515,nõ,98,"magasvérnyomás-betegség, daganatos megbetgedés, mélyvénás trombózis"
+24514,férfi,74,"krónikus obstruktív tüdõbetegség, szívritmuszavar, cukorbetegség, magasvérnyomás-betegség, kóros elhízás"
+24513,nõ,67,"magasvérnyomás-betegség, iszkémiás szívbetegség"
+24512,nõ,58,"epilepszia, magasvérnyomás-betegség, agyi vérkeringési zavar"
+24511,nõ,82,"magasvérnyomás-betegség, szívritmuszavar, daganatos megbetegedés"
+24510,férfi,67,"magasvérnyomás-betegség, daganatos megbetegedés"
+24509,férfi,79,"nyombélfekély, magasvérnyomás-betegség"
+24508,nõ,78,"magasvérnyomás-betegség, iszkémiás szívbetegség, demencia, pajzsmirigy-alulmûködés, daganatos megbetegedés"
+24507,férfi,85,"magasvérnyomás-betegség, szívritmuszavar, cukorbetegség, anyagcseremûködés zavara, demencia"
+24506,nõ,68,"magasvérnyomás-betegség, krónikus veseelégtelenség, érelmeszesedés"
+24505,nõ,82,"iszkémiás szívbetegség, pangásos szívelégtelenség, krónikus obstruktív tüdõbetegség"
+24504,férfi,79,"magasvérnyomás-betegség, cukorbetegség, kóros elhízás"
+24503,nõ,80,"fekélyes vastagbél-gyulladás, krónikus veseelégtelenség"
+24502,férfi,66,"magasvérnyomás-betegség, stroke, cukorbetegség"
+24501,férfi,87,daganatos megbetegedés
+24500,férfi,48,Down-kór
+24499,nõ,66,"magasvérnyomás-betegség, cukorbetegség, iszkémiás szívbetegség"
+24498,férfi,48,magasvérnyomás-betegség
+24497,férfi,93,"krónikus obstruktív tüdõbetegség, asztma, szívritmuszavar, cukorbetegség"
+24496,nõ,76,"cukorbetegség, iszkémiás szívbetegség"
+24495,férfi,72,"magasvérnyomás-betegség, depresszió"
+24494,nõ,85,"érelmeszesedés, daganatos megbetegedés"
+24493,férfi,92,"cukorbetegség, szívritmuszavar, pangásos szívelégtelenség, érszûkület"
+24492,nõ,77,"pajzsmirigy-alulmûködés, magasvérnyomás-betegség, iszkémiás szívbetegség"
+24491,nõ,84,"magasvérnyomás-betegség, cukorbetegség, gyomor-, nyelõcsõ reflux, szívritmuszavar"
+24490,férfi,87,"krónikus obstruktív tüdõbetegség, szív- és érrendszeri megbegbetegedés, prosztata túltengés, krónikus veseelégtelenség"
+24489,férfi,55,"szív- és érrendszeri megbegbetegedés, krónikus obstruktív tüdõbetegség, kóros elhízás"
+24488,férfi,21,autizmus
+24487,férfi,71,"magasvérnyomás-betegség, cukorbetegség, érszûkület, szívelégtelenség"
+24486,férfi,71,"magasvérnyomás-betegség, cukorbetegség, korábbi stroke"
+24485,férfi,67,"szívritmuszavar, depresszió, érrendszeri megbetegedés"
+24484,nõ,76,"magasvérnyomás-betegség, agyi infarktus"
+24483,nõ,55,adat feltöltés alatt
+24482,nõ,87,"átalános érelmeszesedés, szívritmuszavar, magasvérnyomás-betegség, krónikus veseelégtelenség"
+24481,férfi,72,"magasvérnyomás-betegség, agyi infarktus, mentálhigiénés megbetegedés"
+24480,nõ,71,"agyi infarktus, magasvérnyomás-betegség, cukorbetegség, gyomor-, nyelõcsõ reflux, anyagcseremûködés zavara, érrendszeri megbetegedések"
+24479,férfi,60,"magasvérnyomás-betegség, cukorbetegség, anyagcseremûködés zavara"
+24478,férfi,77,magasvérnyomás-betegség
+24477,férfi,73,"magasvérnyomás-betegség, szívritmuszavar, krónikus veseelégtelenség"
+24476,férfi,90,"daganatos megbetegedés, cukorbetegség, pajzsmirigy-alulmûködés"
+24475,férfi,70,"magasvérnyomás-betegség, iszkémiás szívbetegség, Parkinson-kór, anyagcseremûködés zavara"
+24474,nõ,83,daganatos megbetegedés
+24473,férfi,67,magasvérnyomás-betegség
+24472,nõ,72,"magasvérnyomás-betegség, cukorbetegség, iszkémiás szívbetegség"
+24471,férfi,73,"magasvérnyomás-betegség, anyagcseremûködés zavara, daganatos megbetegedés"
+24470,nõ,70,"magasvérnyomás-betegség, cukorbetegség"
+24469,férfi,69,"érelmeszesedés, akut veseelégtelenség, magasvérnyomás-betegség"
+24468,nõ,61,"agyi infarktus, magasvérnyomás-betegség, iszkémiás szívbetegség, cukorbetegség, krónikus veseelégtelenség"
+24467,nõ,83,"magasvérnyomás-betegség, iszkémiás szívbetegség"
+24466,férfi,60,"Down-szindróma, veleszületett rekeszsérv"
+24465,férfi,81,"magasvérnyomás-betegség, iszkémiás szívbetegség"
+24464,férfi,72,"krónikus obstruktív tüdõbetegség, daganatos megbetegedés"
+24463,férfi,83,"magasvérnyomás-betegség, érelmeszesedés, krónikus veseelégtelenség"
+24462,nõ,44,"kóros elhízás, pajzsmirigy-alulmûködés, iszkémiás szívbetegség"
+24461,férfi,79,magasvérnyomás-betegség. cukorbetegség. iszkémiás szívbetegség
+24460,férfi,76,"krónikus obstruktív tüdõbetegség, magasvérnyomás-betegség, pacemaker beültetés"
+24459,férfi,65,"magasvérnyomás-betegség, cukorbetegség, agyi vérkeringési zavar"
+24458,nõ,83,"szívritmuszavar, általános érelmeszesedés,demencia"
+24457,nõ,79,"magasvérnyomás-betegség, cukorbetegség"
+24456,nõ,84,"magasvérnyomás-betegség, iszkémiás szívbetegség, érelmeszesedés"
+24455,nõ,70,"cukorbetegség, magasvérnyomás-betegség"
+24454,nõ,92,nem ismert alapbetegség
+24453,nõ,88,"magasvérnyomás-betegség, cukorbetegség, demencia, agyi infarktus"
+24452,nõ,89,"agyi érelmeszesedés, nyombélfekély, gyomor-, nyelõcsõ reflux, krónikus obstruktív tüdõbetegség, demencia"
+24451,férfi,73,"magasvérnyomás-betegség, cukorbetegség, gyomor-, nyelõcsõ reflux, korábbi stroke, demencia, krónikus vesebetegség"
+24450,nõ,91,adat feltöltés alatt
+24449,nõ,85,"magasvérnyomás-betegség, krónikus obstruktív tüdõbetegség, iszkémiás szívbetegség, szívritmuszavar"
+24448,nõ,55,adat feltöltés alatt
+24447,nõ,78,adat feltöltés alatt
+24446,férfi,78,"idült hasnyálmirigy-gyulladás, agyi infarktus"
+24445,nõ,83,"demencia, Alzheimer-kór"
+24444,férfi,82,korábban tüdõembólia miatti kezelés
+24443,nõ,71,"krónikus obstruktív tüdõbetegség, magasvérnyomás-betegség"
+24442,férfi,89,"magasvérnyomás-betegség, cukorbetegség, iszkémiás szívbetegség, szívkoszorúér-betegség"
+24441,férfi,85,krónikus veseelégtelenség
+24440,nõ,74,"magasvérnyomás-betegség, cukorbetegség"
+24439,férfi,75,"magasvérnyomás-betegség, krónikus obstruktív tüdõbetegség"
+24438,nõ,54,"magasvérnyomás-betegség, cukorbetegség, epilepszia, demencia"
+24437,nõ,74,magasvérnyomás-betegség
+24436,férfi,80,"szívritmuszavar, cukorbetegség, iszkémiás szívbetegség"
+24435,nõ,62,"cukorbetegség, magasvérnyomás-betegség"
+24434,nõ,62,"magasvérnyomás-betegség, fekelyes vastagbél-gyulladás, szívritmuszavar"
+24433,férfi,87,"magasvérnyomás-betegség, agyi infarktus, általános érelmeszedeés"
+24432,férfi,88,"magasvérnyomás-betegség, cukorbetegség, daganatos megbetegedés, általános érelmeszesedés"
+24431,férfi,52,"krónikus obstruktív tüdõbetegség, mélyvénás trombózis"
+24430,nõ,70,magasvérnyomás-betegség
+24429,nõ,26,"felnõttkori légzési nehézség, Down-szindróma"
+24428,nõ,65,adat feltöltés alatt
+24427,férfi,65,"magasvérnyomás-betegség, kóros elhízás"
+24426,nõ,69,adat feltöltés alatt
+24425,férfi,65,"cukorbetegség, magasvérnyomás-betegség, anyagcseremûködés zavara, májbetegség, hasnyálmirigy-gyulladás, asztma"
+24424,nõ,60,"magasvérnyomás-betegség, cukrobetegség, krónikus veseelégtelenség"
+24423,férfi,91,adat feltöltés alatt
+24422,férfi,74,"cukorbetegség, magasvérnyomás-betegség"
+24421,férfi,56,adat feltöltés alatt
+24420,nõ,97,"stroke, magasvérnyomás-betegség, cukorbetegség"
+24419,férfi,73,"magasvérnyomás-betegség, cukorbetegség"
+24418,nõ,80,"magasvérnyomás-betegség, cukorbetegség, anyagcseremûködés zavara, szívritmuszavar, többszöri mélyvénás trómbózis"
+24417,nõ,72,"Sjögren-szindróma, magasvérnyomás-betegség, lépmegnagyobbodás"
+24416,nõ,68,"magasvérnyomás-betegség, cukorbetegség, daganatos megbetegedés, demencia"
+24415,férfi,44,"magasvérnyomás-betegség, cukorbetegség, anyagcseremûködés zavara"
+24414,nõ,72,adat feltöltés alatt
+24413,férfi,46,magasvérnyomás-betegség
+24412,férfi,73,"magasvérnyomás-betegség, agyi vérkeringési zavar"
+24411,nõ,85,magasvérnyomás-betegség
+24410,férfi,81,"szívritmuszavar, pajzsmirigy-túlmûködés, pajzsmirigybetegség"
+24409,férfi,90,"cukorbetegség, eméstõszervi megbetegedések, agyi vérkeringési zavar"
+24408,férfi,66,adat feltöltés alatt
+24407,férfi,49,adat feltöltés alatt
+24406,nõ,64,daganatos megbetegedés
+24405,nõ,82,"ütõérszûkület, magasvérnyomás-betegség, krónikus obstruktív tüdõbetegség, szívritmuszavar, daganatos megbetegedés"
+24404,férfi,70,szívbillentyû betegség
+24403,férfi,61,adat feltöltés alatt
+24402,férfi,58,"magasvérnyomás-betegség, idült alkoholizmus, májbetegség"
+24401,férfi,45,"iszkémiás szívbetegség, krónikus obstruktív tüdõbetegség, cukorbetegség, kóros soványság"
+24400,férfi,83,"agyi infarktus, szívritmuszavar, Parkinson-kór, demencia, krónikus veseelégtelenség"
+24399,nõ,71,"magasvérnyomás-betegség, daganatos megbetegedés"
+24398,nõ,64,"magasvérnyomás-betegség, szívritmuszavar, daganatos megbetegedés"
+24397,férfi,69,"magasvérnyomás-betegség, cukorbetegség, daganatos megbetegedés, jobb vese eltávolítás, szívritmuszavar"
+24396,férfi,70,nem ismert alapbetegség
+24395,nõ,84,"iszkémiás szívbetegség, magasvérnyomás-betegség, stroke"
+24394,férfi,72,"magasvérnyomás-betegség, emésztõszervi megbetegedések"
+24393,nõ,74,"Parkinson-kór, agyi infarktus"
+24392,férfi,61,"magasvérnyomás-betegség, krónikus obstruktív tüdõbetegség, daganatos megbetegedés, májbetegség"
+24391,nõ,80,"cukorbetegség, magasvérnyomás-betegség"
+24390,férfi,80,"magasvérnyomás-betegség, rendszeres krónikus veseelégtelenség"
+24389,férfi,71,"magasvérnyomás-betegség, krónikus veseelégtelenség, kóros elhízás"
+24388,férfi,83,iszkémiás szívbetegség
+24387,férfi,48,"magasvérnyomás-betegség, kóros elhízás"
+24386,nõ,72,"magasvérnyomás-betegség, asztma, cukorbetegség, reflux, anyagcseremûködés zavara"
+24385,nõ,86,"magasvérnyomás-betegség, szív- és érrendszeri megbetegédes"
+24384,férfi,48,"magasvérnyomás-betegség, kóros elhízás, krónikus obstruktív tüdõbetegség"
+24383,nõ,56,"kóros elhízás, Devic-szindróma"
+24382,férfi,67,"magasvérnyomás-betegség, ütõérszûkület"
+24381,férfi,59,adat feltöltés alatt
+24380,nõ,63,adat feltöltés alatt
+24379,nõ,69,adat feltöltés alatt
+24378,férfi,91,adat feltöltés alatt
+24377,nõ,46,kóros elhízás
+24376,nõ,79,"magasvérnyomás-betegség, szív- és érrendszeri megbetegedés, asztma"
+24375,férfi,60,pajzsmirigy-alulmûködés
+24374,férfi,79,"magasvérnyomás-betegség, iszkémiás szívbetegség, szív- és érrendszeri megbetegedés, kóros elhízás"
+24373,férfi,60,"magasvérnyomás-betegség, demencia, mentálhigiénés megbetegedés"
+24372,férfi,73,adat feltöltés alatt
+24371,nõ,26,autoimmun izomgyulladás
+24370,férfi,57,adat feltöltés alatt
+24369,férfi,59,adat feltöltés alatt
+24368,férfi,70,adat feltöltés alatt
+24367,nõ,87,"krónikus veseelégtelenség, szívritmuszavar"
+24366,nõ,68,"pajzsmirigy-alulmûködés, magasvérnyomás-betegség, asztma"
+24365,nõ,81,adat feltöltés alatt
+24364,férfi,73,"magasvérnyomás-betegség, cukorbetegség, szív- és érrendszeri megbetegedés"
+24363,férfi,64,adat feltöltés alatt
+24362,nõ,76,"krónikus veseelégtelenség, magasvérnyomás-betegség, szívelégtelenség"
+24361,férfi,50,magasvérnyomás-betegség
+24360,nõ,41,nem ismert alapbetegség
+24359,nõ,76,"magasvérnyomás-betegség, szív- és érrendszeri megbetegedés"
+24358,nõ,88,"magasvérnyomás-betegség, cukorbetegség"
+24357,férfi,74,"krónikus veseelégtelenség, daganatos megbetegedés, magasvérnyomás-betegség, cukorbetegség, kóros elhízás"
+24356,férfi,76,"magasvérnyomás-betegség, szív- és érrendszeri megbetegedés"
+24355,nõ,78,krónikus obstruktív tüdõbetegség
+24354,nõ,69,magasvérnyomás-betegség
+24353,nõ,83,"magasvérnyomás-betegség, pajzsmirigy-betegség, szívritmuszavar"
+24352,nõ,86,"krónikus neurológiai betegség, nyelõcsõ reflux"
+24351,férfi,62,"magasvérnyomás-betegség, cukorbetegség"
+24350,férfi,63,anyagcseremûködés zavara
+24349,férfi,56,nem ismert alapbetegség
+24348,nõ,37,adat feltöltés alatt
+24347,nõ,51,"magasvérnyomás-betegség, kóros elhízás, cukorbetegség"
+24346,férfi,65,"májzsugorodás, krónikus veseelégtelenség, vérszegénység"
+24345,férfi,66,magasvérnyomás-betegség
+24344,férfi,71,adat feltöltés alatt
+24343,férfi,73,"magasvérnyomás-betegség, asztma, cukorbetegség, anyagcseremûködés zavara"
+24342,nõ,67,"magasvérnyomás-betegség, krónikus obstruktív tüdõbetegség"
+24341,nõ,64,nem ismert alapbetegség
+24340,nõ,72,"magasvérnyomás-betegség, cukorbetegség, asztma"
+24339,nõ,61,"szív- és érrendszeri megbetegedés, magasvérnyomás-betegség, kóros elhízás"
+24338,férfi,41,mentális retardáció
+24337,férfi,89,"szív- és érrendszeri megbetegedés, krónikus veseelégtelenség, magasvérnyomás-betegség"
+24336,férfi,70,"iszkémiás szívbetegség, cukorbetegség, magasvérnyomás-betegség, prosztata túltengés"
+24335,férfi,42,magasvérnyomás-betegség
+24334,férfi,37,adat feltöltés alatt
+24333,nõ,59,"demencia, fekélyes vastagbélgyulladás, cukorbetegség, epilepszia"
+24332,férfi,57,nem ismert alapbetegség
+24331,férfi,66,"magasvérnyomás-betegség, cukorbetegség, érrendszeri megbetegedés"
+24330,férfi,66,"magasvérnyomás-betegség, cukorbetegség, iszkémiás szívbetegség"
+24329,nõ,78,"cukorbetegség, magasvérnyomás-betegség"
+24328,nõ,67,magasvérnyomás-betegség
+24327,férfi,58,fertõzéses eredetû izületi gyulladás
+24326,férfi,84,"Alzheimer-kór, demencia"
+24325,nõ,74,"magasvérnyomás-betegség, cukorbetegség, pitvarfibrilláció"
+24324,férfi,70,"cukorbetegség, stroke, krónikus obstruktív tüdõbetegség"
+24323,nõ,76,adat feltöltés alatt
+24322,nõ,88,"magasvérnyomás-betegség, cukorbetegség"
+24321,nõ,78,"cukorbetegség, magasvérnyomás-betegség, szív- és érrendszeri megbetegedés"
+24320,férfi,69,"magasvérnyomás-betegség, cukorbetegség, krónikus obstruktív tüdõbetegség"
+24319,nõ,92,"cukorbetegség, magasvérnyomás-betegség, iszkémiás szívbetegség"
+24318,férfi,66,"magasvérnyomás-betegség, májbetegség"
+24317,férfi,66,"magasvérnyomás-betegség, krónikus obstruktív tüdõbetegség"
+24316,férfi,50,magasvérnyomás-betegség
+24315,férfi,70,nem ismert alapbetegség
+24314,férfi,69,nem ismert alapbetegség
+24313,nõ,56,"magasvérnyomás-betegség, iszkémiás szívbetegség"
+24312,férfi,70,magasvérnyomás-betegség
+24311,nõ,72,magasvérnyomás-betegség
+24310,férfi,87,magasvérnyomás-betegség
+24309,nõ,48,"krónikus obstruktív tüdõbetegség, pajzsmirigy-alulmûködés"
+24308,nõ,77,"epilepszia, magasvérnyomás-betegség"
+24307,férfi,72,mentálhigiénés megbetegedés
+24306,nõ,95,"magasvérnyomás-betegség, demencia, krónikus veseelégtelenség"
+24305,férfi,45,"korábbi szívinfarktus, magasvérnyomás-betegség"
+24304,férfi,44,nem ismert alapbetegség
+24303,nõ,86,"cukorbetegség, magasvérnyomás-betegség, krónikus bélgyulladás, Parkinson-kór"
+24302,férfi,60,"magasvérnyomás-betegség, kóros elhízás"
+24301,férfi,70,"magasvérnyomás-betegség, korábbi szívinfarktus"
+24300,férfi,68,"cukorbetegség, magasvérnyomás-betegség, rekeszsérv"
+24299,férfi,64,"magasvérnyomás-betegség, iszkémiás szívbetegség"
+24298,férfi,77,daganatos megbetegedés
+24297,férfi,72,"magasvérnyomás-betegség, cukorbetegség"
+24296,férfi,72,"magasvérnyomás-betegség, cukorbetegség, szívritmuszavar"
+24295,férfi,52,krónikus veseelégtelenség
+24294,férfi,71,"magasvérnyomás-betegség, cukorbetegség, enyhe fokú elhízás"
+24293,férfi,75,"magasvérnyomás-betegség, cukorbetegség, kóros elhízás"
+24292,nõ,36,autoimmun pajzsmirigybetegség
+24291,nõ,67,magasvérnyomás-betegség
+24290,nõ,80,demencia
+24289,férfi,92,"magasvérnyomás-betegség, szív- és érrendszeri megbetegedés"
+24288,nõ,50,nem ismert alapbetegség
+24287,férfi,63,magasvérnyomás-betegség
+24286,férfi,47,adat feltöltés alatt
+24285,férfi,50,magasvérnyomás-betegség
+24284,férfi,68,"szív- és érrendszeri megbetegedés, cukorbetegség"
+24283,férfi,73,"magasvérnyomás-betegség, cukorbetegség"
+24282,nõ,72,szív- és érrendszeri megbetegedés
+24281,férfi,72,magasvérnyomás-betegség
+24280,férfi,91,magasvérnyomás-betegség
+24279,nõ,22,gangrénás epehólyaggyulladás
+24278,férfi,69,"magasvérnyomás-betegség, szív- és érrendszeri megbetegedés"
+24277,férfi,95,szív- és érrendszeri megbetegedés
+24276,férfi,94,"krónikus vastagbélgyulladás, magasvérnyomás-betegség"
+24275,férfi,65,adat feltöltés alatt
+24274,nõ,78,"cukorbetegség, tuberkolózis, magasvérnyomás-betegség, iszkémiás szívbetegség"
+24273,férfi,59,"magasvérnyomás-betegség, cukorbetegség"
+24272,férfi,68,"daganatos megbetegedés, cukorbetegség"
+24271,férfi,61,nem ismert alapbetegség
+24270,férfi,76,"iszkémiás szívbetegség, cukorbetegség, magasvérnyomás-betegség, anyagcseremûködés zavara"
+24269,nõ,89,"magasvérnyomás-betegség, iszkémiás szívbetegség"
+24268,nõ,66,szív- és érrendszeri megbetegedés
+24267,nõ,67,"szív- és érrendszeri megbetegedés, magasvérnyomás-betegség, krónikus neurológiai betegség"
+24266,nõ,94,"szív- és érrendszeri megbetegedés, magasvérnyomás-betegség"
 24265,nõ,77,"magasvérnyomás-betegség, cukorbetegség, tüdõbetegség, szívritmuszavar"
 24264,férfi,95,tüdõbetegség
 24263,nõ,70,"magasvérnyomás-betegség, depresszió, epilepszia, kóros elhízás"
