@@ -1,4 +1,211 @@
 Sorszám,Nem,Kor,Alapbetegségek
+26208,férfi,78,"iszkémiás szívbetegség, pajzsmirigy-alulmûködés, magas vérnyomás"
+26207,férfi,66,"vérszegénység, epilepszia, demencia"
+26206,férfi,85,"magas vérnyomás, iszkémiás szívbetegség, kóros elhízás"
+26205,férfi,71,"daganatos megbetegedés, idült tüdõbetegség"
+26204,férfi,81,"magas vérnyomás, cukorbetegség"
+26203,nõ,81,daganatos megbetegedés
+26202,nõ,84,"magas vérnyomás, iszkémiás szívbetegség, Crohn-betegség"
+26201,férfi,63,nem ismert alapbetegség
+26200,nõ,73,magas vérnyomás
+26199,férfi,78,"cukorbetegség, magas vérnyomás"
+26198,nõ,83,"magas vérnyomás, cukorbetegség, krónikus obstruktív tüdõbetegség, pangásos szívelégtelenség"
+26197,férfi,93,krónikus veseelégtelenség
+26196,nõ,98,"iszkémiás szívbetegség, magas vérnyomás"
+26195,nõ,88,"magas vérnyomás, nyelõcsõfekély"
+26194,nõ,75,"magas vérnyomás, cukorbetegség"
+26193,nõ,67,"magas vérnyomás, cukorbetegség, daganatos megbetegedés"
+26192,nõ,79,"pangásos szívelégtelenség, pajzsmirigy túlmûködés"
+26191,férfi,71,"magas vérnyomás, cukorbetegség"
+26190,nõ,66,"cukorbetegség, magas-vérnyomás, pajzsmirigy betegség, pangásos szívelégtelenség"
+26189,férfi,83,"krónikus obstruktív tüdõbetegség, daganatos megbetegedés"
+26188,férfi,72,"magas vérnyomás, agyi infarktus, féloldali bénulás, epilepszia"
+26187,nõ,65,"magas vérnyomás, cukorbetegség, depresszió, kóros elhízás, érelmeszesedés"
+26186,férfi,94,"magas vérnyomás, cukorbetegség"
+26185,nõ,89,"magas vérnyomás, pitvarfibrilláció, krónikus veseelégtelenség, vérszegénység, érszûkület"
+26184,nõ,85,magas vérnyomás
+26183,nõ,85,"magas vérnyomás, krónikus veseelégtelenség, agyi infarktus következményei, kóros elhízás"
+26182,nõ,93,nem ismert alapbetegség
+26181,nõ,75,"cukorbetegség, krónikus veseelégtelenség"
+26180,férfi,63,"magasvérnyomás-betegség, pitvarfibrilláció, krónikus obstruktív tüdõbetegség"
+26179,nõ,87,magas vérnyomás
+26178,nõ,83,"magasvérnyomás-betegség, szívelégtelenség"
+26177,nõ,92,"magasvérnyomás-betegség, cukorbetegség, agyi infarktus"
+26176,férfi,93,"magas vérnyomás, iszkémiás szívbetegség"
+26175,férfi,87,magas vérnyomás és krónikus obstruktív tüdõbetegség
+26174,férfi,83,magas vérnyomás
+26173,férfi,75,"iszkémiás szívbetegség, szívelégtelenség, magas vérnyomás, Parkinson-kór"
+26172,nõ,79,"magas vérnyomás, cukorbetegség, asztma, pitvarfibrilláció, pajzsmirigy-alulmûködés"
+26171,férfi,76,"veseelégtelenség, magas vérnyomás, agyi sorvadás, érszûkület"
+26170,férfi,86,"magas vérnyomás, koszorúér elmeszesedés, pitvarremegés"
+26169,nõ,83,"magas vérnyomás, heveny szívizomelhalás, veseelégtelenség"
+26168,nõ,76,"iszkémiás szívbetegség, magas vérnyomás, krónikus obstruktív tüdõbetegség"
+26167,nõ,83,"magas vérnyomás, iszkémiás szívbetegség, pangásos szívelégtelenség"
+26166,férfi,80,"magas vérnyomás, pitvarfibrilláció, cukorbetegség, érszûkület"
+26165,nõ,89,"magas vérnyomás, pitvarfibrilláció"
+26164,férfi,69,"krónikus obstruktív tüdõbetegség, kóros elhízás"
+26163,nõ,87,"Hepatitis C, iszkémiás szívbetegség, magas vérnyomás, epilepszia"
+26162,nõ,74,"magas vérnyomás, belsõ agyvízkór"
+26161,nõ,71,"magas vérnyomás, cukorbetegség"
+26160,nõ,50,epilepszia
+26159,nõ,85,"magas vérnyomás, cukorbetegség, pivarfibrilláció"
+26158,nõ,78,"magas vérnyomás, iszkémiás szívbetegség"
+26157,nõ,67,"májzsugor, cukorbetegség"
+26156,nõ,78,"magas vérnyomás, krónikus veseelégtelenség"
+26155,férfi,84,magas vérnyomás
+26154,férfi,76,"magas vérnyomás, iszkémiás szívbetegség"
+26153,férfi,54,"cukorbetegség, magas vérnyomás"
+26152,férfi,47,"magas vérnyomás, cukorbetegség, kóros elhízás"
+26151,férfi,72,magasvérnyomás-betegség
+26150,nõ,83,"magas vérnyomás, érszûkület"
+26149,férfi,65,"krónikus obstruktív tüdõbetegség, általános érelmeszesedés"
+26148,nõ,56,"paranoid szkizofrénia, Parkinson-kór, magas vérnyomás"
+26147,férfi,84,krónikus obstruktív tüdõbetegség
+26146,nõ,82,"alultápláltság, magas vérnyomás, agyi infarktus"
+26145,nõ,80,magas vérnyomás
+26144,férfi,74,"magas vérnyomás, krónikus veseelégtelenség, vérszegénység, pangásos szívelégtelenség"
+26143,férfi,67,"magas vérnyomás, daganatos megbetegedés"
+26142,férfi,89,"magas vérnyomás, cukorbetegség, pangásos szívelégtelenség, krónikus veseelégtelenség"
+26141,nõ,70,"cukorbetegség, kóros elhízás"
+26140,nõ,74,"magas vérnyomás, iszkémiás szívbetegség"
+26139,férfi,63,"magas vérnyomás, iszkémiás szívbetegség, extrasystolia, cukorbetegség, krónikus obstruktív tüdõbetegség"
+26138,férfi,75,magas vérnyomás
+26137,nõ,81,"magas vérnyomás, krónikus veseelégtelenség, féloldali bénulás, agyi infarktus"
+26136,férfi,84,"iszkémiás szívbetegség, krónikus szívelégtelenség, magas vérnyomás"
+26135,férfi,82,"érelmeszesedés, krónikus obstruktív tüdõbetegség"
+26134,nõ,63,"magas vérnyomás, cukorbetegség,"
+26133,nõ,55,"idült obstruktív tüdõbetegség, magas vérnyomás"
+26132,nõ,60,"magas vérnyomás, kóros elhízás"
+26131,férfi,62,magas vérnyomás
+26130,férfi,71,"cukorbetegség, veseelégtelenség"
+26129,férfi,79,"cukorbetegség, demencia, magas vérnyomás, iszkémiás szívbetegség"
+26128,férfi,65,"magas vérnyomás, asztma"
+26127,nõ,82,"magas vérnyomás, cukorbetegség"
+26126,férfi,89,"magasvérnyomás, általános érelmeszesedés"
+26125,férfi,75,"magasvérnyomás, cukorbetegség"
+26124,férfi,73,"magas vérnyomás, pitvarfibrilláció, cukorbetegség"
+26123,nõ,56,"magas vérnyomás, cukorbetegség"
+26122,nõ,71,"veseelégtelenség, magas vérnyomás, cukorbetegség"
+26121,nõ,76,"cukorbetegség, magas vérnyomás, iszkémiás szívbetegség, krónikus obstruktív tüdõbetegség, veseelégtelenség"
+26120,nõ,67,szívelégtelenség
+26119,férfi,86,"magas vérnyomás, daganatos megbetegedés"
+26118,nõ,86,"magas vérnyomás, csontritkulás"
+26117,nõ,81,szív-légzõrendszeri megbetegedés
+26116,férfi,60,nem ismert alapbetegség
+26115,nõ,83,"magas vérnyomás, pajzsmirigy-alulmûködés, krónikus obstruktív tüdõbetegség"
+26114,nõ,64,daganatos megbetegedés
+26113,férfi,90,cukorbetegség
+26112,nõ,86,magas vérnyomás
+26111,férfi,45,nem ismert alapbetegség
+26110,nõ,66,magas vérnyomás
+26109,nõ,65,magas vérnyomás
+26108,férfi,66,"magas vérnyomás, cukorbetegség"
+26107,férfi,67,"krónikus obstruktív tüdõbetegség, magas vérnyomás, cukorbetegség, érszûkület"
+26106,férfi,60,"magas vérnyomás, refluxbetegség, szívelégtlenség"
+26105,férfi,80,"magas vérnyomás, magas vérzsírszint, agyi infarktus"
+26104,nõ,71,magas vérnyomás
+26103,nõ,61,"magas vérnyomás, cukorbetegség"
+26102,férfi,65,"magas vérnyomás, cukorbetegség, aorta mûbillentyû"
+26101,nõ,69,"magas vérnyomás, cukorbetegség, pajzsmirigy-alulmûködés"
+26100,férfi,72,nem ismert alapbetegség
+26099,férfi,81,szívizom kóros mûködése
+26098,férfi,91,iszkémiás szívbetegség
+26097,férfi,81,"magas vérnyomás, demencia"
+26096,nõ,58,"hasfali sérv rekonstrukció, magas vérnyomás"
+26095,férfi,53,kóros elhízás
+26094,nõ,87,nem ismert alapbetegség
+26093,férfi,67,"magas vérnyomás, cukorbetegség"
+26092,nõ,82,"magas vérnyomás, pitvarfibrilláció, pajzsmirigy-alulmûködés, májmájzsugor"
+26091,nõ,93,"vérszegénység, magas vérnyomás, szívritmuszavar, epekõ, demencia, cukorbetegség"
+26090,nõ,76,"magas vérnyomás, cukorbetegség, pajzsmirigy túlmûködés"
+26089,nõ,48,"magas vérnyomás, elhízás"
+26088,férfi,66,nem ismert alapbetegség
+26087,nõ,73,"magas vérnyomás, pitvarfibrilláció, cukorbetegség"
+26086,nõ,43,kóros elhízás
+26085,férfi,78,"krónikus obstruktív tüdõbetegség, kóros elhízás, cukorbetegség"
+26084,férfi,62,"vesekõ, agyyi sorvadás, magas vérnyomás"
+26083,férfi,78,"magas vérnyomás, kóros elhízás"
+26082,nõ,80,"pajzsmirigy-alulmûködés, érszûkület, demencia"
+26081,férfi,54,"magas vérnyomás, vesekõ"
+26080,férfi,86,"cukorbetegség, magas vérnyomás, agyi artéria elzáródása"
+26079,férfi,51,nem ismert alapbetegség
+26078,férfi,78,"magas vérnyomás, cukorbetegség, agyvérzés"
+26077,nõ,67,nem ismert alapbetegség
+26076,férfi,73,magas vérnyomás
+26075,nõ,65,"cukorbetegség, magas vérnyomás, vérszegénység"
+26074,nõ,65,"magas vérnyomás, cukorbetegség"
+26073,nõ,84,"magas vérnyomás, szívbillenytû zavar, vérszegénység"
+26072,férfi,62,nem ismert alapbetegség
+26071,nõ,71,"szív és érrendszeri betegség, refluxbetegség, göbös pajzsmirigy"
+26070,nõ,90,"magas vérnyomás, iszkémiás szívbetegség, pangásos szívelégtelenség"
+26069,nõ,61,"magas vérnyomás, cukorbetegség, kóros elhízás"
+26068,nõ,90,szív és érrendszeri betegség
+26067,férfi,75,"cukorbetegség, magas vérnyomás"
+26066,férfi,57,"szív és érrendszeri betegség, magas vérnyomás"
+26065,nõ,66,"cukorbetegség, magas vérnyomás"
+26064,férfi,67,nem ismert alapbetegség
+26063,férfi,66,"cukorbetegség, magas vérnyomás"
+26062,nõ,83,"magas vérnyomás, iszkémiás szívbetegség"
+26061,nõ,67,"magas vérnyomás, iszkémiás szívbetegség, májzsugor"
+26060,férfi,68,"cukorbetegség, magas vérnyomás, krónikus obstruktív tüdõbetegség"
+26059,férfi,57,"magas vérnyomás, cukorbetegség"
+26058,férfi,46,tüdõembólia
+26057,férfi,72,"magas vérnyomás, szívritmuszavar"
+26056,nõ,37,pajzsmirigy-alulmûködés
+26055,férfi,69,"agyvérzés, iszkémiás szívbetegség"
+26054,férfi,51,magas vérnyomás
+26053,férfi,34,nem ismert alapbetegség
+26052,nõ,81,"magas vérnyomás, cukorbetegség"
+26051,nõ,64,magas vérnyomás
+26050,férfi,79,"Parkinson-kór, epilepszia, demencia"
+26049,férfi,40,kóros elhízás
+26048,nõ,82,"magas vérnyomás, cukorbetegség, iszkémiás szívbetegség, pitvarfibrilláció, krónikus obstruktív tüdõbetegség"
+26047,férfi,40,"magas vérnyomás, cukorbetegség, kóros elhízás"
+26046,nõ,62,"asztma, magas vérnyomás, kóros elhízás"
+26045,nõ,24,"veseelégtelenség, pajzsmirigy-alulmûködés, magas vérnyomás, cukorbetegség"
+26044,férfi,65,szív és érrendszeri betegség
+26043,férfi,81,"magas vérnyomás, cukorbetegség, veseelégtelenség"
+26042,nõ,42,nem ismert alapbetegség
+26041,nõ,89,"érszûkület, magas vérnyomás"
+26040,nõ,43,nem ismert alapbetegség
+26039,nõ,24,nem ismert alapbetegség
+26038,nõ,95,"érszûkület, magas vérnyomás"
+26037,férfi,68,"magas vérnyomás, Parkinson-kór"
+26036,férfi,77,"krónikus veseelégtelenség, szívbetegség"
+26035,férfi,77,"magas vérnyomás, cukorbetegség, veseelégtelenség daganatos megbetegedés, pangásos szívelégtelenség"
+26034,férfi,90,"iszkémiás szívbetegség, szívelégtelenség"
+26033,nõ,62,"magas vérnyomás, cukorbetegség, elhízás, asztma, érszûkület"
+26032,nõ,81,"magas vérnyomás, demencia"
+26031,férfi,67,magas vérnyomás
+26030,nõ,78,"paranoid skizofrénia, magas vérnyomás, cukorbetegség"
+26029,férfi,77,krónikus obstruktív tüdõbetegség
+26028,nõ,70,"magas vérnyomás, cukorbetegség"
+26027,nõ,84,"magas vérnyomás, cukorbetegség, zöldhályog"
+26026,nõ,74,"magas vérnyomás, cukorbetegség, iszkémiás szívbetegség"
+26025,nõ,59,"magas vérnyomás, cukorbetegség, veseciszta"
+26024,nõ,63,"cukorbetegség, iszkémiás szívbetegség, magas vérnyomás"
+26023,nõ,73,"iszkémiás szívbetegség, magas vérnyomás, cukorbetegség"
+26022,nõ,89,"magas vérnyomás, iszkémiás szívbetegség, krónikus veseelégtelenség"
+26021,nõ,89,"iszkémiás szívbetegség, paranoid zavar, demencia, daganatos megbetegedés"
+26020,nõ,93,"szív és érrendszeri betegség, magas vérnyomás, krónikus obstruktív tüdõbetegség, kóros elhízás"
+26019,férfi,69,nem ismert alapbetegség
+26018,férfi,76,"magas vérnyomás, iszkémiás szívbetegség, cukorbetegség"
+26017,nõ,60,légcsõ szûkület
+26016,nõ,84,"szívelégtelenség, magas vérnyomás, krónikus obstruktív tüdõbetegség"
+26015,nõ,79,magas vérnyomás
+26014,nõ,61,"magas vérnyomás, iszkémiás szívbetegség, cukorbetegség"
+26013,férfi,86,magas vérnyomás
+26012,nõ,67,"cukorbetegség, szív és érrendszeri betegség, magas vérnyomás, iszkémiás szívbetegség"
+26011,férfi,91,"szívelégtelenség, magas vérnyomás, iszkémiás szívbetegség, cukorbetegség"
+26010,nõ,81,"iszkémiás szívbetegség, magas vérnyomás, cukorbetegség"
+26009,férfi,71,daganatos megbetegedés
+26008,férfi,85,nem ismert alapbetegség
+26007,férfi,77,"magas vérnyomás, iszkémiás szívbetegség"
+26006,nõ,78,"iszkémiás szívbetegség, magas vérnyomás, cukorbetegség"
+26005,nõ,64,"magas vérnyomás, járványos gyermekbénulás következtében kialakult mozgáskorlátozottság"
+26004,férfi,71,"iszkémiás szívbetegség, szívelégtelenség, demencia, cukorbetegség"
+26003,nõ,75,"iszkémiás szívbetegség, szívelégtelenség, magas vérnyomás"
+26002,nõ,64,"szív és érrendszeri betegség, magas vérnyomás"
 26001,férfi,69,"magasvérnyomás-betegség, iszkémiás szívbetegség, cukorbetegség"
 26000,nõ,96,kiszáradás
 25999,férfi,78,"húgyhólyag elsõdleges rosszindulatú daganata, végstádiumú veseelégtelenség"
