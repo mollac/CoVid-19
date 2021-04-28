@@ -1,4 +1,192 @@
 Sorszám,Nem,Kor,Alapbetegségek
+27172,nõ,80,nem ismert alapbetegség
+27171,nõ,73,"veseelégtelenség, cukorbetegség, szívbetegség"
+27170,férfi,64,"magasvérnyomás-betegség, cukorbetegség, tüdõdaganat, húgyhólyagdaganat, veseelégtelenség"
+27169,nõ,85,"magasvérnyomás-betegség, gyomordaganat, vérszegénység, szívbetegség, szívritmuszavar, májdaganat, vesebetegség"
+27168,férfi,83,"magasvérnyomás-betegség, cukorbetegség, Parkinson-kór, demencia"
+27167,nõ,87,"magasvérnyomás-betegség, szívritmuszavar, demencia, gyomorfekély"
+27166,nõ,89,"veseelégtelenség, stroke"
+27165,nõ,87,"magasvérnyomás-betegség, szívritmuszavar"
+27164,nõ,88,"magasvérnyomás-betegség, cukorbetegség, szívbetegség"
+27163,férfi,67,nem ismert alapbetegség
+27162,férfi,85,"szívelégtelenség, magasvérnyomás-betegség, szívritmuszavar"
+27161,nõ,85,"daganatos megbetegedés, veseelégtelenség"
+27160,férfi,65,"magasvérnyomás-betegség, stroke, általános érszûkület"
+27159,férfi,61,tüdõdaganat
+27158,nõ,63,"cukorbetegség, májbetegség, tüdõbetegség"
+27157,férfi,78,magasvérnyomás-betegség
+27156,nõ,73,"általános érszûkület, szívritmuszavar, szívbetegség, tüdõbetegség"
+27155,férfi,39,"magasvérnyomás-betegség, elhízás"
+27154,nõ,94,"magasvérnyomás-betegség, szívritmuszavar, cukorbetegség, vastagbélbetegség"
+27153,férfi,88,"magasvérnyomás-betegség, cukorbetegség, tüdõbetegség"
+27152,nõ,72,"szívritmuszavar, magasvérnyomás-betegség, autoimmun betegség"
+27151,férfi,88,"demencia, szívbetegség, magasvérnyomás-betegség"
+27150,nõ,83,"magasvérnyomás-betegség, szívbetegség, demencia"
+27149,nõ,70,"magasvérnyomás-betegség, szívbetegség"
+27148,nõ,66,"agyi infarktus, magasvérnyomás-betegség, cukorbetegség"
+27147,férfi,99,nem ismert alapbetegség
+27146,nõ,64,"epilepszia, veseelégtelenség, magas húgysavszint, szívritmuszavar, vastagbélbetegség"
+27145,férfi,79,"tüdõbetegség, cukorbetegség, magasvérnyomás-betegség"
+27144,nõ,89,agydaganat
+27143,nõ,76,emlõdaganat
+27142,férfi,86,"szívritmuszavar, szívbetegség"
+27141,nõ,92,"agyi érbetegség, demencia"
+27140,férfi,81,"szívbetegség, magasvérnyomás-betegség, agysorvadás, általános érelmeszesedés, vastagbéldaganat"
+27139,férfi,82,"cukorbetegség, magasvérnyomás-betegség, szívritmuszavar, szívelégtelenség"
+27138,férfi,76,"magasvérnyomás-betegség, szívbetegség, cukorbetegség, pajzsmirigybetegség"
+27137,férfi,76,"magasvérnyomás-betegség, agyi érbetegség, tüdõdaganat, refluxbetegség"
+27136,nõ,92,"magasvérnyomás-betegség, szívelégtelenség"
+27135,nõ,63,"tüdõbetegség, tüdõdaganat, szívbetegség"
+27134,nõ,74,tüdõbetegség
+27133,férfi,67,"szívritmuszavar, cukorbetegség"
+27132,nõ,91,"magasvérnyomás-betegség, agyi infarktus"
+27131,férfi,53,"általános érszûkület, érbetegség"
+27130,nõ,88,"magasvérnyomás-betegség, Parkinson-kór"
+27129,nõ,77,"magasvérnyomás-betegség, elhízás, veseelégtelenség"
+27128,férfi,62,"magasvérnyomás-betegség, szívbetegség"
+27127,férfi,70,"magasvérnyomás-betegség, tüdõbetegség"
+27126,nõ,79,"cukorbetegség, szívbetegség, magasvérnyomás-betegség, refluxbetegség"
+27125,férfi,78,"cukorbetegség, magasvérnyomás-betegség, szívelégtelenség, veseelégtelenség"
+27124,nõ,75,"magasvérnyomás-betegség, cukorbetegség, agyérbetegség"
+27123,férfi,65,"vérszegénység, vérszékelés, tüdõdaganat"
+27122,nõ,85,"magasvérnyomás-betegség, szívbetegség"
+27121,nõ,65,"cukorbetegség, magasvérnyomás-betegség"
+27120,férfi,60,"magasvérnyomás-betegség, vastagbéldaganat, cukorbetegség"
+27119,férfi,71,"magasvérnyomás-betegség, általános és agyi érszûkület, szívbetegség, stroke"
+27118,férfi,67,"tüdõbetegség, szívbetegség, szívritmuszavar, magasvérnyomás-betegség"
+27117,férfi,68,"szívbetegség, magasvérnyomás-betegség, cukorbetegség, nyombélfekély"
+27116,nõ,69,"magasvérnyomás-betegség, pajzsmirigybetegség"
+27115,nõ,85,"magasvérnyomás-betegség, stroke, vastagbélbetegség"
+27114,nõ,78,"magasvérnyomás-betegség, cukorbetegség"
+27113,nõ,71,"magasvérnyomás-betegség, cukorbetegség"
+27112,nõ,63,"magasvérnyomás-betegség, cukorbetegség, elhízás, szívelégtelenség"
+27111,férfi,91,magasvérnyomás-betegség
+27110,férfi,75,nem ismert alapbetegség
+27109,férfi,68,"magasvérnyomás-betegség, cukorbetegség, szívbetegség"
+27108,férfi,89,"magasvérnyomás-betegség, agydaganat, szívbetegség"
+27107,férfi,29,adat feltöltés alatt
+27106,férfi,61,magasvérnyomás-betegség
+27105,férfi,64,"magasvérnyomás-betegség, stroke"
+27104,nõ,91,"szívbetegség, cukorbetegség"
+27103,férfi,59,"magasvérnyomás-betegség, tüdõtágulat"
+27102,férfi,70,"magasvérnyomás-betegség, refluxbetegség"
+27101,nõ,66,"magasvérnyomás-betegség, agyi infarktus, krónikus veseelégtelenség"
+27100,férfi,44,"szívelégtelenség, magasvérnyomás-betegség"
+27099,férfi,80,"szívbetegség, magasvérnyomás-betegség"
+27098,férfi,72,"magasvérnyomás-betegség, cukorbetegség"
+27097,nõ,75,magasvérnyomás-betegség
+27096,férfi,66,"magasvérnyomás-betegség, tüdõbetegség"
+27095,nõ,69,"cukorbetegség, szívelégtelenség"
+27094,férfi,65,"magasvérnyomás-betegség, cukorbetegség"
+27093,férfi,88,"magasvérnyomás-betegség, szívritmuszavar, demencia, veseelégtelenség, agyi érbetegség"
+27092,férfi,86,"cukorbetegség, veseelégtelenség, vakbéldaganat"
+27091,férfi,50,vastagbélbetegség
+27090,férfi,80,"magasvérnyomás-betegség, szívelégtelenség, veseelégtelenség"
+27089,férfi,71,"magasvérnyomás-betegség, cukorbetegség"
+27088,férfi,60,elhízás
+27087,férfi,53,"szívbetegség, magasvérnyomás-betegség, szívelégtelenség, veseelégtelenség"
+27086,nõ,87,"szívbetegség, magasvérnyomás-betegség, húgyhólyagbetegség, Baker-ciszta"
+27085,férfi,75,magasvérnyomás-betegség
+27084,nõ,65,nem ismert alapbetegség
+27083,nõ,75,"szívbetegség. magasvérnyomás-betegség, cukorbetegség, pajzsmirigybetegség, veseelégtelenség"
+27082,férfi,76,cukorbetegség
+27081,nõ,85,magasvérnyomás-betegség
+27080,férfi,66,magasvérnyomás-betegség
+27079,nõ,90,"szívritmuszavar, magasvérnyomás-betegség, szívelégtelenség, szívbetegség"
+27078,nõ,83,"agydaganat, általános és agyi érszûkület, magasvérnyomás-betegség, magas húgysavszint"
+27077,nõ,80,"általános érszûkület, cukorbetegség, magasvérnyomás-betegség, agyi infarktus, demencia"
+27076,nõ,78,"demencia, szívelégtelenség, magasvérnyomás-betegség, veseelégtelenség"
+27075,férfi,39,magasvérnyomás-betegség
+27074,férfi,77,"magasvérnyomás-betegség, agyi érbetegség, melanoma"
+27073,férfi,68,"magasvérnyomás-betegség, refluxbetegség, cukorbetegség, szívbetegség, szívelégtelenség, veseelégtelenség"
+27072,férfi,79,szívritmuszavar
+27071,férfi,70,"magasvérnyomás-betegség, cukorbetegség"
+27070,férfi,67,"gyomordaganat, májdaganat, tüdõbetegség"
+27069,férfi,81,"refluxbetegség, cukorbetegség, veseelégtelenség, magasvérnyomás-betegség"
+27068,nõ,59,"magasvérnyomás-betegség, veseelégtelenség"
+27067,nõ,63,"vérszegénység, refluxbetegség, demencia, tüdõbetegség"
+27066,férfi,44,"veseelégtelenség, elhízás"
+27065,férfi,60,"magasvérnyomás-betegség, agyi érszûkület"
+27064,nõ,83,"magasvérnyomás-betegség, szívritmuszavar, pajzsmirigybetegség"
+27063,nõ,85,"magasvérnyomás-betegség, szívelégtelenség"
+27062,nõ,86,"magasvérnyomás-betegség, cukorbetegség, veseelégtelenség"
+27061,férfi,76,"agyi érbetegség, leukémia, veseelégtelenség"
+27060,férfi,55,magasvérnyomás-betegség
+27059,férfi,63,"mentális betegség, agyi károsodás"
+27058,nõ,73,"magasvérnyomás-betegség, szívbetegség, agyi érbetegség"
+27057,férfi,62,tüdõdaganat
+27056,nõ,78,"magasvérnyomás-betegség, refluxbetegség, nyombélbetegség, szívbetegség, agyi érbetegség"
+27055,férfi,50,adat feltöltés alatt
+27054,nõ,87,"magasvérnyomás-betegség, szívbetegség, szívelégtelenség"
+27053,férfi,79,"agyi érelmeszesedés, szívbetegség"
+27052,nõ,77,"magasvérnyomás-betegség, szívbetegség, tüdõbetegség"
+27051,férfi,78,vastagbélbetegség
+27050,nõ,74,"magasvérnyomás-betegség, elhízás"
+27049,férfi,84,"gyermekbénulás, magasvérnyomás-betegség"
+27048,férfi,48,adat feltöltés alatt
+27047,férfi,73,"magasvérnyomás-betegség, agyi érbetegség, agyi infarktus"
+27046,férfi,88,"szívritmuszavar, demencia, magasvérnyomás-betegség, általános érelmeszesedés, szívelégtelenség"
+27045,férfi,65,magasvérnyomás-betegség
+27044,nõ,80,"tüdõbetegség, veseelégtelenség, általános érszûkület, magasvérnyomás-betegség"
+27043,nõ,60,"elhízás, magasvérnyomás-betegség"
+27042,nõ,57,adat feltöltés alatt
+27041,férfi,53,adat feltöltés alatt
+27040,férfi,53,"magasvérnyomás-betegség, szívbetegség"
+27039,férfi,60,nem ismert alapbetegség
+27038,férfi,50,"magasvérnyomás-betegség, elhízás"
+27037,férfi,48,"magasvérnyomás-betegség, cukorbetegség, depresszió, melanoma"
+27036,férfi,43,szívbetegség
+27035,nõ,92,"magasvérnyomás-betegség, általános érszûkület, demencia, agysorvadás, szívbetegség, refluxbetegség"
+27034,nõ,79,magasvérnyomás-betegség
+27033,férfi,70,adat feltöltés alatt
+27032,nõ,64,"cukorbetegség, veseelégtelenség"
+27031,férfi,65,"szívbetegség, magasvérnyomás-betegség, agyi infarktus"
+27030,nõ,81,"szívbetegség, magasvérnyomás-betegség, szívelégtelenség, agyi infarktus, általános érszûkület"
+27029,férfi,76,gyomorfekély
+27028,nõ,78,"magasvérnyomás-betegség, cukorbetegség, májdaganat, vesedaganat"
+27027,nõ,89,"skizofrénia, szívritmuszavar, magasvérnyomás-betegség, demencia"
+27026,nõ,79,"magasvérnyomás-betegség, Parkinson-kór, veseelégtelenség"
+27025,nõ,90,"magasvérnyomás-betegség, demencia, vérszegénység"
+27024,nõ,89,magasvérnyomás-betegség
+27023,férfi,82,"magasvérnyomás-betegség, vastagbéldaganat"
+27022,férfi,63,"agyi infarktus, általános érszûkület, demencia, tüdõbetegség"
+27021,nõ,65,magasvérnyomás-betegség
+27020,férfi,70,cukorbetegség
+27019,nõ,84,"magasvérnyomás-betegség, agyi infarktus, szívbetegség"
+27018,nõ,68,"magasvérnyomás-betegség, cukorbetegség, pajzsmirigybetegség, elhízás"
+27017,nõ,85,"magasvérnyomás-betegség, májbetegség"
+27016,nõ,74,magasvérnyomás-betegség
+27015,férfi,43,"hasnyálmirigybetegség, cukorbetegség, vastagbéldaganat"
+27014,férfi,67,cukorbetegség
+27013,nõ,76,"cukorbetegség, magasvérnyomás-betegség, szívbetegség, refluxbetegség"
+27012,férfi,77,"cukorbetegség, magasvérnyomás-betegség"
+27011,férfi,83,"magasvérnyomás-betegség, cukorbetegség, szívbetegség, tüdõbetegség"
+27010,nõ,67,"kóros elhízás, magasvérnyomás-betegség"
+27009,nõ,75,"magasvérnyomás-betegség, szívritmuszavar, agyi infarktus"
+27008,nõ,84,"magasvérnyomás-betegség, magas vérzsírszint, szívizombetegség, szívbetegség, szívritmuszavar"
+27007,nõ,90,"demencia, magasvérnyomás-betegség, szívbetegség"
+27006,férfi,83,"magasvérnyomás-betegség, Parkinson-kór"
+27005,férfi,61,"szívritmuszavar, infarktus"
+27004,férfi,62,nem ismert alapbetegség
+27003,férfi,66,magasvérnyomás-betegség
+27002,nõ,93,"magasvérnyomás-betegség, szívbetegség"
+27001,nõ,89,"magasvérnyomás-betegség, cukorbetegség"
+27000,férfi,65,"tüdõbetegség, vérszegénység, szívbetegség, magasvérnyomás-betegség"
+26999,nõ,67,"cukorbetegség, tüdõbetegség"
+26998,férfi,78,"magasvérnyomás-betegség, cukorbetegség"
+26997,férfi,77,"szívritmuszavar, tüdõbetegség"
+26996,férfi,72,vesedaganat
+26995,férfi,63,cukorbetegség
+26994,férfi,78,"magasvérnyomás-betegség, cukorbetegség"
+26993,nõ,94,"magasvérnyomás-betegség, veseelégtelenség"
+26992,férfi,49,nem ismert alapbetegség
+26991,nõ,58,"tüdõbetegség, pajzsmirigybetegség, infarktus"
+26990,nõ,78,nem ismert alapbetegség
+26989,férfi,70,"magasvérnyomás-betegség, veseelégtelenség"
+26988,férfi,80,szívbetegség
+26987,férfi,70,"magasvérnyomás-betegség, szívritmuszavar, szívbetegség"
+26986,férfi,64,"magasvérnyomás-betegség, cukorbetegség"
+26985,férfi,92,"szívbetegség, magasvérnyomás-betegség"
 26984,férfi,64,adat feltöltés alatt
 26983,nõ,65,"cukorbetegség, rosszindulatú daganatos megbetegedés"
 26982,nõ,64,"magasvérnyomás-betegség, agyi érkatasztrófa"
