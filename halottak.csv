@@ -1,4 +1,105 @@
 Sorszám,Nem,Kor,Alapbetegségek
+27802,Férfi,65,nem ismert alapbetegség
+27801,Férfi,35,"kóros elhízás, magas koleszterinszint"
+27800,Férfi,56,"daganatos megbetegedések áttétekkel, magasvérnyomás-betegség, cukorbetegség"
+27799,Nõ,88,"magasvérnyomás-betegség, érelmeszesedés"
+27798,Férfi,70,"magasvérnyomás-betegség, krónikus limfoid leukémia"
+27797,Férfi,89,"szívritmuszavar, érelmeszesedés, magasvérnyomás-betegség, féloldali bénulás"
+27796,Férfi,78,"magasvérnyomás-betegség, iszkémiás szívbetegség, krónikus obstruktív tüdõbetegség, daganatos megbetegedések"
+27795,Férfi,69,"magasvérnyomás-betegség, cukorbetegség, iszkémiás szívbetegség, szívbetegség, daganatos megbetegedés"
+27794,Nõ,53,"elhízás, cukorbetegség"
+27793,Férfi,62,"magasvérnyomás-betegség, szívritmuszavar,"
+27792,Férfi,64,"magasvérnyomás-betegség, cukorbetegség, magas húgysav szint, epehólyag eltávolítás"
+27791,Nõ,69,"magasvérnyomás-betegség, cukorbetegség, demencia"
+27790,Férfi,36,"Down-kór, köszvény, elhízás, pajzsmirigy alulmûködés"
+27789,Nõ,102,"magasvérnyomás-betegség, tüdõbetegség"
+27788,Férfi,54,"magasvérnyomás-betegség, cukorbetegség"
+27787,Nõ,85,"cukorbetegség, daganatos megbetegedés, vastagbélpolip"
+27786,Nõ,86,"magasvérnyomás-betegség, iszkémiás szívbetegség, demencia, húgyhólyaggyulladás"
+27785,Férfi,51,"magasvérnyomás-betegség, magas vérzsírszint"
+27784,Nõ,36,Down-kór
+27783,Nõ,74,"magasvérnyomás-betegség, epehólyag eltávolítás"
+27782,Férfi,81,"krónikus obstruktív tüdõbetegség, szívbetegség, rosszindulatú daganat"
+27781,Férfi,81,krónikus obstruktív tüdõbetegség
+27780,Férfi,78,"magasvérnyomás-betegség, cukorbetegség , idült iszkémiás szívbetegség"
+27779,Férfi,76,"magasvérnyomás-betegség, magas húgysavszint, cukorbetegség, szívelégtelenség"
+27778,Nõ,79,magasvérnyomás-betegség
+27777,Férfi,69,"érelmeszesedés, von Willebrand-szindróma, magasvérnyomás-betegség, cukorbetegség"
+27776,Férfi,77,rosszindulatú daganat
+27775,Férfi,62,magasvérnyomás-betegség
+27774,Férfi,43,kezeletlen magasvérnyomás-betegség
+27773,Férfi,76,"magasvérnyomás-betegség, prosztata megnagyobbodás, krónikus obstruktív tüdõbetegség"
+27772,Férfi,87,"magasvérnyomás-betegség, agyvérzés, veseelégtelenség, rosszindulatú daganat"
+27771,Nõ,84,"rosszindulatú daganat, krónikus veseelégtelenség, magasvérnyomás-betegség, agyi infarktus, érelmeszesedés"
+27770,Férfi,63,"magasvérnyomás-betegség, dilatatív szívritmuszavar, pangásos szívelégtelenség, krónikus veseelégtelenség"
+27769,Nõ,85,"alultápláltság, légzési elégtelenség"
+27768,Nõ,90,"magasvérnyomás-betegség, cukorbetegség, szívritmuszavar, agysérülés"
+27767,Nõ,76,"magasvérnyomás-betegség, iszkémiás szívbetegség"
+27766,Férfi,79,"szívritmuszavar, magasvérnyomás-betegség, cukorbetegség, magas vérzsír szint, tüdõembólia"
+27765,Férfi,59,"magasvérnyomás-betegség, aorta mûbillentyû"
+27764,Férfi,72,krónikus obstruktív tüdõbetegség
+27763,Nõ,65,"magasvérnyomás-betegség, iszkémiás szívbetegség, asztma, rekeszsérv, reflux, porckorongkopás"
+27762,Férfi,66,"magasvérnyomás-betegség, cukorbetegség"
+27761,Férfi,76,"iszkémiás szívbetegség, elhízás"
+27760,Nõ,61,"izomgyulladás, magasvérnyomás-betegség"
+27759,Férfi,70,"agyi keringészavar, szívritmuszavar, magasvérnyomás-betegség, érbetegségek, érelmeszesedés"
+27758,Férfi,78,"krónikus veseelégtelenség, krónikus obstruktív tüdõbetegség, szívritmuszavar, dilatatív szívritmuszavar"
+27757,Nõ,82,"magasvérnyomás-betegség, iszkémiás szívritmuszavar, cukorbetegség, krónikus obstruktív tüdõbetegség"
+27756,Férfi,71,"magasvérnyomás-betegség, iszkémiás szívbetegség, cukorbetegség, bélbetegség, neurológiai betegség"
+27755,Nõ,56,"heveny hasnyálmirigy-gyulladás, májbetegség, akut veseelégtelenség"
+27754,Nõ,82,magasvérnyomás-betegség
+27753,Nõ,87,"magasvérnyomás-betegség, csípõízületi kopás, csontritkulás, neurológiai betegség"
+27752,Nõ,91,"magasvérnyomás-betegség, szívbetegség, érelmeszesedés, szívritmuszavar, demencia"
+27751,Nõ,71,"magasvérnyomás-betegség, cukorbetegség, elhízás, iszkémiás szívbetegség, hörgi asztma, krónikus obstruktív tüdõbetegség"
+27750,Nõ,85,"általános érelmeszesedés, iszkémiás szívbetegség, agyi érbetegség, demencia"
+27749,Nõ,55,visszérbetegség
+27748,Férfi,53,mélyvénás trombózis
+27747,Nõ,63,"magasvérnyomás-betegség, szívbetegség, bipoláris affektív zavar, súlyos depresszió, pszichotikus tünetekkel, asztma"
+27746,Férfi,86,"magasvérnyomás-betegség, idült iszkémiás szívbetegség, krónikus veseelégtelenség"
+27745,Nõ,79,"magasvérnyomás-betegség, elhízás"
+27744,Férfi,77,nem ismert alapbetegség
+27743,Férfi,90,"magasvérnyomás-betegség, demencia, agykárosodás"
+27742,Nõ,74,"érelmeszesedés, agyi infarktus, magasvérnyomás-betegség, cukorbetegség"
+27741,Férfi,71,"krónikus obstruktív tüdõbetegség, epilepszia"
+27740,Nõ,83,"szívelégtelenség, magasvérnyomás-betegség, demencia"
+27739,Nõ,41,"légzési elégtelenség, cukorbetegség, magasvérnyomás-betegség"
+27738,Férfi,84,"magasvérnyomás-betegség, Parkinson-kór, demencia, krónikus obstruktív tüdõbetegség, érszûkület"
+27737,Nõ,74,"magasvérnyomás-betegség, iszkémiás szívbetegség, szívritmuszavar, stroke, cukorbetegség"
+27736,Férfi,88,"magasvérnyomás-betegség, iszkémiás szívbetegség, cukorbetegség, vastagbélgyulladás"
+27735,Férfi,57,magasvérnyomás-betegség
+27734,Férfi,65,"mélyvénás trombózis, magasvérnyomás-betegség"
+27733,Férfi,86,"magasvérnyomás-betegség, epilepszia, iszkémiás szívbetegség, szívelégtelenség"
+27732,Férfi,85,"magasvérnyomás-betegség , 2-es típusú cukorbetegség"
+27731,Férfi,62,magasvérnyomás-betegség
+27730,Nõ,74,"Basedow-kór, 2-es típusú cukorbetegség, beszûkült vesefunkció, magasvérnyomás-betegség"
+27729,Férfi,68,"magasvérnyomás-betegség, iszkémiás szívbetegség"
+27728,Férfi,59,"bal oldali légmell, mélyvénás trombózis"
+27727,Nõ,77,"krónikus obstruktív tüdõbetegség, tüdõfibrózis"
+27726,Nõ,82,"magasvérnyomás-betegség, iszkémiás szívbetegség, szívbetegség, elhízás, asztma"
+27725,Férfi,66,"magasvérnyomás-betegség, cukorbetegség, elhízás"
+27724,Nõ,88,"magasvérnyomás-betegség, iszkémiás szívbetegség, zöldhályog, cukorbetegség"
+27723,Nõ,85,"magasvérnyomás-betegség, demencia, általános meszesedés, vérszegénység, depresszió"
+27722,Férfi,80,"magasvérnyomás-betegség, vesezsugorodás, vérszegénység"
+27721,Férfi,80,"cukorbetegség, agyvelõgyulladás"
+27720,Nõ,70,"agyi infarktus, 2-es típusú cukorbetegség, magasvérnyomás-betegség, krónikus obstruktív tüdõbetegség, szívritmuszavar"
+27719,Nõ,93,"magasvérnyomás-betegség, iszkémiás szívbetegség, vérszegénység"
+27718,Nõ,75,"vesekárosodás miatti kezelés, gondozás"
+27717,Férfi,74,nem ismert alapbetegség
+27716,Férfi,75,"magasvérnyomás-betegség, 2-es típusú cukorbetegség, prosztata megnagyobbodás"
+27715,Férfi,47,"depresszió, mozgássérült, magasvérnyomás-betegség"
+27714,Nõ,75,"magasvérnyomás-betegség, daganatos megbetegedés"
+27713,Férfi,80,nem ismert alapbetegség
+27712,Férfi,60,"magasvérnyomás-betegség, cukorbetegség, magas vérzsírszint, elhízás"
+27711,Férfi,50,"epilepszia, trombózis"
+27710,Férfi,84,"magasvérnyomás-betegség, légmell"
+27709,Nõ,88,"magasvérnyomás-betegség, krónikus veseelégtelenség, verõér tágulat"
+27708,Nõ,81,nem ismert alapbetegség
+27707,Nõ,79,"iszkémiás szívbetegség, toxikus májbetegség, krónikus veseelégtelenség, cukorbetegség, szívelégtelenség"
+27706,Nõ,84,magasvérnyomás-betegség
+27705,Férfi,86,nem ismert alapbetegség
+27704,Férfi,73,"2-es típusú cukorbetegség, magasvérnyomás-betegség, krónikus obstruktív tüdõbetegség"
+27703,Férfi,79,"krónikus obstruktív tüdõbetegség, magasvérnyomás-betegség"
+27702,Férfi,83,"magas koleszterinszint, csontritkulás, agykárosodás"
 27701,férfi,77,"magas vérnyomás, szívbetegség, tüdõbetegség, daganatos megbetegedés"
 27700,férfi,80,"szívbetegség, magas vérnyomás, általános érelmeszesedés"
 27699,nõ,73,"elhízás, magas vérnyomás, cukorbetegség, krónikus veseelégtelenség"
