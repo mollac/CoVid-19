@@ -1,4 +1,103 @@
 Sorszám,Nem,Kor,Alapbetegségek
+28792,férfi,69,"magasvérnyomás-betegség, vesebetegség"
+28791,nõ,85,"Alzheimer-kór, Parkinson-kór"
+28790,nõ,66,"magasvérnyomás-betegség, iszkémiás szívbetegség"
+28789,férfi,62,"daganatos megbetegedés, magasvérnyomás-betegség, cukorbetegség"
+28788,férfi,78,cukorbetegség
+28787,férfi,74,"tüdõbetegség, szívelégtelenség"
+28786,férfi,80,"magasvérnyomás-betegség, kóros elhízás"
+28785,férfi,83,magasvérnyomás-betegség
+28784,nõ,93,"veseelégtelenség, pangásos szívelégtelenség"
+28783,nõ,73,"magasvérnyomás-betegség, cukorbetegség"
+28782,férfi,76,cukorbetegség
+28781,nõ,82,"magasvérnyomás-betegség, daganatos megbetegedés"
+28780,nõ,66,"magasvérnyomás-betegség, cukorbetegség"
+28779,férfi,70,"daganatos megbetegedés, cukorbetegség"
+28778,nõ,72,tüdõbetegség
+28777,nõ,99,"magasvérnyomás-betegség, iszkémiás szívbetegség, demencia"
+28776,férfi,43,májbetegség
+28775,férfi,76,"cukorbetegség, daganatos megbetegedés"
+28774,nõ,68,"magasvérnyomás-betegség, cukorbetegség"
+28773,férfi,61,"magasvérnyomás-betegség, cukorbetegség, szívbetegség"
+28772,nõ,87,"cukorbetegség, magasvérnyomás-betegség, pangásos szívelégtelenség"
+28771,nõ,83,"veseelégtelenség, magasvérnyomás-betegség"
+28770,nõ,79,"asztma, cukorbetegség"
+28769,nõ,80,"magasvérnyomás-betegség, cukorbetegség"
+28768,nõ,66,"vesebetegség, tüdõbetegség"
+28767,nõ,82,"magasvérnyomás-betegség, cukorbetegség"
+28766,férfi,77,cukorbetegség
+28765,férfi,73,"magasvérnyomás-betegség, tüdõbetegség"
+28764,férfi,71,"magasvérnyomás-betegség, cukorbetegség"
+28763,nõ,52,"daganatos megbetegedés, magasvérnyomás-betegség"
+28762,férfi,77,"magasvérnyomás-betegség, cukorbetegség"
+28761,férfi,60,magasvérnyomás-betegség
+28760,nõ,69,"magasvérnyomás-betegség, daganatos-megbetegedés"
+28759,nõ,67,májbetegség
+28758,nõ,71,magasvérnyomás-betegség
+28757,férfi,74,"cukorbetegség, vesebetegség"
+28756,nõ,46,daganatos megbetegedés
+28755,nõ,57,"epilepszia, tüdõbetegség"
+28754,férfi,77,"magasvérnyomás-betegség, cukorbetegség, tüdõbetegség"
+28753,nõ,52,daganatos megbetegedés
+28752,férfi,73,"magasvérnyomás-betegség, cukorbetegség"
+28751,férfi,67,"májbetegség, szívelégtelenség"
+28750,férfi,69,magasvérnyomás-betegség
+28749,férfi,56,"asztma, magasvérnyomás-betegség, cukorbetegség"
+28748,férfi,75,"magasvérnyomás-betegség, iszkémiás szívbetegség, tüdõbetegség"
+28747,férfi,65,daganatos megbetegedés
+28746,férfi,86,"magasvérnyomás-betegség, szívelégtelenség"
+28745,nõ,66,magasvérnyomás-betegség
+28744,nõ,70,"iszkémiás szívbetegség, cukorbetegség"
+28743,férfi,92,"iszkémiás szívbetegség, magasvérnyomás-betegség"
+28742,férfi,84,pajzsmirigybetegség
+28741,nõ,86,"magasvérnyomás-betegség, szívelégtelenség"
+28740,nõ,90,"magasvérnyomás-betegség, cukorbetegség"
+28739,nõ,87,"veseelégtelenség, magasvérnyomás-betegség"
+28738,férfi,53,"vastagbélbetegség, cukorbetegség"
+28737,férfi,65,daganatos megbetegedés
+28736,férfi,59,cukorbetegség
+28735,férfi,54,"kóros elhízás, magasvérnyomás-betegség, cukorbetegség"
+28734,nõ,89,"magasvérnyomás-betegség, vesebetegség, tüdõbetegség"
+28733,nõ,67,"magasvérnyomás-betegség, cukorbetegség"
+28732,nõ,75,daganatos megbetegedés
+28731,férfi,83,magasvérnyomás-betegség
+28730,nõ,89,"magasvérnyomás-betegség, vesebetegség"
+28729,férfi,65,"magasvérnyomás-betegség, cukorbetegség"
+28728,nõ,89,"vesebetegség, szívbetegség"
+28727,nõ,74,"magasvérnyomás-betegség, cukorbetegség, kóros elhízás"
+28726,férfi,67,veseelégtelenség
+28725,nõ,94,"magasvérnyomás-betegség, iszkémiás szívbetegség"
+28724,nõ,73,"magasvérnyomás-betegség, cukorbetegség"
+28723,nõ,84,"magasvérnyomás-betegség, iszkémiás szívbetegség"
+28722,nõ,81,"demencia, magasvérnyomás-betegség, tüdõbetegség"
+28721,férfi,69,"magasvérnyomás-betegség, cukorbetegség"
+28720,férfi,42,adat feltöltés alatt
+28719,nõ,45,"cukorbetegség, magasvérnyomás-betegség"
+28718,nõ,68,tüdõbetegség
+28717,nõ,44,"magasvérnyomás-betegség, tüdõbetegség, kóros elhízás"
+28716,nõ,80,magasvérnyomás-betegség
+28715,nõ,71,"iszkémiás szívbetegség, magasvérnyomás-betegség"
+28714,férfi,72,vesebetegség
+28713,férfi,66,Parkinson-kór
+28712,nõ,76,"magasvérnyomás-betegség, iszkémiás szívbetegség"
+28711,nõ,77,"magasvérnyomás-betegség, cukorbetegség"
+28710,nõ,90,cukorbetegség
+28709,férfi,47,"magasvérnyomás-betegség, daganatos megbetegedés"
+28708,nõ,86,"magasvérnyomás-betegség, iszkémiás szívbetegség, daganatos megbetegedés"
+28707,nõ,76,"magasvérnyomás-betegség, veseelégtelenség"
+28706,nõ,87,Alzheimer-kór
+28705,férfi,73,"magasvérnyomás-betegség, cukorbetegség"
+28704,nõ,70,magasvérnyomás-betegség
+28703,nõ,72,"magasvérnyomás-betegség, tüdõbetegség, veseelégtelenség"
+28702,férfi,56,daganatos megbetegedés
+28701,férfi,70,"cukorbetegség, magasvérnyomás-betegség"
+28700,férfi,65,"veseelégtelenség, cukorbetegség, magasvérnyomás-betegség"
+28699,férfi,78,pajzsmirigybetegség
+28698,nõ,62,"magasvérnyomás-betegség, cukorbetegség"
+28697,férfi,80,"szívelégtelenség, asztma, szívbetegség"
+28696,férfi,64,"magasvérnyomás-betegség, májbetegség"
+28695,férfi,70,vesebetegség
+28694,nõ,80,"magasvérnyomás-betegség, cukorbetegség, daganatos megbetegedés"
 28693,nõ,61,"magasvérnyomás-betegség, daganatos megbetegedés"
 28692,férfi,55,"magasvérnyomás-betegség, nyombélfekély, vérszegénység"
 28691,nõ,85,"cukorbetegség, pitvarfibrilláció, magasvérnyomás-betegség"
