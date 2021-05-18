@@ -1,4 +1,68 @@
 Sorszám,Nem,Kor,Alapbetegségek
+29277,férfi,72,"vérzékenység, magasvérnyomás-betegség, cukorbetegség"
+29276,férfi,76,"magasvérnyomás-betegség, cukorbetegség"
+29275,férfi,85,"magasvérnyomás-betegség, szív- és érrendszeri betegség"
+29274,férfi,74,"pangásos szívelégtelenség, krónikus elhízás, magasvérnyomás-betegség, cukorbetegség"
+29273,férfi,63,"magasvérnyomás-betegség, pangásos szívelégtelenség"
+29272,férfi,71,"cukorbetegség, magasvérnyomás-betegség"
+29271,nõ,93,általános érelmeszesedés
+29270,nõ,74,"magasvérnyomás-betegség, asztma, szívelégtelenség"
+29269,férfi,83,"magasvérnyomás-betegség, szívbetegség, tüdõbetegség, demencia"
+29268,nõ,73,daganatos megbetegedés
+29267,férfi,78,"magasvérnyomás-betegség, tüdõbetegség, kóros elhízás"
+29266,nõ,92,"daganatos megbetegedés, szívbetegség"
+29265,férfi,91,"pangásos szívelégtelenség, demencia"
+29264,nõ,84,"szívbetegség, magasvérnyomás-betegség"
+29263,nõ,90,"szívbetegség, magasvérnyomás-betegség"
+29262,férfi,91,"magasvérnyomás-betegség, szívbetegség"
+29261,férfi,64,"magasvérnyomás-betegség, mélyvénás trombózis"
+29260,nõ,68,"magasvérnyomás-betegség, rosszindulatú daganatos megbetegedés"
+29259,nõ,51,rosszindulatú daganatos megbetegedések
+29258,férfi,91,"magasvérnyomás-betegség, szívbetegség"
+29257,nõ,90,"magasvérnyomás-betegség, asztma, cukorbetegség"
+29256,férfi,87,"rosszindulatú daganatos megbetegedés, érelmeszesedés"
+29255,férfi,65,szívbetegség
+29254,férfi,80,"cukorbetegség, magasvérnyomás-betegség, szívbetegség, veseelégtelenség"
+29253,férfi,81,"magasvérnyomás-betegség, szívbetegség"
+29252,férfi,60,"krónikus veseelégtelenség, magasvérnyomás-betegség, cukorbetegség, szívbetegség"
+29251,férfi,85,"cukorbetegség, veseelégtelenség"
+29250,nõ,76,"magasvérnyomás-betegség, szívbetegség, tüdõbetegség"
+29249,férfi,54,"magasvérnyomás-betegség, cukorbetegség, tüdõbetegség"
+29248,nõ,72,"magasvérnyomás-betegség, cukorbetegség, elhízás"
+29247,férfi,66,"magasvérnyomás-betegség, idült húgyhólyag-gyulladás, szívelégtelenség"
+29246,nõ,61,"magasvérnyomás-betegség, Parkinson-kór, elhízás"
+29245,férfi,74,"magasvérnyomás-betegség, szívelégtelenség, perifériás érbetegség"
+29244,nõ,71,"magasvérnyomás-betegség, szívbetegség, krónikus veseelégtelenség, vérszegénység"
+29243,férfi,67,"magasvérnyomás-betegség, cukorbetegség, májelégtelenség"
+29242,férfi,64,"szívelégtelenség, magasvérnyomás-betegség, cukorbetegség"
+29241,férfi,66,"magasvérnyomás-betegség, cukorbetegség, májelégtelenség"
+29240,nõ,63,"rosszindulatú daganatos megbetegedés, pangásos szívelégtelenség, refluxbetegség"
+29239,férfi,56,"cukorbetegség, magasvérnyomás-betegség"
+29238,nõ,72,"magasvérnyomás-betegség, cukorbetegség"
+29237,nõ,83,"asztma, szívritmuszavar"
+29236,férfi,72,"vérszegénység, veseelégtelenség"
+29235,férfi,84,rosszindulatú daganatos megbetegedés
+29234,nõ,60,"depresszió, magasvérnyomás-betegség"
+29233,nõ,70,"daganatos betegség, magasvérnyomás-betegség, vérszegénység"
+29232,nõ,71,"tüdõbetegség, krónikus veseelégtelenség, magasvérnyomás-betegség, szívritmuszavar"
+29231,nõ,58,"magasvérnyomás-betegség, szívelégtelenség, perifériás érbetegség"
+29230,nõ,80,"rosszindulatú daganatos megbetegedés, magasvérnyomás-betegség"
+29229,férfi,69,"tüdõbetegség, emésztõrendszeri megbetegedés"
+29228,férfi,76,rosszindulatú daganatos megbetegedés
+29227,férfi,88,"magasvérnyomás-betegség, érelmeszesedés"
+29226,nõ,66,agyi érkatasztrófa
+29225,férfi,62,magasvérnyomás-betegség
+29224,nõ,56,"tüdõbetegség, magasvérnyomás-betegség"
+29223,nõ,66,"asztma, rosszindulatú daganatos megbetegedés"
+29222,nõ,38,kóros elhízás
+29221,nõ,71,"magas vérnyomás, pajzsmirigy-elégtelenség"
+29220,nõ,51,"magasvérnyomás-betegség, kóros elhízás, depresszió, agyi érkatasztrófa"
+29219,férfi,40,nem volt ismert alapbetegsége
+29218,férfi,47,magasvérnyomás-betegség
+29217,nõ,82,"magasvérnyomás-betegség, lisztérzékenység"
+29216,nõ,85,"magasvérnyomás-betegség, asztma"
+29215,nõ,82,"asztma, magasvérnyomás-betegség"
+29214,nõ,85,"magasvérnyomás-betegség, cukorbetegség"
 29213,nõ,80,"agyállományi vérzés, agyi érbetegség"
 29212,férfi,54,daganatos megbetegedés
 29211,férfi,74,"magasvérnyomás-betegség, iszkémiás szívbetegség, krónikus veseelégtelenség, szívelégtelenség"
