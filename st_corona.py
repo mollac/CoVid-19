@@ -312,9 +312,9 @@ if the_country == 'Hungary':
     st.subheader('Új esetek megyénként')
     last2 = df.T.iloc[:,-2:]
     last2['Változás'] = last2.iloc[:,1] - last2.iloc[:,0]
-    last2 = last2['Változás'].sort_values()
+    last2 = last2['Változás'].sort_values().astype(int)
     c1, c2 = st.beta_columns(2)
-    c2.write(f'Mai új esetek száma: {sum(last2)}')
+    c2.write(f'Mai új esetek száma: {int(sum(last2))}')
     c1.bar_chart(last2, height=400)
     c2.dataframe(last2)
       
