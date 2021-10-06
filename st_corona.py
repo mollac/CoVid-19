@@ -287,7 +287,7 @@ if the_country == 'Hungary':
     alapfreq = alapbetegsegek.value_counts()
     st.dataframe(alapfreq)
 
-    c1, c2 = st.beta_columns(2)
+    c1, c2 = st.columns(2)
     c1.subheader('Átlag életkorok')
     c1.markdown(f'**Férfi:** *{avg_man}* év **Nő:** *{avg_wmn}* év')
 
@@ -313,24 +313,24 @@ if the_country == 'Hungary':
     last2 = df.T.iloc[:,-2:]
     last2['Változás'] = last2.iloc[:,1] - last2.iloc[:,0]
     last2 = last2['Változás'].sort_values().astype(int)
-    c1, c2 = st.beta_columns(2)
+    c1, c2 = st.columns(2)
     c2.write(f'Mai új esetek száma: {int(sum(last2))}')
     c1.bar_chart(last2, height=400)
     c2.dataframe(last2)
       
     megyek = list(df.columns)        
     
-    with st.beta_expander('Kiválasztott megyék egy ábrán:'):
+    with st.expander('Kiválasztott megyék egy ábrán:'):
         select = st.multiselect('Válassz megyéket:', megyek, ['Győr-Moson-Sopron', 'Komárom-Esztergom'])
         st.line_chart(df[select], height=600)
 
-    with st.beta_expander('Összes megye egy ábrán:'):
+    with st.expander('Összes megye egy ábrán:'):
         st.line_chart(df, height=600)
 
-    with st.beta_expander('Megyénként külön ábra:'): 
+    with st.expander('Megyénként külön ábra:'): 
         st.warning('Az (y) tengely megyénként eltér!') 
 
-        c1, c2 = st.beta_columns(2)
+        c1, c2 = st.columns(2)
         
         for i, megye in enumerate(megyek):
             x = range(0, df[megye].shape[0])
@@ -353,7 +353,7 @@ if the_country == 'Hungary':
     datum_filter = st.slider('Nap', 0, len(datumok)-1, len(datumok)-1)
     st.bar_chart(df.iloc[datum_filter,:], use_container_width=True)
     
-    # with st.beta_expander(f'Regisztrált esetszámok a {datum_filter}. nap alapján.'):
+    # with st.expander(f'Regisztrált esetszámok a {datum_filter}. nap alapján.'):
     #     st.write(df.iloc[datum_filter,:].sort_values(ascending = False))
 
     url = r'https://hu.wikipedia.org/wiki/Magyarorsz%C3%A1g_megy%C3%A9i'
