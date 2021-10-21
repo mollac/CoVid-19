@@ -1,7 +1,7 @@
 matplotlib==3.3.4
 numpy==1.20.1
 requests==2.24.0
-streamlit==0.79.0
+streamlit==1.0.0
 pydeck==0.6.1
 folium==0.12.1
 pandas==1.2.3
