@@ -1,4 +1,111 @@
 Sorszám,Nem,Kor,Alapbetegségek
+31101,Nõ,80,"magasvérnyomás-betegség, vakbéldaganat, pitvarfibrilláció, epehólyag gyulladás"
+31100,Férfi,85,"magasvérnyomás-betegség, szívritmuszavar, csontritkulás"
+31099,Férfi,55,krónikus obstruktív tüdõbetegség
+31098,Nõ,73,"magasvérnyomás-betegség, insulin-dependens cukorbetegség többszörös szövõdménnyel, zöld hályog, agyi infarktus, szív- és érrendszer betegség"
+31097,Férfi,83,magasvérnyomás-betegség
+31096,Nõ,84,"magasvérnyomás-betegség, pajzsmirigy-túlmûködés, szívelégtelenség"
+31095,Férfi,76,"pitvarremegés, generalizált érelmeszesedés, stroke"
+31094,Férfi,71,agyállományi vérzés agykamrában
+31093,Nõ,63,"verõér betegség, bal oldali agyi érszûkület"
+31092,Nõ,91,"magasvérnyomás-betegség, csontritkulás"
+31091,Nõ,49,magasvérnyomás-betegség
+31090,Férfi,80,nem ismert alapbetegség
+31089,Férfi,58,krónikus veseelégtelenség
+31088,Nõ,89,"szívizom vérellátásának zavara, magasvérnyomás-betegség, asztma"
+31087,Férfi,43,"cukorbetegség, magasvérnyomás-betegség."
+31086,Férfi,84,"gerincsérv mûtét, cukorbetegség, jobb oldali agyi infarktus"
+31085,Férfi,73,"általános érelmeszesedés, cukorbetegség"
+31084,Férfi,79,"magasvérnyomás-betegség, cukorbetegség"
+31083,Férfi,79,"pangásos szívelégtelenség, magasvérnyomás-betegség, hörgõasztma, tüdõbetegség, szívizom vérellátásának zavara"
+31082,Nõ,84,magasvérnyomás-betegség
+31081,Férfi,74,cukorbetegség
+31080,Férfi,100,"magasvérnyomás-betegség, szívizom vérellátásának zavara, prosztatamegnagyobbodás"
+31079,Nõ,66,"magasvérnyomás-betegség, cukorbetegség, extrém kóros elhízás"
+31078,Nõ,65,magasvérnyomás-betegség
+31077,Férfi,79,"magasvérnyomás-betegség, légzési elégtelenség, lágyéksérv"
+31076,Nõ,81,"vér anyagcserezavar, magasvérnyomás-betegség, magas vérzsírszint"
+31075,Férfi,86,"magas vérnyomás, cukorbetegség, tüdõbetegség"
+31074,Férfi,84,"magasvérnyomás-betegség, érelmeszesedés"
+31073,Férfi,69,"magasvérnyomás-betegség, nem inzulin dependens cukorbetegség"
+31072,Férfi,66,"magas vérnyomás, cukorbetegség"
+31071,Férfi,60,"gyomor-bélrendszeri vérzés, alkoholizmus, tüdõgyulladás, magasvérnyomás-betegség"
+31070,Nõ,51,"tüdõrák, szívinfarktus, paranoid skizofrénia, krónikus veseelégtelenség"
+31069,Nõ,77,"magasvérnyomás-betegség, emelkedett vércukorszint"
+31068,Férfi,76,"csökkent aktivitású agyalapi mirigy, jobb oldali lágyéksérv, prosztatamegnagyobbodás"
+31067,Férfi,78,"magas vérnyomás, cukorbetegség"
+31066,Férfi,97,"magasvérnyomás-betegség, aorta billentyû elégtelenség, refluxbetegség, krónikus epehólyag ürülési zavar"
+31065,Férfi,76,"magasvérnyomás-betegség, inzulin dependens cukorbetegség, Parkinson-kór, permanens szívritmuszavar"
+31064,Férfi,79,"Pankinson-kór, paranoid pszichózis"
+31063,Férfi,65,"cukorbetegség, tüdõbetegség, krónikus veseelégtelenség"
+31062,Nõ,69,"magasvérnyomás-betegség, pajzsmirigy-alulmûködés, demencia"
+31061,Nõ,82,"magasvérnyomás-betegség, szívizom vérellátásának zavara"
+31060,Nõ,84,"magas vérnyomás, általános érelmeszesedés"
+31059,Nõ,86,nem ismert alapbetegség
+31058,Férfi,74,"magasvérnyomás-betegség, iszkémiás roham, zöldhályog"
+31057,Nõ,64,"emlõdaganat áttétekkel, cukorbetegség, krónikus veseelégtelenség"
+31056,Nõ,69,"magasvérnyomás-betegség, cukorbetegség, szívizom vérellátásának zavara, pajzsmirigy-alulmûködés"
+31055,Férfi,81,"magas vérnyomás, veseelégtelenség, idült hörghurut, szívizom vérellátásának zavara, légzési elégtelenség"
+31054,Férfi,84,"szívinfarktus, visszamaradt szívizomelhalás, tüdõembólia, pitvarfibrilláció"
+31053,Nõ,65,"légzési elégtelenség, méhnyak rosszindulatú daganata, magasvérnyomás-betegség, kiszáradás"
+31052,Férfi,63,"magasvérnyomás-betegség, érelmeszesedés, tüdõdaganat, máj- és nyirokcsomó daganat"
+31051,Férfi,63,"cukorbetegség, májdaganat áttétekkel"
+31050,Nõ,79,"magasvérnyomás-betegség, szívritmuszavar, szívizom vérellátásának zavara, hörgõasztma, kóros elhízás"
+31049,Nõ,73,"epehólyag gyulladás, bal oldali petefészektályog miatti mûtét, magasvérnyomás-betegség, szív- és érrendszeri betegségei, stroke"
+31048,Nõ,88,"érelmeszesedés, vérszegénység, szívbetegség, aorta érelmeszesedése"
+31047,Férfi,68,"magasvérnyomás-betegség, tüdõbetegség"
+31046,Férfi,85,"magasvérnyomás-betegség, szívizom vérellátásának zavara, tüdõbetegség, prosztata-túltengés"
+31045,Férfi,65,agyi ciszta
+31044,Nõ,72,"magasvérnyomás-betegség, súlyos izomgyengeség"
+31043,Nõ,56,magasvérnyomás-betegség
+31042,Nõ,93,"magasvérnyomás-betegség, szívelégtelenség, veseelégtelenség"
+31041,Nõ,77,"pajzsmirigy-alulmûködés, magasvérnyomás-betegség"
+31040,Férfi,45,nem ismert alapbetegség
+31039,Férfi,93,érelmeszesedéssel járó szív- és érrendszeri betegség
+31038,Férfi,73,"magasvérnyomás-betegség, jobb oldali gyógyult agyi történés"
+31037,Nõ,93,"magasvérnyomás-betegség, agyi infarktus, asztma, combnyaktörés, féloldali bénulás, szívizom vérellátásának zavara"
+31036,Férfi,51,"krónikus veseelégtelenség, inzulin dependens cukorbetegség, magasvérnyomás-betegség"
+31035,Nõ,29,Down-szindróma
+31034,Férfi,60,"magasvérnyomás-betegség, tüdõbetegség, prosztata-túltengés, szívizom vérellátásának zavara"
+31033,Férfi,89,"prosztatamegnagyobbodás, gyomorperforáció"
+31032,Nõ,93,"magasvérnyomás-betegség, cukorbetegség, agykárosodás"
+31031,Nõ,57,"magas vérnyomás, cukorbetegség"
+31030,Férfi,77,"köszvény, magasvérnyomás-betegség, szívritmuszavar, pangásos szívelégtelenség"
+31029,Nõ,67,"tüdõbetegség, ízületi gyulladások"
+31028,Férfi,68,"magasvérnyomás-betegség, szívritmuszavar"
+31027,Nõ,95,pangásos szívelégtelenség
+31026,Férfi,87,"pitvarfibrilláció, magasvérnyomás-betegség, szívizom vérellátásának zavara, szívizom betegség"
+31025,Nõ,68,nem ismert alapbetegség
+31024,Nõ,64,"krónikus C-típusú heveny vírusos májgyulladás, veseelégtelenség miatti mûvesekezelés"
+31023,Férfi,82,"cukorbetegség, magasvérnyomás-betegség"
+31022,Férfi,82,"demencia, III. fokú AV-blokk, magasvérnyomás-betegség"
+31021,Férfi,72,"magasvérnyomás-betegség, epilepszia"
+31020,Nõ,87,"magasvérnyomás-betegség, lezajlott szívinfarktus, szívizom vérellátásának zavara, agyi infarktus"
+31019,Férfi,66,"szívizom vérellátásának zavara, szívizomsejtek elhalás, cukorbetegség, generalizált érbetegség"
+31018,Férfi,74,nem ismert alapbetegség
+31017,Nõ,81,"cukorbetegség, magasvérnyomás-betegség, refluxbetegség"
+31016,Nõ,86,"magasvérnyomás-betegség, cukorbetegség, epilepszia, epehólyag gyulladás, hashártyagyulladás"
+31015,Nõ,85,szívelégtelenség
+31014,Nõ,64,"magasvérnyomás-betegség, perifériás érbetegség, agyi daganat"
+31013,Nõ,67,"koszorúér-betegség, szívbetegség, magasvérnyomás-betegség, kóros elhízás"
+31012,Nõ,47,"magasvérnyomás-betegség, koszorúér-betegség"
+31011,Férfi,42,"magasvérnyomás-betegség, kóros elhízás, vese és hasnyálmirigy transzplantáció utáni állapot, cukorbetegség, akut veseelégtelenség"
+31010,Nõ,83,"vérszegénység, magasvérnyomás-betegség, szívritmuszavar"
+31009,Férfi,74,"magasvérnyomás-betegség, szívritmuszavar"
+31008,Férfi,69,"iszkémiás stroke miatti maradványtünetek, pajzsmirigy-daganat"
+31007,Nõ,80,krónikus veseelégtelenség
+31006,Nõ,71,"magasvérnyomás-betegség, krónikus veseelégtelenség, pajzsmirigy-betegség"
+31005,Nõ,83,"magas vérnyomás, idült veseelégtelenség"
+31004,Nõ,63,"magasvérnyomás-betegség, cukorbetegség, kóros elhízás"
+31003,Férfi,46,"tüdõembólia, cukorbetegség, magasvérnyomás-betegség"
+31002,Nõ,66,"magasvérnyomás-betegség, cukorbetegség"
+31001,Nõ,81,szívritmuszavar
+31000,Férfi,50,gyomordaganat
+30999,Férfi,84,"daganatos megbetegedés, magasvérnyomás-betegség"
+30998,Nõ,88,"hörgõasztma, csontritkulás, gerincmeszesedés, szívbetegség, koponyamûtét"
+30997,Férfi,54,nem ismert alapbetegség
+30996,Nõ,34,várandós
+30995,Nõ,44,magasvérnyomás-betegség
 30994,Nõ,81,"magasvérnyomás-betegség, cukorbetegség"
 30993,Férfi,64,"magasvérnyomás-betegség, iszkémiás szívbetegség"
 30992,Férfi,66,"magasvérnyomás-betegség, cukorbetegség"
