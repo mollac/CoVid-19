@@ -1,4 +1,120 @@
 Sorszám,Nem,Kor,Alapbetegségek
+31867,Nõ,83,"magasvérnyomás-betegség, cukorbetegség, agyi érkatasztrófa"
+31866,Férfi,79,"daganatos megbetegedés, cukorbetegség, érszûkület, vérszegénység"
+31865,Nõ,70,"agyi érkatasztrófa, érszûkület, magasvérnyomás-betegség"
+31864,Férfi,68,magasvérnyomás-betegség
+31863,Nõ,67,"magasvérnyomás-betegség, daganatos megbetegedés"
+31862,Nõ,85,magasvérnyomás-betegség
+31861,Nõ,89,magasvérnyomás-betegség
+31860,Nõ,81,"magasvérnyomás-betegség, cukorbetegség"
+31859,Férfi,73,"magasvérnyomás-betegség, cukorbetegség"
+31858,Férfi,76,"szívizom vérellátásának zavara, krónikus veseelégtelenség"
+31857,Férfi,90,"magasvérnyomás-betegség, krónikus veseelégtelenség, agykárosodás"
+31856,Nõ,84,"szívizom vérellátásának zavara, agyi érszûkület, magasvérnyomás-betegség, csontritkulás, veseelégtelenség"
+31855,Nõ,72,krónikus veseelégtelenség
+31854,Férfi,71,"szívizom vérellátásának zavara, magasvérnyomás-betegség, krónikus veseelégtelenség"
+31853,Nõ,88,"Parkinson-kór, demencia, reflux betegség"
+31852,Nõ,89,"cukorbetegség, szívizom vérellátásának zavara, pitvarfibrilláció, veseelégtelenség"
+31851,Nõ,89,"magasvérnyomás-betegség, pitvarfibrilláció, vérszegénység"
+31850,Férfi,54,"magasvérnyomás-betegség, zöld hályog"
+31849,Nõ,81,"magasvérnyomás-betegség, cukorbetegség"
+31848,Férfi,72,"szívizom vérellátásának zavara, magasvérnyomás-betegség, krónikus veseelégtelenség"
+31847,Nõ,60,kóros elhízás
+31846,Férfi,95,"magasvérnyomás-betegség, szívizom vérellátásának zavara"
+31845,Nõ,78,nem ismert alapbetegsége
+31844,Férfi,74,"májbetegség, daganatos megbetegedés"
+31843,Nõ,42,nem ismert alapbetegsége
+31842,Férfi,83,"magasvérnyomás-betegség, szívizom vérellátásának zavara, agyi érkatasztrófa, érszûkület"
+31841,Férfi,56,"cukorbetegség, magas vérnyomás betegség, pitvarfibrilláció"
+31840,Nõ,88,"cukorbetegség, magasvérnyomás-betegség"
+31839,Nõ,79,"demencia, Alzheimer-kór"
+31838,Férfi,63,"magasvérnyomás-betegség, agyvérzés"
+31837,Férfi,64,"magasvérnyomás-betegség, cukorbetegség, daganatos megbetegedés"
+31836,Nõ,91,szívinfarktus
+31835,Nõ,83,"demencia, cukorbetegség, magasvérnyomás-betegség, szívelégtelenség"
+31834,Férfi,66,"magasvérnyomás-betegség, szívelégtelenség, cukorbetegség"
+31833,Nõ,77,"Parkinson-kór, magasvérnyomás-betegség"
+31832,Nõ,81,"magasvérnyomás-betegség, daganatos megbetegedés, cukorbetegség, veseelégtelenség"
+31831,Férfi,67,szívizomelhalás
+31830,Férfi,54,Hodgkin-kór
+31829,Nõ,89,"magasvérnyomás-betegség, cukorbetegség"
+31828,Férfi,66,"vérszegénység, magasvérnyomás-betegség, obstruktív tüdõbetegség"
+31827,Férfi,71,magasvérnyomás-betegség
+31826,Férfi,55,agykárosodás
+31825,Férfi,58,daganatos megbetegedés
+31824,Nõ,87,"magasvérnyomás-betegség, reflux betegség"
+31823,Férfi,84,"magasvérnyomás-betegség, cukorbetegség, veseelégtelenség"
+31822,Férfi,72,magasvérnyomás-betegség
+31821,Férfi,86,szív- és érrendszeri betegség
+31820,Nõ,70,"cukorbetegség, magasvérnyomás-betegség"
+31819,Férfi,29,nem ismert alapbetegsége
+31818,Nõ,62,"magasvérnyomás-betegség, pajzsmirigy betegség, agyi infarktus"
+31817,Nõ,78,"magasvérnyomás-betegség, cukorbetegség, szívizom vérellátásának zavara"
+31816,Férfi,80,"szívelégtelenség, pitvarfibrilláció, szívizom vérellátásának zavara, cukorbetegség, magasvérnyomás-betegség"
+31815,Nõ,63,"magasvérnyomás-betegség, pajzsmirigybetegség, daganatos megbetegedés"
+31814,Nõ,60,"magasvérnyomás-betegség, vérszegénység"
+31813,Nõ,68,"krónikus veseelégtelenség, obstruktív tüdõbetegség, magasvérnyomás-betegség, cukorbetegség"
+31812,Férfi,73,"magasvérnyomás-betegség, veseelégtelenség"
+31811,Nõ,71,"magasvérnyomás-betegség, daganatos megbetegedés"
+31810,Férfi,76,"vérszegénység, trombocitahiány, veseelégtelenség, magasvérnyomás-betegség"
+31809,Férfi,84,"magasvérnyomás-betegség, veseelégtelenség"
+31808,Nõ,89,"szívizom vérellátásának zavara, magasvérnyomás-betegség, vérszegénység, érszûkület"
+31807,Férfi,81,nem ismert alapbetegség
+31806,Férfi,51,kóros elhízás
+31805,Nõ,70,"magasvérnyomás-betegség, pajzsmirigy túlmûködés"
+31804,Nõ,85,"szívizom vérellátásának zavara, magasvérnyomás-betegség, Alzheimer-kór"
+31803,Nõ,49,"magasvérnyomás-betegség, obstruktív tüdõbetegség"
+31802,Férfi,78,"magasvérnyomás-betegség, pangásos szívelégtelenség, cukorbetegség"
+31801,Férfi,70,"magasvérnyomás-betegség, szívizom vérellátásának zavara, vérszegénység"
+31800,Férfi,69,"daganatos megbetegedés, agyi sorvadás"
+31799,Férfi,75,magasvérnyomás-betegség
+31798,Nõ,85,"pitvarfibrilláció, csontritkulás"
+31797,Nõ,100,"tüdõgyulladás, veseelégtelenség"
+31796,Férfi,71,"magasvérnyomás-betegség, pánikbetegség"
+31795,Nõ,84,"magasvérnyomás-betegség, szívizom vérellátásának zavara"
+31794,Férfi,58,"magasvérnyomás-betegség, agyi érkatasztrófa, szívelégtelenség"
+31793,Nõ,82,"magasvérnyomás-betegség, szívizom vérellátásának zavara"
+31792,Nõ,70,"cukorbetegség, magasvérnyomás-betegség, veseelégtelenség"
+31791,Nõ,89,"Parkinson-kór, cukorbetegség, magasvérnyomás-betegség"
+31790,Nõ,80,"demencia, szívizom vérellátásának zavara, Parkinson-kór"
+31789,Férfi,57,"magasvérnyomás-betegség, cukorbetegség"
+31788,Nõ,97,magasvérnyomás-betegség
+31787,Nõ,78,daganatos megbetegedés
+31786,Nõ,74,"cukorbetegség, magasvérnyomás-betegség, veseelégtelenség"
+31785,Nõ,82,"véralvadási zavar, vérszegénység, trombocitahiány"
+31784,Nõ,68,daganatos megbetegedés
+31783,Férfi,77,"magasvérnyomás-betegség, pajzsmirigy túlmûködés, szívizom vérellátásának zavara, pitvarfibrilláció"
+31782,Nõ,81,"krónikus veseelégtelenség, magasvérnyomás-betegség, szívizom vérellátásának zavara"
+31781,Férfi,68,"magasvérnyomás-betegség, daganatos megbetegedés"
+31780,Férfi,60,magasvérnyomás-betegség
+31779,Nõ,92,"cukorbetegség, trombocitahiány"
+31778,Férfi,68,szívizom vérellátásának zavara
+31777,Férfi,90,"magasvérnyomás-betegség, cukorbetegség, agyi érkatasztrófa, depresszió"
+31776,Férfi,58,magasvérnyomás-betegség
+31775,Nõ,82,"magasvérnyomás-betegség, csontritkulás"
+31774,Nõ,79,pangásos szívelégtelenség
+31773,Nõ,55,hasnyálmirigy-gyulladás
+31772,Férfi,74,cukorbetegség
+31771,Nõ,60,"magasvérnyomás-betegség, obstruktív tüdõbetegség"
+31770,Nõ,77,"magasvérnyomás-betegség, vérszegénység,"
+31769,Férfi,62,agyi érkatasztrófa
+31768,Férfi,84,"magasvérnyomás-betegség, cukorbetegség, krónikus veseelégtelenség, agyinfraktus"
+31767,Férfi,62,"véralvadási zavar, cukorbetegség, magasvérnyomás-betegség"
+31766,Nõ,73,"vérszegénység, magasvérnyomás-betegség, cukorbetegség"
+31765,Férfi,73,"cukorbetegség, szívelégtelenség, szívizom vérellátásának zavara, szívinfarktus"
+31764,Nõ,80,"magasvérnyomás-betegség, pitvarfibrilláció, daganatos megbetegedés"
+31763,Férfi,77,nem ismert alapbetegség
+31762,Nõ,91,"magasvérnyomás-betegség, pajzsmirigy túlmûködés,"
+31761,Nõ,67,"cukorbetegség, magasvérnyomás-betegség"
+31760,Nõ,69,"cukorbetegség, magasvérnyomás-betegség"
+31759,Nõ,85,"magasvérnyomás-betegség, szívizom vérellátásának zavara"
+31758,Nõ,73,"pajzsmirigy túlmûködés, magasvérnyomás-betegség, aortaszûkület"
+31757,Férfi,66,"magasvérnyomás-betegség, cukorbetegség, veseelégtelenség, érszûkület"
+31756,Férfi,57,nem ismert alapbetegség
+31755,Férfi,54,nem ismert alapbetegség
+31754,Férfi,66,"magasvérnyomás-betegség, prosztatatúltengés"
+31753,Nõ,81,"magasvérnyomás-betegség, agyi érkatasztrófa"
+31752,Férfi,53,nem ismert alapbetegség
 31751,Férfi,62,"magas vérnyomás, cukorbetegség"
 31750,Férfi,75,tüdõembólia
 31749,Nõ,53,"down-szindróma, pajzsmirigy-alulmûködés, epilepszia"
