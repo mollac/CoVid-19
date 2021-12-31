@@ -1,4 +1,99 @@
 Sorszám,Nem,Kor,Alapbetegségek
+39104,Nõ,76,"szív- és érrendszeri megbetegedés, magasvérnyomás-betegség"
+39103,Férfi,65,krónikus obstruktív tüdõbetegség
+39102,Férfi,89,nem ismert alapbetegség
+39101,Nõ,80,"magasvérnyomás-betegség, iszkémiás szívbetegség, cukorbetegség"
+39100,Nõ,92,"cukorbetegség, magasvérnyomás-betegség, iszkémiás szívbetegség, pitvarfibrilláció és flutter, krónikus veseelégtelenség"
+39099,Férfi,76,"prosztata megnagyobbodás, magasvérnyomás-betegség, cukorbetegség"
+39098,Férfi,58,"magasvérnyomás-betegség, krónikus veseelégtelenség"
+39097,Férfi,81,"iszkémiás szívbetegség, cukorbetegség"
+39096,Férfi,68,"magasvérnyomás-betegség, fekélyes vastagbélgyulladás, cukorbetegség, daganatos megbetegedés"
+39095,Férfi,65,"általános érelmeszesedés, magasvérnyomás-betegség"
+39094,Nõ,72,"magasvérnyomás-betegség, krónikus veseelégtelenség, pitvarfibrilláció"
+39093,Nõ,80,"agyérelmeszesedés, magasvérnyomás-betegség, Alzheimer-kór"
+39092,Nõ,88,"magasvérnyomás-betegség, cukorbetegség, szív- és érrendszeri megbetegedés"
+39091,Férfi,56,krónikus obstruktív tüdõbetegség
+39090,Férfi,67,általános- és agyi érelmeszesedés
+39089,Férfi,47,nem ismert alapbetegség
+39088,Nõ,47,"Down-kór, kóros elhízás"
+39087,Férfi,74,"magasvérnyomás-betegség, magas vérzsírszint, fekélybetegség"
+39086,Férfi,69,magasvérnyomás-betegség
+39085,Férfi,73,"magasvérnyomás-betegség, szívinfarktus"
+39084,Nõ,73,"magasvérnyomás-betegség, cukorbetegség, érszûkület"
+39083,Férfi,39,nem ismert alapbetegség
+39082,Férfi,89,"magasvérnyomás-betegség, cukorbetegség"
+39081,Nõ,68,"magasvérnyomás-betegség, cukorbetegség, kóros elhízás, anyagcseremûködés zavara"
+39080,Nõ,77,"magasvérnyomás-betegség, cukorbetegség, krónikus veseelégtelenség"
+39079,Férfi,46,"magasvérnyomás-betegség, kóros elhízás, krónikus obstruktív tüdõbetegség"
+39078,Nõ,79,"krónikus veseelégtelenség, szív- és érrendszeri megbetegedés"
+39077,Férfi,66,"magasvérnyomás-betegség, iszkémiás szívbetegség, pajzsmirigy-betegség"
+39076,Nõ,88,"magasvérnyomás-betegség, szív- és érrendszeri megbetegedés"
+39075,Nõ,82,"daganatos megbetegedés, általános érelmeszesedés, pajzsmirigy-alulmûködés"
+39074,Férfi,70,"magasvérnyomás-betegség, cukorbetegség"
+39073,Nõ,58,"daganatos megbetegedés, magasvérnyomás-betegség"
+39072,Nõ,63,"daganatos megbetegedés, májbetegség"
+39071,Férfi,49,"cukorbetegség, kóros elhízás"
+39070,Nõ,64,"magasvérnyomás-betegség, reflux, cukorbetegség"
+39069,Nõ,93,"általános érelmeszesedés, magasvérnyomás-betegség, krónikus veseelégtelenség, pajzsmirigy-betegség"
+39068,Nõ,90,"stroke, demencia"
+39067,Férfi,66,"magasvérnyomás-betegség, iszkémiás szívbetegség"
+39066,Férfi,82,epilepszia
+39065,Nõ,70,pajzsmirigy-betegség
+39064,Férfi,71,"magasvérnyomás-betegség, cukorbetegség"
+39063,Nõ,79,"magasvérnyomás-betegség, szklerózis multiplex"
+39062,Nõ,90,"magasvérnyomás-betegség, cukorbetegség, általános érelmeszesedés, iszkémiás szívbetegség"
+39061,Férfi,68,"magasvérnyomás-betegség, prosztata megnagyobbodás, köszvény, szív- és érrendszeri megbetegedés, demencia, Parkinson-kór"
+39060,Nõ,88,"cukorbetegség, stroke"
+39059,Nõ,80,"magasvérnyomás-betegség, cukorbetegség, szív- és érrendszeri megbetegedés"
+39058,Férfi,60,"magasvérnyomás-betegség, Crohn-betegség, fekélyes vastagbélgyulladás"
+39057,Nõ,94,"pitvarfibrillació, magasvérnyomás-betegség"
+39056,Férfi,61,"magasvérnyomás-betegség, kóros elhízás"
+39055,Férfi,78,"magasvérnyomás-betegség, iszkémiás szívbetegség, cukorbetegség"
+39054,Nõ,91,"magasvérnyomás-betegség, mentálhigiénés megbetegedés"
+39053,Nõ,59,"krónikus obstruktív tüdõbetegség, szív- és érrendszeri megbetegedés"
+39052,Nõ,66,"gyulladásos bélbetegség, kóros elhízás, cukorbetegség, magasvérnyomás-betegség, magas vérzsírszint"
+39051,Nõ,76,"daganatos megbetegedés, magasvérnyomás-betegség, reflux, vérképzõszervi megbetegedés"
+39050,Nõ,82,"cukorbetegség, magasvérnyomás-betegség, iszkémiás szívbetegség"
+39049,Nõ,87,"magasvérnyomás-betegség, szív- és érrendszeri megbetegedés"
+39048,Nõ,80,"magasvérnyomás-betegség, cukorbetegség"
+39047,Nõ,79,magasvérnyomás-betegség
+39046,Nõ,76,magasvérnyomás-betegség
+39045,Férfi,49,"szív- és érrendszeri megbetegedés, kóros elhízás"
+39044,Nõ,79,magasvérnyomás-betegség. iszkémiás szívbetegség
+39043,Nõ,68,krónikus obstruktív tüdõbetegség
+39042,Nõ,83,"krónikus obstruktív tüdõbetegség, magasvérnyomás-betegség, cukorbetegség"
+39041,Férfi,41,nem ismert alapbetegség
+39040,Nõ,75,"magasvérnyomás-betegség, asztma, krónikus obstruktív tüdõbetegség"
+39039,Nõ,80,"daganatos megbetegedés, krónikus veseelégtelenség, vérszegénység, magasvérnyomás-betegség"
+39038,Nõ,59,magasvérnyomás-betegség
+39037,Nõ,66,"cukorbetegség, kóros elhízás, anyagcseremûködés zavara, magasvérnyomás-betegség"
+39036,Nõ,74,"magasvérnyomás-betegség, cukorbetegség, daganatos megbetegedés"
+39035,Férfi,72,"krónikus obstruktív tüdõbetegség, magasvérnyomás-betegség"
+39034,Nõ,88,"magasvérnyomás-betegség, stroke"
+39033,Férfi,67,daganatos megbetegedés
+39032,Férfi,70,magasvérnyomás-betegség
+39031,Nõ,72,"magasvérnyomás-betegség, magas vérzsírszint, szív- és érrendszeri megbetegedés"
+39030,Férfi,85,"magasvérnyomás-betegség, cukorbetegség, szív- és érrendszeri megbetegedés"
+39029,Férfi,78,"szív- és érrendszeri megbetegedés, magasvérnyomás-betegség, krónikus obstruktív tüdõbetegség"
+39028,Férfi,81,krónikus veseelégtelenség
+39027,Nõ,76,nem ismert alapbetegség
+39026,Férfi,60,"szív- és érrendszeri megbetegedés, mentálhigiénés megbetegedés"
+39025,Nõ,62,nem ismert alapbetegség
+39024,Férfi,46,"zsírmáj, magas húgysavszint"
+39023,Nõ,79,"magasvérnyomás-betegség, általános érelmeszesedés, demencia"
+39022,Férfi,35,nem ismert alapbetegség
+39021,Nõ,52,"cukorbetegség, krónikus veseelégtelenség"
+39020,Nõ,66,kóros elhízás
+39019,Férfi,85,"magasvérnyomás-betegség, szilikózis, pitvarfibrilláció, iszkémiás szívbetegség, cukorbetegség"
+39018,Férfi,40,nem ismert alapbetegség
+39017,Férfi,62,"magasvérnyomás-betegség, asztma, Bechterew-kór"
+39016,Nõ,86,"magasvérnyomás-betegség, cukorbetegség, iszkémiás szívbetegség, krónikus veseelégtelenség"
+39015,Férfi,65,"magasvérnyomás-betegség, mentálhigiénés megbetegedés"
+39014,Férfi,56,"krónikus veseelégtelenség, magasvérnyomás-betegség, prosztata megnagyobbodás"
+39013,Nõ,87,nem ismert alapbetegség
+39012,Nõ,89,"iszkémiás szívbetegség, vérszegénység, krónikus veseelégtelenség"
+39011,Férfi,86,"iszkémiás szívbetegség, magasvérnyomás-betegség"
+39010,Nõ,77,"magasvérnyomás-betegség, cukorbetegség"
 39009,Férfi,83,"krónikus obstruktív tüdõbetegség, krónikus veseelégtelenség"
 39008,Férfi,66,"magasvérnyomás-betegség, cukorbetegség, agyi mûködészavar, vérszegénység, epilepszia"
 39007,Nõ,84,"magasvérnyomás-betegség, vérszegénység"
