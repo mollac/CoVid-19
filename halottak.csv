@@ -1,4 +1,73 @@
 Sorszám,Nem,Kor,Alapbetegségek
+40016,Nõ,54,cukorbetegség
+40015,Nõ,70,"cukorbetegség, idegrendszeri betegség"
+40014,Férfi,64,"magasvérnyomás-betegség, szív- és érrendszeri megbetegedés, cukorbetegség, krónikus veseelégtelenség, szívelégtelenség"
+40013,Férfi,43,nem ismert alapbetegség
+40012,Nõ,80,"magasvérnyomás-betegség, iszkémiás szívbetegség"
+40011,Férfi,73,"cukorbetegség, magasvérnyomás-betegség"
+40010,Férfi,66,"magasvérnyomás-betegség, tuberkulózis"
+40009,Nõ,81,"magasvérnyomás-betegség, cukorbetegség, iszkémiás szívbetegség, szívritmuszavar"
+40008,Nõ,64,"krónikus obstruktív tüdõbetegség, magasvérnyomás-betegség, iszkémiás szívbetegség"
+40007,Férfi,74,"magasvérnyomás-betegség, cukorbetegség, májbetegség, agylágyulás"
+40006,Férfi,93,"epilepszia, magasvérnyomás-betegség, szívritmuszavar, krónikus veseelégtelenség"
+40005,Nõ,85,"magasvérnyomás-betegség, iszkémiás szívbetegség"
+40004,Férfi,60,nem ismert alapbetegség
+40003,Férfi,61,agyi megbetegedés
+40002,Férfi,81,"krónikus obstruktív tüdõbetegség, magasvérnyomás-betegség, Parkinson-kór"
+40001,Férfi,64,"magasvérnyomás-betegség, iszkémiás szívbetegség"
+40000,Férfi,84,"cukorbetegség, magasvérnyomás-betegség, demencia"
+39999,Nõ,81,nem ismert alapbetegség
+39998,Nõ,61,"szívritmuszavar, krónikus obstruktív tüdõbetegség, magasvérnyomás-betegség, pangásos szívelégtelenség"
+39997,Nõ,72,"cukorbetegség, krónikus veseelégtelenség"
+39996,Nõ,60,"magasvérnyomás-betegség, elhízás"
+39995,Nõ,92,"magasvérnyomás-betegség, iszkémiás szívbetegség, cukorbetegség, általános érelmeszesedés"
+39994,Férfi,66,magasvérnyomás-betegség
+39993,Férfi,69,"pangásos szívelégtelenség, érelmeszesedés, cukorbetegség, magasvérnyomás-betegség, iszkémiás szívbetegség"
+39992,Férfi,81,nem ismert alapbetegség
+39991,Férfi,65,szívbetegség
+39990,Nõ,66,magasvérnyomás-betegség
+39989,Férfi,67,"magasvérnyomás-betegség, krónikus obstruktív tüdõbetegség, epilepszia, tüdõ daganatos megbetegedése"
+39988,Nõ,79,"magasvérnyomás-betegség, cukorbetegség, elhízás"
+39987,Férfi,48,"magasvérnyomás-betegség, elhízás"
+39986,Nõ,76,"asztma, iszkémiás szívbetegség, Alzheimer-kór, daganatos megbetegedés, refluxbetegség"
+39985,Nõ,85,"magasvérnyomás-betegség, pajzsmirigy-betegség"
+39984,Férfi,85,"magasvérnyomás-betegség, májbetegség, cukorbetegség"
+39983,Nõ,77,"krónikus obstruktív tüdõbetegség, iszkémiás szívbetegség, érelmeszesedés, magasvérnyomás-betegség, pangásos szívelégtelenség"
+39982,Férfi,77,"magasvérnyomás-betegség, szívritmuszavar"
+39981,Férfi,70,alkoholizmus
+39980,Férfi,41,asztma
+39979,Férfi,80,demencia
+39978,Nõ,87,"magasvérnyomás-betegség, cukorbetegség, szívritmuszavar, Parkinson-kór"
+39977,Nõ,90,"magasvérnyomás-betegség, agyi érelmeszesedés, májbetegség"
+39976,Nõ,72,"magasvérnyomás-betegség, krónikus veseelégtelenség, méhnyakrák"
+39975,Nõ,62,"magasvérnyomás-betegség, cukorbetegség"
+39974,Nõ,89,"magasvérnyomás-betegség, demencia"
+39973,Férfi,88,"érelmeszesedés, magasvérnyomás-betegség"
+39972,Férfi,81,"magasvérnyomás-betegség, cukorbetegség, krónikus obstruktív tüdõbetegség"
+39971,Férfi,36,elhízás
+39970,Férfi,62,nem ismert alapbetegség
+39969,Férfi,60,asztma
+39968,Nõ,56,magasvérnyomás-betegség
+39967,Férfi,68,magasvérnyomás-betegség
+39966,Nõ,96,"magasvérnyomás-betegség, reflux"
+39965,Férfi,50,"érelmeszesedés, magasvérnyomás-betegség, elhízás, cukorbetegség, pajzsmirigy-betegség, májbetegség"
+39964,Férfi,39,nem ismert alapbetegség
+39963,Férfi,89,magasvérnyomás-betegség
+39962,Férfi,74,"mélyvénás trombózis, magasvérnyomás-betegség"
+39961,Férfi,74,magasvérnyomás-betegség
+39960,Férfi,59,nem ismert alapbetegség
+39959,Férfi,72,"magasvérnyomás-betegség, cukorbetegség, elhízás"
+39958,Nõ,97,magasvérnyomás-betegség
+39957,Nõ,94,"vérszegénység, érelmeszesedés, magasvérnyomás-betegség, iszkémiás szívbetegség"
+39956,Férfi,50,magasvérnyomás-betegség
+39955,Nõ,67,"magasvérnyomás-betegség, krónikus obstruktív tüdõbetegség"
+39954,Nõ,64,nyirokrendszer daganatos megbetegedése
+39953,Férfi,61,"magasvérnyomás-betegség, iszkémiás szívbetegség"
+39952,Nõ,88,"magasvérnyomás-betegség,szívritmuszavar, demencia"
+39951,Férfi,76,agy rosszindulatú daganata
+39950,Nõ,54,"magasvérnyomás-betegség, cukorbetegség"
+39949,Férfi,46,"cukorbetegség, Crohn-betegség"
+39948,Nõ,90,"magasvérnyomás-betegség, nyirokrendszer daganatos megbetegedése, mélyvénás trombózis"
 39947,Nõ,82,"stroke, demencia, magasvérnyomás-betegség"
 39946,Férfi,57,májbetegség
 39945,Férfi,87,"magasvérnyomás-betegség, cukorbetegség, Parkinson-kór, daganatos megbetegedés"
