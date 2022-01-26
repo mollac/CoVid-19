@@ -1,4 +1,78 @@
 Sorszám,Nem,Kor,Alapbetegségek
+41018,Nõ,73,"magasvérnyomás-betegség, szívbetegség"
+41017,Férfi,82,"Parkinson-kór, veseelégtelenség, magasvérnyomás-betegség, szívbetegség"
+41016,Férfi,54,"magasvérnyomás-betegség, cukorbetegség"
+41015,Nõ,79,daganatos megbetegedés
+41014,Nõ,75,"magasvérnyomás-betegség, szívbetegség, daganatos megbetegedés, tüdõbetegség"
+41013,Férfi,90,"cukorbetegség, tüdõbetegség"
+41012,Férfi,70,"magasvérnyomás-betegség, tüdõbetegség"
+41011,Nõ,78,"magasvérnyomás-betegség, cukorbetegség"
+41010,Férfi,79,"magasvérnyomás-betegség, szívbetegség"
+41009,Nõ,78,"hasnyálmirigy betegség, májbetegség"
+41008,Nõ,78,"magasvérnyomás-betegség, tüdõbetegség"
+41007,Nõ,69,"magasvérnyomás-betegség, csontritkulás"
+41006,Férfi,80,"magasvérnyomás-betegség, cukorbetegség, daganatos megbetegedés"
+41005,Férfi,80,"magasvérnyomás-betegség, epilepszia"
+41004,Férfi,68,nem ismert alapbetegség
+41003,Férfi,69,tüdõbetegség
+41002,Férfi,66,"daganatos megbetegedés, májbetegség"
+41001,Nõ,85,"demencia, magasvérnyomás-betegség, cukorbetegség"
+41000,Nõ,81,"magasvérnyomás-betegség, tüdõbetegség, érszûkület"
+40999,Nõ,83,daganatos megbetegdés
+40998,Férfi,81,demencia
+40997,Férfi,81,"szívbetegség, magasvérnyomás-betegség, cukorbetegség, daganatos megbetegedés"
+40996,Férfi,80,"cukorbetegség, májbetegség"
+40995,Férfi,67,tüdõbetegség
+40994,Férfi,73,"tüdõbetegség, veseelégtelenség"
+40993,Férfi,70,magasvérnyomás-betegség
+40992,Nõ,89,magasvérnyomás-betegség
+40991,Férfi,80,szívbetegség
+40990,Nõ,81,"magasvérnyomás-betegség, cukorbetegség, érelmeszesedés"
+40989,Nõ,56,"vérszegénység, magasvérnyomás-betegség, májbetegség"
+40988,Nõ,83,"szívbetegség, magasvérnyomás-betegség, veseelégtelenség"
+40987,Férfi,68,"tüdõbetegség, szívbetegség, izomsorvadás"
+40986,Nõ,60,"magasvérnyomás-betegség, tüdõbetegség, szívbetegség"
+40985,Férfi,89,"szívbetegség, magasvérnyomás-betegség"
+40984,Férfi,80,"cukorbetegség, magasvérnyomás-betegség, érelmeszesedés"
+40983,Férfi,71,"magasvérnyomás-betegség, cukorbetegség"
+40982,Nõ,71,"kóros elhízás, daganatos megbetegedés, magasvérnyomás-betegség, szívbetegség"
+40981,Férfi,91,"magasvérnyomás-betegség, demencia"
+40980,Férfi,72,"magasvérnyomás-betegség, szívbetegség"
+40979,Nõ,77,"demencia, magasvérnyomás-betegség, pajzsmirigy-betegség, csontritkulás"
+40978,Férfi,77,"magasvérnyomás-betegség, veseelégtelenség"
+40977,Férfi,63,"magasvérnyomás-betegség, szív- és érrendszeri betegség, érszûkület, cukorbetegség"
+40976,Nõ,87,"szívbetegség, magasvérnyomás-betegség, veseelégtelenség"
+40975,Férfi,65,magasvérnyomás-betegség
+40974,Férfi,94,magasvérnyomás-betegség
+40973,Nõ,67,nem ismert alapbetegség
+40972,Férfi,56,"magasvérnyomás-betegség, daganatos megbetegedés"
+40971,Férfi,73,magasvérnyomás-betegség
+40970,Férfi,85,magasvérnyomás-betegség
+40969,Férfi,74,"magasvérnyomás-betegség, cukorbetegség"
+40968,Nõ,48,"cukorbetegség, tüdõbetegség, kóros elhízás"
+40967,Nõ,87,"magasvérnyomás-betegség, szívbetegség, daganatos megbetegedés"
+40966,Férfi,85,"magasvérnyomás-betegség, cukorbetegség, szívbetegség"
+40965,Nõ,65,"magasvérnyomás-betegség, kóros elhízás"
+40964,Férfi,68,szívbetegség
+40963,Férfi,85,"daganatos megbetegedés, magasvérnyomás-betegség, demencia"
+40962,Férfi,82,"magasvérnyomás-betegség, szívbetegség"
+40961,Férfi,79,magasvérnyomás-betegség
+40960,Nõ,61,"cukorbetegség, magasvérnyomás-betegség, kóros elhízás, pajzsmirigy-betegség, pikkelysömör"
+40959,Nõ,84,"Alzheimer-kór, szívbetegség"
+40958,Nõ,85,"szívbetegség, veseelégtelenség"
+40957,Nõ,80,"demencia, Alzheimer-kór, vérszegénység"
+40956,Férfi,54,"magasvérnyomás-betegség, köszvény"
+40955,Nõ,86,"magasvérnyomás-betegség, szívbetegség, cukorbetegség, izomgyengeség, asztma"
+40954,Férfi,80,"magasvérnyomás-betegség, veseelégtelenség, szívbetegség, vérszegénység"
+40953,Nõ,88,cukorbetegség
+40952,Férfi,57,nem ismert alapbetegség
+40951,Nõ,81,"magasvérnyomás-betegség, szívelégtelenség"
+40950,Nõ,54,magasvérnyomás-betegség
+40949,Férfi,62,"tüdõbetegség, érelmeszesedés"
+40948,Nõ,85,"magasvérnyomás-betegség, szívbetegség, cukorbetegség"
+40947,Férfi,45,limfóma
+40946,Férfi,51,nem ismert alapbetegség
+40945,Férfi,66,"daganatos megbetegedés, magasvérnyomás-betegség, cukorbetegség"
 40944,Nõ,87,"magas vérnyomás, pitvarfibrilláció, pangásos szívelégtelenség, iszkémiás szívbetegség"
 40943,Férfi,63,"cukorbetegség, magasvérnyomás-betegség, vérszegénység"
 40942,Nõ,66,"magasvérnyomás-betegség, szívelégtelenség"
