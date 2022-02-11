@@ -109,7 +109,7 @@ def get_deads():
 _, countries = load_data(f_c, 'Hungary') # Esetek
 countries = sorted(list(set(countries[0])))
 
-the_country = st.sidebar.selectbox('Select country', countries, 77)
+the_country = st.sidebar.selectbox('Select country', countries, 78)
 
 st.title(f"Corona virus - {the_country}")
 st.markdown('The source data can be found [here](https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series)!')
