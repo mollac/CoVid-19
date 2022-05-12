@@ -8,3 +8,4 @@ pandas==1.2.3
 beautifulsoup4==4.9.3
 lxml==4.6.5
 seaborn==0.11.2
+Plost==0.2.5
