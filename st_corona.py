@@ -1,9 +1,10 @@
 # -*- coding: utf-8 -*-
 import streamlit as st
-
+import seaborn as sns
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
+from matplotlib import dates
 import datetime as datetime
 from bs4 import BeautifulSoup as bs
 import requests
@@ -12,9 +13,11 @@ import pydeck as pdk
 import folium
 import time
 import altair as alt
+import plost
 
 
-st.set_page_config(initial_sidebar_state="collapsed", layout="wide")
+st.set_page_config(initial_sidebar_state="collapsed",
+                   layout="wide", page_icon="🧊")
 
 now = datetime.datetime.today()
 ido = str(now.hour)+':'+str(now.minute)
@@ -228,60 +231,49 @@ if st.sidebar.checkbox('Show generated datatable:'):
 st.header('Cases, Active, Recovered and Deads')
 # st.line_chart(df[['Cases', 'Active', 'Recovered', 'Dead']])
 
+
+x = range(0, df.shape[0], 10)
+df['Dátum'] = df.index.strftime("%Y-%m-%d")
+x_label = list(df['Dátum'])[::10]
+
 fig = plt.figure(figsize=(16, 8))
-
-x = range(0, df.shape[0])
-y = df.index.strftime("%Y-%m-%d")
-
-plt.plot(x, df['Cases'], label=f'Cases', color='blue')
-plt.plot(x, df['Active'], label='Active', color='red')
-plt.plot(x, df['Recovered'], label='Recovered', color='green')
-plt.plot(x, df['Dead'], label='Dead', color='black')
-plt.xticks(x, y, rotation='vertical')
+plt.xticks(rotation=45)
 plt.xticks(fontsize=10)
 plt.grid(alpha=.5, linestyle='-')
-plt.legend()
-fig.autofmt_xdate()
-plt.locator_params(axis="y", nbins=30)
-plt.locator_params(axis="x", nbins=30)
+# fig.autofmt_xdate()
+# plt.locator_params(axis="y", nbins=30)
+# plt.locator_params(axis="x", nbins=30)
+
+sns.lineplot(data=df[['Cases', 'Active', 'Recovered', 'Dead']])
 st.pyplot(fig)
+
 
 st.header('Cases/day')
-# st.bar_chart(df['Cases/day'])
 fig = plt.figure(figsize=(16, 8))
-plt.bar(x, df['Cases/day'])
-plt.xticks(x, y, rotation='vertical')
+plt.xticks(rotation=45)
+plt.xticks(fontsize=10)
 plt.grid(alpha=.5, linestyle='-')
-plt.locator_params(axis="y", nbins=30)
-plt.locator_params(axis="x", nbins=30)
-fig.autofmt_xdate()
+sns.lineplot(data=df['Cases/day'])
 st.pyplot(fig)
 
+
 st.header('Recovered/day')
-# st.bar_chart(df['Recovered/day'])
 fig = plt.figure(figsize=(16, 8))
-plt.bar(x, df['Recovered/day'], color='green')
-plt.xticks(x, y, rotation='vertical')
+plt.xticks(rotation=45)
+plt.xticks(fontsize=10)
 plt.grid(alpha=.5, linestyle='-')
-plt.locator_params(axis="y", nbins=30)
-plt.locator_params(axis="x", nbins=30)
-fig.autofmt_xdate()
+sns.lineplot(data=df['Recovered/day'])
 st.pyplot(fig)
 
 st.header('Deads/day')
-# st.bar_chart(df['Deads/day'])
 fig = plt.figure(figsize=(16, 8))
-plt.bar(x, df['Deads/day'], color='black')
-plt.xticks(x, y, rotation='vertical')
+plt.xticks(rotation=45)
+plt.xticks(fontsize=10)
 plt.grid(alpha=.5, linestyle='-')
-plt.locator_params(axis="y", nbins=30)
-plt.locator_params(axis="x", nbins=30)
-fig.autofmt_xdate()
+sns.lineplot(data=df['Deads/day'], color='black')
 st.pyplot(fig)
 
-
 if the_country == 'Hungary':
-
     st.subheader('Alapbetegségek gyakorisága')
     alapbetegsegek = hf['Alapbetegségek'].str.split(',', expand=True).stack()
     alapbetegsegek = alapbetegsegek.str.strip()
@@ -302,15 +294,14 @@ if the_country == 'Hungary':
     c1.markdown(f'**Férfi:** *{avg_man}* év **Nő:** *{avg_wmn}* év')
 
     c2.subheader('Nemek szerinti megoszlás')
-
     c2.markdown(
         f"**Férfi:** {round(gr['Eset/Nem'][0]/m_dead*100,2)}% **Nő:** {round(gr['Eset/Nem'][1]/m_dead*100,2)}%")
 
     st.subheader('Korosztályos megoszlás')
-    st.bar_chart(gf['Eset/Korcsoport'], use_container_width=True)
+    st.bar_chart(gf['Eset/Korcsoport'], height=350,
+                 use_container_width=True)
 
     st.header('Megyei adatok')
-
     try:
         df = pd.read_csv('./korona_megyei.csv', sep=',')
     except:
@@ -318,6 +309,7 @@ if the_country == 'Hungary':
             'https://raw.githubusercontent.com/mollac/CoVid-19/master/korona_megyei.csv', sep=',')
 
     datumok = df['Dátum']
+    df['Dátum'] = pd.to_datetime(df['Dátum'])
     df = df.set_index('Dátum', drop=True)
 
     st.subheader('Új esetek megyénként')
@@ -333,40 +325,46 @@ if the_country == 'Hungary':
 
     with st.expander('Kiválasztott megyék egy ábrán:'):
         select = st.multiselect('Válassz megyéket:', megyek, [
-                                'Győr-Moson-Sopron', 'Komárom-Esztergom'])
-        st.line_chart(df[select], height=600)
+            'Győr-Moson-Sopron', 'Komárom-Esztergom'])
+        if select:
+            fig = plt.figure(figsize=(16, 8))
+            plt.xticks(rotation=45)
+            plt.xticks(fontsize=10)
+            plt.grid(alpha=.5, linestyle='-')
+            sns.lineplot(data=df[select])
+            st.pyplot(fig)
 
     with st.expander('Összes megye egy ábrán:'):
-        st.line_chart(df, height=600)
+        fig = plt.figure(figsize=(16, 8))
+        plt.xticks(rotation=45)
+        plt.xticks(fontsize=10)
+        plt.grid(alpha=.5, linestyle='-')
+        sns.lineplot(data=df)
+        st.pyplot(fig)
 
-    # with st.expander('Megyénként külön ábra:'):
-    #     st.warning('Az (y) tengely megyénként eltér!')
+    with st.expander('Megyénként külön ábra:'):
+        st.warning('Az (y) tengely megyénként eltér!')
 
-    #     c1, c2 = st.columns(2)
+        c1, c2 = st.columns(2)
 
-    #     for i, megye in enumerate(megyek):
-    #         x = range(0, df[megye].shape[0])
-    #         fig = plt.figure(figsize=(8,6))
-    #         plt.plot(df[megye], color='red')
-    #         plt.title(megye)
-    #         plt.xticks(x, datumok, rotation='vertical')
-    #         plt.grid(alpha=.5, linestyle='-')
-    #         plt.locator_params(axis="y", nbins=30)
-    #         plt.locator_params(axis="x", nbins=20)
-    #         fig.autofmt_xdate()
-    #         if i % 2 == 0:
-    #             # c1.line_chart(df[megye])
-    #             c1.pyplot(fig)
-    #         else:
-    #             # c2.line_chart(df[megye])
-    #             c2.pyplot(fig)
+        for i, megye in enumerate(megyek):
+            fig = plt.figure(figsize=(8, 6))
+            plt.title(megye)
+            plt.grid(alpha=.5, linestyle='-')
+            sns.lineplot(data=df[megye])
+            if i % 2 == 0:
+                # c1.line_chart(df[megye])
+                c1.pyplot(fig)
+            else:
+                # c2.line_chart(df[megye])
+                c2.pyplot(fig)
 
     st.subheader('Regisztrált esetszám/megye')
     datum_filter = st.slider('Nap', 0, len(datumok)-1, len(datumok)-1)
     st.bar_chart(df.iloc[datum_filter, :], use_container_width=True)
 
     # with st.expander(f'Regisztrált esetszámok a {datum_filter}. nap alapján.'):
-    #     st.write(df.iloc[datum_filter,:].sort_values(ascending = False))
+    #     st.write(df.iloc[datum_filter, :].sort_values(ascending=False))
 
     url = r'https://hu.wikipedia.org/wiki/Magyarorsz%C3%A1g_megy%C3%A9i'
     dl_ = pd.read_html(url)
@@ -402,7 +400,8 @@ if the_country == 'Hungary':
         lons = list(df.lon)
         cases = list(df.eset)
         names = list(df.megye)
-        map = folium.Map(location=hungary, zoom_start=7, control_scale=True)
+        map = folium.Map(location=hungary, zoom_start=7,
+                         control_scale=True)
         for lat, lon, eset, name in zip(lats, lons, cases, names):
             html = f'<div width=500><h4>{str(name)}</h4><p>Esetszám lakosság-arányosam: <b>{eset}%</b></p></div>'
             map.add_child(folium.Circle(location=[lat, lon],
