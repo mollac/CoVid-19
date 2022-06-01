@@ -92,7 +92,8 @@ def get_deads():
         hf_ = pd.DataFrame()
 
     for x in range(1, len(hl)):
-        hf_ = hf_.append(pd.DataFrame(hl[x]))
+        # hf_ = hf_.append(pd.DataFrame(hl[x]))
+        pd.concat([hf_, pd.DataFrame(hl[x])], ignore_index=True)
 
     pd.concat([df, hf_], ignore_index=True)
     df = df.drop_duplicates(subset='Sorszám')
