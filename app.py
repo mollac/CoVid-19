@@ -368,7 +368,7 @@ if the_country == 'Hungary':
 
     url = r'https://hu.wikipedia.org/wiki/Magyarorsz%C3%A1g_megy%C3%A9i'
     dl_ = pd.read_html(url)
-    mf = pd.DataFrame(dl_[1][['Megye', 'Népesség']])
+    mf = pd.DataFrame(dl_[2][['Megye', 'Népesség']])
 
     mf.dropna(inplace=True)
     mf.columns = ['megye', 'lakos']
